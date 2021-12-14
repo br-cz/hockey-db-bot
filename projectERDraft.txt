@@ -1,0 +1,42 @@
+
+# Pre-merge 
+## Entities 
+Team(**name**, **season**, GP, wins, losses, OTL, SOL, pts)  
+Players(**pID**, **season**, name, dOB, pOB, height, weight, handedness, number, position, handedness, GP, goals, assists, pts, PIM)
+Head_Coach(**pID**, **season**, name, dOB, pOB, height, weight, handedness, GP, wins, losses, OTL)
+
+Games(**date**,**arena**, startTime, homeScore, visitScore) 
+Goals(**date**,**arena**,**time**, **period**) FK date,arena REF Games 
+
+## Relationships 
+Hosts(**date**,**arena**, homeTeam) FK date, arena REF Games 
+Visits(**date**,**arena**, visitTeam) FK date, arena REF Games   
+
+Plays_For(**pID**, **season**, **teamName**, **year**,) FK pID,Season REF Players FK teamName, year REF Team(name, year)
+Coaches(**pID**, **season**) FK pID, Season REF Players 
+
+Scored(**date**,**arena**,**time**, **period**, scorerID) FK date,arena, time, period REF Goals
+pAssisted(**date**,**arena**,**time**, **period**, pAssistID) FK date,arena, time, period REF Goals
+sAssisted(**date**,**arena**,**time**, **period**, sAssistID) FK date,arena, time, period REF   
+Goals 
+
+Works_For(**teamName**, **season**) FK teamName, year REF Team (name, year) 
+ 
+# Merging 
+Coaches() and HeadCoach() gets merged 
+Players() and Plays_For() get merged 
+Hosts(), Visits() and Games() merged
+Goals(), Scored(), pAssisted(), sAssisted() get merged
+
+# Post-merge 
+## Entities 
+Team(**name**, **season**, GP, wins, losses, OTL, SOL, pts)  
+Players(**pID**, **season**, name, dOB, pOB, height, weight, handedness, number, position, handedness, GP, goals, assists, pts, PIM)
+Head_Coach(**pID**, **season**, name, dOB, pOB, height, weight, handedness, GP, wins, losses, OTL)
+
+Games(**date**,**arena**, startTime, homeTeam, homeScore, visitTeam, visitScore) FK homeTeam REF Team(name), FK visitTeam REF Teams(name)
+Goals(**date**,**arena**,**time**, **period**, scorerID, pAssistID, sAssistID) FK date,arena REF Games  FK scorerID REF Player(pID), FK pAssistID REF Player(pID), FK sAssistID REF Player(pID) 
+ 
+## Relationships 
+Plays_For(**pID**, **playerSeason**, **teamName**, **teamSeason**,) FK pID,playerSeason REF Players(pID, season) FK teamName, teamSeason REF Team(name, season)
+Works_For(**teamName**, **season**) FK teamName, year REF Team (name, year) 
