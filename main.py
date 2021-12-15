@@ -2,14 +2,22 @@ import discord
 from discord import guild
 from discord import embeds
 from discord import emoji
-from discord.components import Button
-from discord.ui.view import View
+# from discord.components import Button
+# from discord.ui.button import button
+# from discord.ui.view import View
 
 bot = discord.Bot()
 
+class ButtonView(discord.ui.View):
+    def __init__(self):
+        super().__init__(timeout=None)
+        self.add_item(discord.ui.Button(label="but", style=discord.ButtonStyle.url, url="google.com"))
+        
+        
 class Start(discord.ui.View):
     def __init__(self):
         super().__init__()
+        self.add_item(discord.ui.Button(label="Github Repo", style=discord.ButtonStyle.url, url="https://github.com/br-cz/hockey-db-bot"))
         self.value = None
 
     # When the confirm button is pressed, set the inner value to `True` and
@@ -19,11 +27,6 @@ class Start(discord.ui.View):
     async def confirm(self, button: discord.ui.Button, interaction: discord.Interaction):
         await interaction.response.send_message("Confirming", ephemeral=True)
         self.value = True
-        self.stop()
-
-    @discord.ui.button(style=discord.ButtonStyle.url,label="Github Repo", url="https://github.com/br-cz/hockey-db-bot")
-    async def click(self, button: discord.ui.Button, interaction: discord.Interaction):
-        await interaction.response.send_message("Cancelling", ephemeral=True)
         self.stop()
   
 @bot.slash_command(guild_ids=[920041129741791294])
