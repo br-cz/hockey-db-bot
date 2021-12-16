@@ -81,7 +81,6 @@ class Start(discord.ui.View):
         await interaction.response.edit_message(view=EntityButtons(), embed=embed)
         
         
-
 #Used to initiate the main menu
 @bot.slash_command(guild_ids=[920041129741791294])
 async def start(ctx):   
