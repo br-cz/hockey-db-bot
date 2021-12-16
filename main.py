@@ -3,25 +3,17 @@ from discord import guild
 from discord import embeds
 from discord import emoji
 from discord.colour import CT
-# from discord.components import Button
-# from discord.ui.button import button
-# from discord.ui.view import View
 
 bot = discord.Bot()
 
-#Class storing the view of the different entities
+#Subclass of View storing the different entities
 class EntityButtons(discord.ui.View):
     def __init__(self):
-        super().__init__(timeout=None)
-        # self.add_item(discord.ui.Button(label="Teams", style=discord.ButtonStyle.primary))
-        # self.add_item(discord.ui.Button(label="Coaches", style=discord.ButtonStyle.primary))
-        # self.add_item(discord.ui.Button(label="Players", style=discord.ButtonStyle.primary))
-        # self.add_item(discord.ui.Button(label="Games", style=discord.ButtonStyle.primary))
-        # self.add_item(discord.ui.Button(label="Person", style=discord.ButtonStyle.primary))    
+        super().__init__(timeout=None) 
     
+    #When these buttons are clicked, show the available queries according to the labeled table 
     @discord.ui.button(label="Teams", style=discord.ButtonStyle.primary)
     async def confirmTeam(self, button: discord.ui.Button, interaction: discord.Interaction):
-        #await interaction.response.send_message("Confirming", ephemeral=True)
         embed = discord.Embed(
             title="Please pick the sample query you wish to see!",
             description="Type the associated slash command to get the query"
@@ -32,7 +24,6 @@ class EntityButtons(discord.ui.View):
     
     @discord.ui.button(label="Coaches", style=discord.ButtonStyle.primary)
     async def confirmCoach(self, button: discord.ui.Button, interaction: discord.Interaction):
-        #await interaction.response.send_message("Confirming", ephemeral=True)
         embed = discord.Embed(
              title="Please pick the sample query you wish to see!",
             description="Type the associated slash command to get the query"
@@ -43,7 +34,6 @@ class EntityButtons(discord.ui.View):
         
     @discord.ui.button(label="Players", style=discord.ButtonStyle.primary)
     async def confirmPlayer(self, button: discord.ui.Button, interaction: discord.Interaction):
-        #await interaction.response.send_message("Confirming", ephemeral=True)
         embed = discord.Embed(
       title="Please pick the sample query you wish to see!",
             description="Type the associated slash command to get the query"
@@ -54,7 +44,6 @@ class EntityButtons(discord.ui.View):
         
     @discord.ui.button(label="Games", style=discord.ButtonStyle.primary)
     async def confirmGame(self, button: discord.ui.Button, interaction: discord.Interaction):
-        #await interaction.response.send_message("Confirming", ephemeral=True)
         embed = discord.Embed(
              title="Please pick the sample query you wish to see!",
             description="Type the associated slash command to get the query"
@@ -65,7 +54,6 @@ class EntityButtons(discord.ui.View):
         
     @discord.ui.button(label="Person", style=discord.ButtonStyle.primary)
     async def confirmPerson(self, button: discord.ui.Button, interaction: discord.Interaction):
-        #await interaction.response.send_message("Confirming", ephemeral=True)
         embed = discord.Embed(
           title="Please pick the sample query you wish to see!",
             description="Type the associated slash command to get the query"
@@ -74,7 +62,8 @@ class EntityButtons(discord.ui.View):
         embed.add_field(name="/perq", value="This is what the query does", inline=False)
         await interaction.response.edit_message(embed=embed)
     
-        
+
+#Subclass of View used to handle the manin menu
 class Start(discord.ui.View):
     def __init__(self):
         super().__init__()
@@ -82,22 +71,21 @@ class Start(discord.ui.View):
         self.add_item(discord.ui.Button(label="Github Repo", style=discord.ButtonStyle.url, url="https://github.com/br-cz/hockey-db-bot"))
         self.value = None
 
-    # When the confirm button is pressed, set the inner value to `True` and
-    # stop the View from listening to more input.
+    #When the confirm button is pressed, show the next set of options for the user to pick from
+    #Here we're showing the tables the user can pick from
     @discord.ui.button(label="Let's get started!", style=discord.ButtonStyle.green)
     async def confirm(self, button: discord.ui.Button, interaction: discord.Interaction):
-        #await interaction.response.send_message("Confirming", ephemeral=True)
         embed = discord.Embed(
             title="Which entity do you wish to see the table and queries of?"
         )
         await interaction.response.edit_message(view=EntityButtons(), embed=embed)
         
         
-    
+
+#Used to initiate the main menu
 @bot.slash_command(guild_ids=[920041129741791294])
 async def start(ctx):   
-    clicked = False 
-    view = Start()
+    view = Start()#The start menu
     
     embed = discord.Embed(
         title = "Welcome!",
@@ -138,7 +126,7 @@ async def gpq(ctx):
 async def gcq(ctx):
     await ctx.respond("You've chosen to see coach queries")
     
-@bot.slash_command(guild_ids=[920041129741791294], description="Find the names of all players who have played in at least x different teams")#name="get player queries", description="used to see all the available player queries")
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the names of all players who have played in at least x different teams")
 async def dt(ctx, numteam: int):
     numteam = numteam
     await ctx.respond(f"Find the names of all players who have played in at least {numteam} different teams")
