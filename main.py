@@ -92,7 +92,6 @@ async def start(ctx):
     )
     
     await ctx.respond(embed=embed, view=view)
-    await view.wait()
 
    
   
