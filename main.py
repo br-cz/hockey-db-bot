@@ -2,10 +2,27 @@ import discord
 from discord import guild
 from discord import embeds
 from discord import emoji
+from discord import client
+from discord import commands
+from discord import member
 from discord.colour import CT
+from discord.commands.commands import command
 
-bot = discord.Bot()
-
+bot = discord.Bot(intents=discord.Intents().all())
+ 
+#Welcome message   
+@bot.event
+async def on_member_join(member):
+    guild = member.guild
+    welcomeembed = discord.Embed(timestamp = member.joined_at)
+    welcomeembed.set_author(name=f"{member.display_name}", icon_url = f'{member.display_avatar}')
+    welcomeembed.set_thumbnail(url="https://media.discordapp.net/attachments/920041130270269473/922366383310925824/CrosbyArt.jpg")
+    welcomeembed.add_field(name=f"Welcome to the `{guild}`", value='\u200b', inline=False)
+    welcomeembed.add_field(name="Type /start to get started!", value='\u200b', inline=False)
+    welcomeembed.set_image(url="https://media.giphy.com/media/xUPGGDNsLvqsBOhuU0/giphy.gif")
+    await guild.get_channel(920041130270269473).send(embed=welcomeembed)
+    
+    
 #Subclass of View storing the different entities
 class EntityButtons(discord.ui.View):
     def __init__(self):
@@ -22,6 +39,16 @@ class EntityButtons(discord.ui.View):
         embed.add_field(name="/tq", value="This is what the query does", inline=False)
         await interaction.response.edit_message(embed=embed)
     
+    @discord.ui.button(label="Person", style=discord.ButtonStyle.primary)
+    async def confirmPerson(self, button: discord.ui.Button, interaction: discord.Interaction):
+        embed = discord.Embed(
+          title="Please pick the sample query you wish to see!",
+            description="Type the associated slash command to get the query"
+        )
+        embed.add_field(name="/perc", value="This is what the query does", inline=False)
+        embed.add_field(name="/perq", value="This is what the query does", inline=False)
+        await interaction.response.edit_message(embed=embed)
+        
     @discord.ui.button(label="Coaches", style=discord.ButtonStyle.primary)
     async def confirmCoach(self, button: discord.ui.Button, interaction: discord.Interaction):
         embed = discord.Embed(
@@ -52,14 +79,14 @@ class EntityButtons(discord.ui.View):
         embed.add_field(name="/gq", value="This is what the query does", inline=False)
         await interaction.response.edit_message(embed=embed)
         
-    @discord.ui.button(label="Person", style=discord.ButtonStyle.primary)
-    async def confirmPerson(self, button: discord.ui.Button, interaction: discord.Interaction):
+    @discord.ui.button(label="Goals", style=discord.ButtonStyle.primary)
+    async def confirmGoals(self, button: discord.ui.Button, interaction: discord.Interaction):
         embed = discord.Embed(
           title="Please pick the sample query you wish to see!",
             description="Type the associated slash command to get the query"
         )
-        embed.add_field(name="/perc", value="This is what the query does", inline=False)
-        embed.add_field(name="/perq", value="This is what the query does", inline=False)
+        embed.add_field(name="/gerc", value="This is what the query does", inline=False)
+        embed.add_field(name="/gerq", value="This is what the query does", inline=False)
         await interaction.response.edit_message(embed=embed)
     
 
@@ -97,13 +124,9 @@ async def start(ctx):
   
 
 
-
-
-
-
-
-
-
+# @discord.ui.button(label="fkdjsf", style=discord.ButtonStyle.blurple)
+# async def greetNew(ctx):
+#     await ctx.send("Hey!")
 
 
 
