@@ -50,6 +50,8 @@ class EntityButtons(discord.ui.View):
         super().__init__(timeout=None) 
     
     #When these buttons are clicked, show the available queries according to the labeled table 
+    #The following methods apparently need button, regardless if its used or not
+    #Removing button gives the following error: "TypeError: EntityButtons.confirmTeam() takes 2 positional arguments but 3 were given"
     @discord.ui.button(label="Teams", style=discord.ButtonStyle.primary)
     async def confirmTeam(self, button: discord.ui.Button, interaction: discord.Interaction):
         embed = discord.Embed(
