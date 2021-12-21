@@ -1,12 +1,4 @@
 import discord
-from discord import guild
-from discord import embeds
-from discord import emoji
-from discord import client
-from discord import commands
-from discord import member
-from discord.colour import CT
-from discord.commands.commands import command
 
 bot = discord.Bot(intents=discord.Intents().all())
  
@@ -21,9 +13,38 @@ async def on_member_join(member):
     welcomeembed.add_field(name="Type /start to get started!", value='\u200b', inline=False)
     welcomeembed.set_image(url="https://media.giphy.com/media/xUPGGDNsLvqsBOhuU0/giphy.gif")
     await guild.get_channel(920041130270269473).send(embed=welcomeembed)
+
+#Used to initiate the main menu
+@bot.slash_command(guild_ids=[920041129741791294])
+async def start(ctx):   
+    view = Start()#The start menu
+    
+    embed = discord.Embed(
+        title = "Welcome!",
+        description="I'm Sidney Crosbot, feel free to ask me anything about hockey."
+    )
+    
+    await ctx.respond(embed=embed, view=view)
     
     
-#Subclass of View storing the different entities
+#Subclass of View used to handle the main menu
+class Start(discord.ui.View):
+    def __init__(self):
+        super().__init__()
+        #github repo button
+        self.add_item(discord.ui.Button(label="Github Repo", style=discord.ButtonStyle.url, url="https://github.com/br-cz/hockey-db-bot"))
+        self.value = None
+
+    #When the confirm button is pressed, show the next set of options for the user to pick from
+    #Here we're showing the tables the user can pick from
+    @discord.ui.button(label="Let's get started!", style=discord.ButtonStyle.green)
+    async def confirm(self, button: discord.ui.Button, interaction: discord.Interaction):
+        embed = discord.Embed(
+            title="Which entity do you wish to see the table and queries of?"
+        )
+        await interaction.response.edit_message(view=EntityButtons(), embed=embed)
+        
+#Subclass of View used to store the different entities in the db
 class EntityButtons(discord.ui.View):
     def __init__(self):
         super().__init__(timeout=None) 
@@ -88,50 +109,7 @@ class EntityButtons(discord.ui.View):
         embed.add_field(name="/gerc", value="This is what the query does", inline=False)
         embed.add_field(name="/gerq", value="This is what the query does", inline=False)
         await interaction.response.edit_message(embed=embed)
-    
-
-#Subclass of View used to handle the manin menu
-class Start(discord.ui.View):
-    def __init__(self):
-        super().__init__()
-        #github repo button
-        self.add_item(discord.ui.Button(label="Github Repo", style=discord.ButtonStyle.url, url="https://github.com/br-cz/hockey-db-bot"))
-        self.value = None
-
-    #When the confirm button is pressed, show the next set of options for the user to pick from
-    #Here we're showing the tables the user can pick from
-    @discord.ui.button(label="Let's get started!", style=discord.ButtonStyle.green)
-    async def confirm(self, button: discord.ui.Button, interaction: discord.Interaction):
-        embed = discord.Embed(
-            title="Which entity do you wish to see the table and queries of?"
-        )
-        await interaction.response.edit_message(view=EntityButtons(), embed=embed)
         
-        
-#Used to initiate the main menu
-@bot.slash_command(guild_ids=[920041129741791294])
-async def start(ctx):   
-    view = Start()#The start menu
-    
-    embed = discord.Embed(
-        title = "Welcome!",
-        description="I'm Sidney Crosbot, feel free to ask me anything about hockey"
-    )
-    
-    await ctx.respond(embed=embed, view=view)
-
-   
-  
-
-
-# @discord.ui.button(label="fkdjsf", style=discord.ButtonStyle.blurple)
-# async def greetNew(ctx):
-#     await ctx.send("Hey!")
-
-
-
-
-
 
 #Queries for later
 @bot.slash_command(name="greet", description="get the bot to greet yourself or someone")
