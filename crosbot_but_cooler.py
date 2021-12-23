@@ -1,9 +1,10 @@
 import discord
+import discord.ext
 from discord import guild
 from discord import embeds
 from discord import emoji
 from discord.colour import CT
-from discord.ext import commands, menus
+from discord.ext import menus
 
 bot = discord.Bot()
 
@@ -21,7 +22,7 @@ from datetime import datetime
 import inspect
 
 
-conn = sqlite3.connect("nhl_scraped.db")
+conn = sqlite3.connect("hockey_data.db")
 
 def r_sql(sql_expr, args=None):
 	c = conn.cursor()
@@ -106,7 +107,7 @@ class Start(discord.ui.View):
 		await interaction.response.edit_message(view=EntityButtons(), embed=embed)
 			 
 #Used to initiate the main menu
-@bot.slash_command(guild_ids=[922273460267405353])
+@bot.slash_command(guild_ids=[920041129741791294])
 async def start(ctx):   
 	view = Start() # The start menu
 	embed = discord.Embed(
@@ -212,31 +213,31 @@ async def custom_sql(template_string, args):
 	# r_sql("Drop view tmp_view")
 
 
-@bot.slash_command(guild_ids=[922273460267405353], description="Get 100 entries of Games table")
+@bot.slash_command(guild_ids=[920041129741791294], description="Get 100 entries of Games table")
 async def gt(ctx):
 	await send_table("Games", ctx)
 
-@bot.slash_command(guild_ids=[922273460267405353], description="Get 100 entries of Head_Coach table")
+@bot.slash_command(guild_ids=[920041129741791294], description="Get 100 entries of Head_Coach table")
 async def hdt(ctx):
 	await send_table("Head_Coach", ctx)
 
-@bot.slash_command(guild_ids=[922273460267405353], description="Get 100 entries of Person table")
+@bot.slash_command(guild_ids=[920041129741791294], description="Get 100 entries of Person table")
 async def pet(ctx):
 	await send_table("Person", ctx)
 
-@bot.slash_command(guild_ids=[922273460267405353], description="Get 100 entries of Team table")
+@bot.slash_command(guild_ids=[920041129741791294], description="Get 100 entries of Team table")
 async def tt(ctx):
 	await send_table("Team", ctx)
 
-@bot.slash_command(guild_ids=[922273460267405353], description="Get 100 entries of Team_Stats table")
+@bot.slash_command(guild_ids=[920041129741791294], description="Get 100 entries of Team_Stats table")
 async def tst(ctx):
 	await send_table("Team_Stats", ctx)
 
-@bot.slash_command(guild_ids=[922273460267405353], description="Get 100 entries of player table")
+@bot.slash_command(guild_ids=[920041129741791294], description="Get 100 entries of player table")
 async def plt(ctx):
 	await send_table("player", ctx)
 
-@bot.slash_command(guild_ids=[922273460267405353], description="Get 100 entries of player table")
+@bot.slash_command(guild_ids=[920041129741791294], description="Get 100 entries of player table")
 async def long(ctx):
 	await send_table("Person", ctx)
 
@@ -244,21 +245,21 @@ async def long(ctx):
 
 ''' Extra queries '''
 ''' structure:
-@bot.slash_command(guild_ids=[922273460267405353], description="description")
+@bot.slash_command(guild_ids=[920041129741791294], description="description")
 async def command_name(ctx, argument_name: argument_type = None):
 	await custom_sql('sql_command, with {variable_names} (don't forget to add double quotes around name variables (ex: "{name}")', locals())
 '''
 
-@bot.slash_command(guild_ids=[922273460267405353], description="description")
+@bot.slash_command(guild_ids=[920041129741791294], description="description")
 async def pcs(ctx, name: str = None):
 	await custom_sql('select name, sum(gp) as "Games Played", sum("goals") as "Goals", sum(assists) as "Assists", sum(pts) as "Points", sum(pim) as "PIM" from player natural join person where person.name="{name}" group by personID', locals())
 
-@bot.slash_command(guild_ids=[922273460267405353], description="description")
+@bot.slash_command(guild_ids=[920041129741791294], description="description")
 async def ps(ctx, name: str = None, season: int = None):
 	await custom_sql('select name, number, position, season, gp, "goals", assists, pts, pim from player natural join person where name = "{name}" and season = {season}', locals())
 
 
-@bot.slash_command(guild_ids=[922273460267405353], description="description")
+@bot.slash_command(guild_ids=[920041129741791294], description="description")
 async def pwo(ctx):
 	await custom_sql('''select person.name, player.position, sum(gp) as "Total Games Played", sum("goals") as "Total Goals Scored" from person natural join player where position != "G" 
 group by personID 
@@ -270,24 +271,24 @@ group by personID)
 order by "Total Goals Scored" DESC
 limit 100''', locals())
 
-@bot.slash_command(guild_ids=[922273460267405353], description="description")
+@bot.slash_command(guild_ids=[920041129741791294], description="description")
 async def aaa(ctx):
 	await custom_sql('''select * from person natural join player  where pOB like "%Manitoba%"  group by personID order by dOB''', locals())
 
-@bot.slash_command(guild_ids=[922273460267405353], description="description")
+@bot.slash_command(guild_ids=[920041129741791294], description="description")
 async def loc(ctx, loc: str = None):
 	await custom_sql('''select * from person natural join player  where pOB like "%{loc}%"  group by personID order by dOB''', locals())
 
-@bot.slash_command(guild_ids=[922273460267405353], description="Find the highest scoring game that didn't go to shootout")
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the highest scoring game that didn't go to shootout")
 async def sog(ctx):
 	await custom_sql('select game_date, arena, count(goal_type) as "Number of Goals" from goals where goal_type != "SO" group by game_date, arena order by "Number of Goals" DESC', locals())
 
 
-@bot.slash_command(guild_ids=[922273460267405353], description="Best performance by a player in a season where they only played one game")
+@bot.slash_command(guild_ids=[920041129741791294], description="Best performance by a player in a season where they only played one game")
 async def bpp(ctx):
 	await custom_sql('select person.name, position, team.name, player.season, gp, "goals", assists, pts from person natural join player natural join plays_for join team on plays_for.teamID = team.teamID order by "gp", pts desc limit 1', locals())
 
-@bot.slash_command(guild_ids=[922273460267405353], description="All clutch players (players that scored a goal with 1 second left to tie the game)")
+@bot.slash_command(guild_ids=[920041129741791294], description="All clutch players (players that scored a goal with 1 second left to tie the game)")
 async def pcg(ctx):
 	await custom_sql('''select * from 
 (select game_date, arena from goals 
@@ -297,8 +298,8 @@ natural join
 natural join person 
 where period = 3 and goal_time = "19:59")''', locals())
 
-@bot.slash_command(guild_ids=[922273460267405353], description="run if 'table tmp_view already exists'")
+@bot.slash_command(guild_ids=[920041129741791294], description="run if 'table tmp_view already exists'")
 async def fix(ctx):
 	r_sql("Drop view tmp_view")
 
-bot.run("")
+bot.run("OTIwMDQ1MTYwMjI0NjU3NDM4.Ybeo0w.XPlqvacAYT2rHPm7OuoKj6Zp1SM")
