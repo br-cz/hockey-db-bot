@@ -105,6 +105,9 @@ class EntityButtons(discord.ui.View):
 		embed.add_field(name="/pxot", value="Find the names of all players who have scored at least x goals while in over time", inline=False)
 		embed.add_field(name="/pss", value="Find the names of all players who have scored an equal number of goals, and assists over the seasons ordered by said number", inline=False)
 		embed.add_field(name="/phsl", value="Find the players who had the highest stat-line for their team in a season", inline=False)
+		embed.add_field(name="/psmt", value="Find the names of the players who've signed with the most teams", inline=False)
+		# embed.add_field(name="/pss", value="Find the names of all players who have scored an equal number of goals, and assists over the seasons ordered by said number", inline=False)
+		# embed.add_field(name="/phsl", value="Find the players who had the highest stat-line for their team in a season", inline=False)
 		await interaction.response.edit_message(embed=embed)
 		
 	@discord.ui.button(label="Games", style=discord.ButtonStyle.primary)
@@ -113,9 +116,9 @@ class EntityButtons(discord.ui.View):
 			title="Here are the available queries!",
 			description="Type the associated slash command to get the query"
 		)
-		embed.add_field(name="/gasl", value="Find the arena that tends to start their games the latest?", inline=False)
-		embed.add_field(name="/ghts", value="Find the home team arena gets shit on the most?", inline=False)  
-		embed.add_field(name="/ghtb", value="Find the home team scores best at their home?", inline=False)
+		embed.add_field(name="/gasl", value="Find the arena that tends to start their games the latest", inline=False)
+		embed.add_field(name="/ghts", value="Find the home team arena gets scored on the most", inline=False)  
+		embed.add_field(name="/ghtb", value="Find the arena the home team plays best on", inline=False)
 		await interaction.response.edit_message(embed=embed)
 		
 	@discord.ui.button(label="Person", style=discord.ButtonStyle.primary)
@@ -261,6 +264,89 @@ async def long(ctx):
 async def command_name(ctx, argument_name: argument_type = None):
 	await custom_sql('sql_command, with {variable_names} (don't forget to add double quotes around name variables (ex: "{name}")', locals())
 '''
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the names of all players who have scored an equal number of goals, and assists over the seasons")
+async def pss(ctx):
+        await custom_sql('''SELECT name, goals, assists, season from Person
+    NATURAL JOIN player
+WHERE goals = assists AND goals > 0
+ORDER BY goals DESC;''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the average height of coaches and players in the NHL")
+async def pavh(ctx):
+        await custom_sql('SELECT ROUND(AVG("height (cm)"),2) AS Average_Height FROM Person;', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the arena the home team plays best on")
+async def ghtb(ctx):
+        await custom_sql('''SELECT arena, COUNT(homeScore) AS Home_Score FROM Games
+GROUP BY arena
+ORDER BY Home_Score DESC;''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the home team arena gets scored on the most")
+async def ghts(ctx):
+        await custom_sql('''SELECT arena, COUNT(visitScore) AS Visit_Score FROM Games
+GROUP BY arena
+ORDER BY Visit_Score DESC;''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the arena that tends to start their games the latest")
+async def gasl(ctx):
+        await custom_sql('''SELECT arena, FLOOR(AVG(startTime)) AS Start_Time from Games
+GROUP BY arena
+ORDER BY Start_Time DESC;''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the collective goal stat of a team given a season")
+async def tcgs(ctx):
+        await custom_sql('''SELECT name, COUNT(goals) AS Goals from Team
+    JOIN player p on Team.teamID = p.teamID
+GROUP BY Team.name
+ORDER BY Goals DESC;''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the names of all players who have played in at least x different teams")
+async def pxdt(ctx):
+        await custom_sql('''SELECT person.name AS "Name", COUNT(DISTINCT T.name) AS Teams FROM person
+    NATURAL JOIN player
+    JOIN Team T on player.teamID = T.teamID
+GROUP BY personID
+HAVING Teams >= ?;''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the names of all players who have scored at least x goals while in over time")
+async def pxot(ctx):
+        await custom_sql('''SELECT name, COUNT(personID) as goals from Person NATURAL JOIN player JOIN Goals G on player.playerID = G.scorerID
+WHERE period like 'OT' AND goals >= ?
+GROUP BY personID
+ORDER BY goals DESC;
+''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the coaches that have coached the most (unique) players while coaching over the years")
+async def cunq(ctx):
+        await custom_sql('''select P.name, count(DISTINCT X.personID) as numCoached from person P natural join Head_Coach natural join coaches
+join (select name, playerID, personID from player natural join person) X on coaches.playerID = X.playerID
+group by Head_Coach.personID
+order by numCoached DESC LIMIT ?;''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the teams who've signed the most (unique) players")
+async def tunq(ctx):
+        await custom_sql('''SELECT T.name, COUNT(DISTINCT Players.personID) as numPlayers from Team T
+    JOIN (select name, playerID, personID, teamID from player natural join person) Players on T.teamID = Players.teamID
+GROUP By T.name
+ORDER BY numPlayers DESC;''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the players who’s signed with the most teams")
+async def psmt(ctx):
+        await custom_sql('''SELECT P.name, COUNT(DISTINCT t.name) AS teamsPlayed from Person P
+    NATURAL JOIN player p
+    JOIN Team T on p.teamID = T.teamID
+GROUP BY personID
+ORDER BY teamsPlayed DESC;''', locals())
 
 @bot.slash_command(guild_ids=[920041129741791294], description="description")
 async def pcs(ctx, name: str = None):
