@@ -80,9 +80,11 @@ class EntityButtons(discord.ui.View):
 			title="Here are the available queries!",
 			description="Type the associated slash command to get the query"
 		)
-		embed.add_field(name="/tunq", value="Find the teams who've signed the most (unique) players", inline=False)
+		embed.add_field(name="/tt", value="Get 100 entries of Team table", inline=False)
+		embed.add_field(name="/tst", value="Get 100 entries of Team_Stats table", inline=False)
 		embed.add_field(name="/tcgs", value="Find the collective goal stat of a team given a season", inline=False)
-		embed.add_field(name="/pss", value="Find the names of all players who have scored an equal number of goals, and assists over the seasons ordered by said number", inline=False)
+		embed.add_field(name="/tunq", value="Find the teams who've signed the most (unique) players", inline=False)
+		embed.add_field(name="/tspk", value="Find the best teams at scoring on the penalty kill in a given season", inline=False)
 		await interaction.response.edit_message(embed=embed)
 	
 	@discord.ui.button(label="Coaches", style=discord.ButtonStyle.primary)
@@ -91,6 +93,7 @@ class EntityButtons(discord.ui.View):
 			title="Here are the available queries!",
 			description="Type the associated slash command to get the query"
 		)
+		embed.add_field(name="/hdt", value="Get 100 entries of Head_Coach table", inline=False)
 		embed.add_field(name="/cunq", value="Find the coaches that have coached the most (unique) players while coaching over the years", inline=False)
 		embed.add_field(name="/cq", value="This is what the query does", inline=False)
 		await interaction.response.edit_message(embed=embed)
@@ -101,13 +104,20 @@ class EntityButtons(discord.ui.View):
 			title="Here are the available queries!",
 			description="Type the associated slash command to get the query"
 		)
-		embed.add_field(name="/pxt", value="Find the names of all players who have played in at least x different teams", inline=False)
+		embed.add_field(name="/plt", value="Get 100 entries of player table", inline=False)
+		embed.add_field(name="/pxdt", value="Find the names of all players who have played in at least x different teams", inline=False)
 		embed.add_field(name="/pxot", value="Find the names of all players who have scored at least x goals while in over time", inline=False)
 		embed.add_field(name="/pss", value="Find the names of all players who have scored an equal number of goals, and assists over the seasons ordered by said number", inline=False)
 		embed.add_field(name="/phsl", value="Find the players who had the highest stat-line for their team in a season", inline=False)
 		embed.add_field(name="/psmt", value="Find the names of the players who've signed with the most teams", inline=False)
-		# embed.add_field(name="/pss", value="Find the names of all players who have scored an equal number of goals, and assists over the seasons ordered by said number", inline=False)
-		# embed.add_field(name="/phsl", value="Find the players who had the highest stat-line for their team in a season", inline=False)
+		embed.add_field(name="/pavh", value="Find the average height of coaches and players in the NHL", inline=False)
+		embed.add_field(name="/posl", value="Find all clutch players (players that scored a goal with 1 second left to tie the game)", inline=False)
+		embed.add_field(name="/plao", value="Find all the players that have scored less across their career than Alex Ovechkin on the powerplay", inline=False)
+		embed.add_field(name="/pncc", value="Find all the Hockey players and the # of coaching changes they've had while playing for 1 team", inline=False)
+		embed.add_field(name="/psog", value="Find the best performing players in a season where they only played one game (with a given team)", inline=False)
+		embed.add_field(name="/pfgt", value="Find the first goal scored by a specific player with a specific team", inline=False)  
+		embed.add_field(name="/pmgo", value="Find the players with the most goals in one game", inline=False)  
+
 		await interaction.response.edit_message(embed=embed)
 		
 	@discord.ui.button(label="Games", style=discord.ButtonStyle.primary)
@@ -116,21 +126,39 @@ class EntityButtons(discord.ui.View):
 			title="Here are the available queries!",
 			description="Type the associated slash command to get the query"
 		)
-		embed.add_field(name="/gasl", value="Find the arena that tends to start their games the latest", inline=False)
+		#embed.add_field(name="/gasl", value="Find the arena that tends to start their games the latest", inline=False)
 		embed.add_field(name="/ghts", value="Find the home team arena gets scored on the most", inline=False)  
 		embed.add_field(name="/ghtb", value="Find the arena the home team plays best on", inline=False)
+		embed.add_field(name="/glsg", value="Find the longest shootouts in history", inline=False)
+		embed.add_field(name="/ghsg", value="Find a list of the highest scoring games (not including shootout goals)", inline=False)
+
+
 		await interaction.response.edit_message(embed=embed)
-		
+    
 	@discord.ui.button(label="Person", style=discord.ButtonStyle.primary)
 	async def confirmPerson(self, button: discord.ui.Button, interaction: discord.Interaction):
 		embed = discord.Embed(
 		  	title="Here are the available queries!",
 			description="Type the associated slash command to get the query"
 		)
+		embed.add_field(name="/pet", value="Get 100 entries of Person table", inline=False)
 		embed.add_field(name="/pavh", value="Find the average height of coaches and players in the NHL", inline=False)
-		embed.add_field(name="/perq", value="This is what the query does", inline=False)
 		await interaction.response.edit_message(embed=embed)
+  
+	@discord.ui.button(label="Goals", style=discord.ButtonStyle.primary)
+	async def confirmGoals(self, button: discord.ui.Button, interaction: discord.Interaction):
+           embed = discord.Embed(
+	        title="Here are the available queries!",
+	        description="Type the associated slash command to get the query"
+	    )
+           embed.add_field(name="/gtt", value="Get 100 entries of Goals table", inline=False)
+           embed.add_field(name="/gsmg", value="Find the shootouts that have had the most goals scored", inline=False)
+           await interaction.response.edit_message(embed=embed)
+	
+	
 
+
+  
 	
 async def send_table(table, ctx, entries_per_page=10):
 	col_names = tuple(map(lambda x: x[1], r_sql(f"PRAGMA table_info({table});")))
@@ -225,7 +253,7 @@ async def send_long_table(table, ctx):
 async def custom_sql(template_string, args):
 	r_sql(f"CREATE VIEW tmp_view AS {template_string.format(**args)}")
 	await send_table("tmp_view", args["ctx"])
-	# r_sql("Drop view tmp_view")
+	r_sql("Drop view if exists tmp_view")
 
 
 @bot.slash_command(guild_ids=[920041129741791294], description="Get 100 entries of Games table")
@@ -247,6 +275,10 @@ async def tt(ctx):
 @bot.slash_command(guild_ids=[920041129741791294], description="Get 100 entries of Team_Stats table")
 async def tst(ctx):
 	await send_table("Team_Stats", ctx)
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Get 100 entries of Goals table")
+async def gtt(ctx):
+	await send_table("Goals", ctx)
 
 @bot.slash_command(guild_ids=[920041129741791294], description="Get 100 entries of player table")
 async def plt(ctx):
@@ -348,35 +380,6 @@ async def psmt(ctx):
 GROUP BY personID
 ORDER BY teamsPlayed DESC;''', locals())
 
-@bot.slash_command(guild_ids=[920041129741791294], description="description")
-async def pcs(ctx, name: str = None):
-	await custom_sql('select name, sum(gp) as "Games Played", sum("goals") as "Goals", sum(assists) as "Assists", sum(pts) as "Points", sum(pim) as "PIM" from player natural join person where person.name="{name}" group by personID', locals())
-
-@bot.slash_command(guild_ids=[920041129741791294], description="description")
-async def ps(ctx, name: str = None, season: int = None):
-	await custom_sql('select name, number, position, season, gp, "goals", assists, pts, pim from player natural join person where name = "{name}" and season = {season}', locals())
-
-
-@bot.slash_command(guild_ids=[920041129741791294], description="description")
-async def pwo(ctx):
-	await custom_sql('''select person.name, player.position, sum(gp) as "Total Games Played", sum("goals") as "Total Goals Scored" from person natural join player where position != "G" 
-group by personID 
-having sum("goals") <  (
-select count(personID) as ppGoals from goals join player on goals.scorerID = player.playerID 
-natural join person 
-where name = "Alex Ovechkin" and goal_type = "PP" 
-group by personID) 
-order by "Total Goals Scored" DESC
-limit 100''', locals())
-
-@bot.slash_command(guild_ids=[920041129741791294], description="description")
-async def aaa(ctx):
-	await custom_sql('''select * from person natural join player  where pOB like "%Manitoba%"  group by personID order by dOB''', locals())
-
-@bot.slash_command(guild_ids=[920041129741791294], description="description")
-async def loc(ctx, loc: str = None):
-	await custom_sql('''select * from person natural join player  where pOB like "%{loc}%"  group by personID order by dOB''', locals())
-
 @bot.slash_command(guild_ids=[920041129741791294], description="Find the highest scoring game that didn't go to shootout")
 async def sog(ctx):
 	await custom_sql('select game_date, arena, count(goal_type) as "Number of Goals" from goals where goal_type != "SO" group by game_date, arena order by "Number of Goals" DESC', locals())
@@ -386,15 +389,144 @@ async def sog(ctx):
 async def bpp(ctx):
 	await custom_sql('select person.name, position, team.name, player.season, gp, "goals", assists, pts from person natural join player natural join plays_for join team on plays_for.teamID = team.teamID order by "gp", pts desc limit 1', locals())
 
-@bot.slash_command(guild_ids=[920041129741791294], description="All clutch players (players that scored a goal with 1 second left to tie the game)")
-async def pcg(ctx):
-	await custom_sql('''select * from 
-(select game_date, arena from goals 
-where period = "OT" or period = "Shootout" group by game_date, arena) 
-natural join 
-(select game_date, arena, name from goals join player on goals.scorerID = player.playerID 
-natural join person 
+# @bot.slash_command(guild_ids=[920041129741791294], description="All clutch players (players that scored a goal with 1 second left to tie the game)")
+# async def pcg(ctx):
+# 	await custom_sql('''select * from 
+# (select game_date, arena from goals 
+# where period = "OT" or period = "Shootout" group by game_date, arena) 
+# natural join 
+# (select game_date, arena, name from goals join player on goals.scorerID = player.playerID 
+# natural join person 
+# where period = 3 and goal_time = "19:59")''', locals())
+ 
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the players who had the highest stat-line for their team in a season")
+async def phsl(ctx):
+	await custom_sql('''SELECT T.name, Person.name AS Player, goals AS Goals, assists AS Assists, max(pts) AS Points, T.season from Person
+     NATURAL JOIN player
+     JOIN Team T on player.teamID = T.teamID
+WHERE T.season = 20202021
+GROUP BY T.name order by T.name;''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the average age of all coaches and players that have ever played or coached in the NHL")
+async def aacp(ctx):
+	await custom_sql("select round(avg(cast(strftime('%Y.%m%d', 'now') - strftime('%Y.%m%d', dOB) as int)), 2) as \"Average age\" from person", locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the average age of active players in the NHL")
+async def aaap(ctx):
+	await custom_sql("select round(avg(cast(strftime('%Y.%m%d', 'now') - strftime('%Y.%m%d', dOB) as int)), 2) as \"Average player age\" from person natural join player where season = 20202021", locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the average age of active coaches in the nhl")
+async def aaac(ctx):
+	await custom_sql("select round(avg(cast(strftime('%Y.%m%d', 'now') - strftime('%Y.%m%d', dOB) as int)), 2) as \"Average coach age\" from person natural join Head_Coach where season = 20202021", locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find all people in the database from a given place (city, state, province, or country)")
+async def pdgp(ctx, location: int = None):
+	await custom_sql('select * from person where pOB like "%{location}%"  group by personID order by dOB limit 100', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the best goal scorer from a given place")
+async def pbgs(ctx, location: int = None):
+	await custom_sql('select name, dOB, pOB, sum(gp) as Games_Played, sum(Player.goals) as G, sum(assists) as A, sum(pts) as Points, sum(PIM) as PM from person natural join player  where pOB like "%{location}%"  group by personID order by G DESC', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find all the goalies that have scored goals")
+async def pgsg(ctx):
+	await custom_sql('''select name, dOB, pOB, sum(gp) as Games_Played, sum(Player.goals) as "Total Goals", sum(assists) as "Assists", sum(pts) as Points, sum(PIM) as "Total Penalty Minutes"
+from person natural join player
+where position = "G" group by personID
+having "Total Goals" > 0
+order by "Total Goals" DESC''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find all the players that have scored with 1 second left on the clock to bring the game to overtime")
+async def posl(ctx):
+	await custom_sql('''select * from
+(select game_date, arena from goals
+where period = "OT" or period = "Shootout" group by game_date, arena)
+natural join
+(select game_date, arena, name from goals join player on goals.scorerID = player.playerID
+natural join person
 where period = 3 and goal_time = "19:59")''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find all the players that have scored less across their career than Alex Ovechkin on the powerplay")
+async def plao(ctx):
+	await custom_sql('''select person.name, player.position, sum(gp) as "Total Games Played", sum("goals") as "Total Goals Scored" from person natural join player where position != "G"
+group by personID
+having sum("goals") <  (
+select count(personID) as ppGoals from goals join player on goals.scorerID = player.playerID
+natural join person
+where name = "Alex Ovechkin" and goal_type = "PP"
+group by personID)
+order by "Total Goals Scored" DESC
+limit 100''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find all the Hockey players and the # of coaching changes they've had while playing for 1 team")
+async def pncc(ctx):
+	await custom_sql('''select person.name, count(distinct Head_Coach.personID) as "Number of Coaches" from person natural join player natural join coaches
+join Head_Coach on coaches.coachID = Head_Coach.coachID where person.personID in
+(select personID from person natural join player natural join plays_for join team ON plays_for.teamID = team.teamID
+	group by personID
+	having count(distinct team.name) = 1
+	order by person.name)
+group by person.personID order by "Number of Coaches" DESC
+limit 100''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the best teams at scoring on the penalty kill in a given season")
+async def tspk(ctx):
+	await custom_sql('''select team.name, team.season, count(name) as "Goals_Scored" from goals join player P on scorerID = P.playerID natural join plays_for
+join team on plays_for.teamID = team.teamID where goal_type like "SH%"
+group by team.name, team.season
+order by Goals_Scored desc
+limit 100''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the best performing players in a season where they only played one game (with a given team)")
+async def psog(ctx):
+	await custom_sql('''select person.name, position, team.name, player.season, gp, "goals", assists, pts from person natural join player natural join plays_for
+join team on plays_for.teamID = team.teamID
+order by "gp", pts desc
+limit 100''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the first goal scored by a specific player with a specific team")
+async def pfgt(ctx, name: str = None, team: str = None):
+	await custom_sql('''select person.name, team.name, team.season, game_date, arena, goal_time, period, goal_type from person natural join player natural join plays_for
+join team on Plays_For.teamID = team.teamID join goals on player.playerID = goals.scorerID
+where person.name = "{name}" AND team.name = "{team}"
+order by game_date limit 1''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find a list of the highest scoring games (not including shootout goals)")
+async def ghsg(ctx):
+	await custom_sql('select game_date, arena, count(goal_type) as "Number of Goals" from goals where goal_type != "SO" group by game_date, arena order by "Number of Goals" DESC', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the shootouts that have had the most goals scored")
+async def gsmg(ctx):
+	await custom_sql('select game_date, arena, count(goal_time) as "Total Goals Scored" from goals where goal_type = "SO" group by game_date, arena order by "Total Goals Scored" DESC', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the longest shootouts in history")
+async def glsg(ctx):
+	await custom_sql('''select game_date, arena, max(cast("goal_time" as int))/2 + max(cast("goal_time" as int))%2 as "Shootout Round"
+from goals where goal_type = "SO"
+group by game_date, arena
+order by "Shootout Round" desc, game_date
+limit 100''', locals())
+
+
+@bot.slash_command(guild_ids=[920041129741791294], description="Find the players with the most goals in one game")
+async def pmgo(ctx):
+	await custom_sql('''select game_date, arena, name, count(scorerID) AS "Number of Goals Scored"
+from goals join player on scorerID = playerID natural join person
+group by game_date, arena, scorerID ''', locals())
 
 @bot.slash_command(guild_ids=[920041129741791294], description="run if 'table tmp_view already exists'")
 async def fix(ctx):
