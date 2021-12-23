@@ -1,10 +1,9 @@
 import discord
-import discord.ext
 from discord import guild
 from discord import embeds
 from discord import emoji
 from discord.colour import CT
-from discord.ext import menus
+from discord.ext import commands, menus
 
 bot = discord.Bot()
 
@@ -302,4 +301,5 @@ where period = 3 and goal_time = "19:59")''', locals())
 async def fix(ctx):
 	r_sql("Drop view tmp_view")
 
+r_sql("Drop view if exists tmp_view")
 bot.run("OTIwMDQ1MTYwMjI0NjU3NDM4.Ybeo0w.XPlqvacAYT2rHPm7OuoKj6Zp1SM")

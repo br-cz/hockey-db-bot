@@ -1,0 +1,2236 @@
+personID,name,dOB,pOB,height,weight,handedness,pid
+1,Joel Quenneville,1958-09-15,"Windsor, Ontario",185,90,L,/coaches/quennjo01c.html
+2,Bryan Bickell,1986-03-09,"Bowmanville, Ontario",193,101,L,b/bickebr01
+3,Dave Bolland,1986-06-05,"Mimico, Ontario",183,83,R,b/bollada01
+4,Brandon Bollig,1987-01-31,"St. Charles, Missouri",188,99,L,b/bollibr01
+5,Sheldon Brookbank,1980-10-03,"Lanigan, Saskatchewan",185,91,R,b/brooksh01
+6,Daniel Carcillo,1985-01-28,"King City, Ontario",183,90,L,c/carcida01
+7,Corey Crawford,1984-12-31,"Montreal, Quebec",188,97,L,c/crawfco01
+8,Ray Emery,1982-09-28,"Hamilton, Ontario",188,88,L,e/emeryra01
+9,Michael Frolik,1988-02-17,"Kladno, Czechoslovakia",185,86,L,f/frolimi01
+10,Michal Handzus,1977-03-11,"Banska Bystrica, Czechoslovakia",196,97,L,h/handzmi01
+11,Jimmy Hayes,1989-11-21,"Dorchester, Massachusetts",196,97,R,h/hayesji01
+12,Niklas Hjalmarsson,1987-06-06,"Eksjo, Sweden",190,89,L,h/hjalmni01
+13,Marian Hossa,1979-01-12,"Stara Lubovna, Czechoslovakia",185,93,L,h/hossama01
+14,Carter Hutton,1985-12-19,"Thunder Bay, Ontario",183,94,L,h/huttoca01
+15,Patrick Kane,1988-11-19,"Buffalo, New York",178,80,L,k/kanepa01
+16,Duncan Keith,1983-07-16,"Winnipeg, Manitoba",185,87,L,k/keithdu01
+17,Marcus Kruger,1990-05-27,"Stockholm, Sweden",183,84,L,k/krugema01
+18,Shawn Lalonde,1990-03-10,"Ottawa, Ontario",185,92,R,l/lalonsh01
+19,Drew LeBlanc,1989-06-29,"Duluth, Minnesota",183,88,None,l/lebladr01
+20,Nick Leddy,1991-03-20,"Eden Prairie, Minnesota",183,93,L,l/leddyni01
+21,Jamal Mayers,1974-10-24,"Toronto, Ontario",185,100,R,m/mayerja01
+22,Jeremy Morin,1991-04-16,"Auburn, New York",185,85,R,m/morinje01
+23,Johnny Oduya,1981-10-01,"Stockholm, Sweden",183,86,L,o/oduyajo01
+24,Brandon Pirri,1991-04-10,"Toronto, Ontario",183,84,L,p/pirribr01
+25,Michal Rozsival,1978-09-03,"Vlasim, Czechoslovakia",185,95,R,r/rozsimi01
+26,Brandon Saad,1992-10-27,"Pittsburgh, Pennsylvania",185,93,L,s/saadbr01
+27,Brent Seabrook,1985-04-20,"Richmond, British Columbia",190,99,R,s/seabrbr01
+28,Patrick Sharp,1981-12-27,"Winnipeg, Manitoba",185,90,R,s/sharppa01
+29,Andrew Shaw,1991-07-20,"Belleville, Ontario",180,82,R,s/shawan01
+30,Ben Smith,1988-07-11,"Winston-Salem, North Carolina",180,92,R,s/smithbe01
+31,Viktor Stalberg,1986-01-17,"Gothenburg, Sweden",190,94,L,s/stalbvi01
+32,Ryan Stanton,1989-07-20,"St. Albert, Alberta",188,92,L,s/stantry01
+33,Jonathan Toews,1988-04-29,"Winnipeg, Manitoba",188,91,L,t/toewsjo01
+34,Dan Bylsma,1970-09-19,"Grand Haven, United States",188,96,L,/coaches/bylsmda01c.html
+35,Craig Adams,1977-04-26,"Seria, Brunei Darussalam",183,89,R,a/adamscr01
+36,Beau Bennett,1991-11-27,"Gardena, California",188,88,R,b/bennebe01
+37,Robert Bortuzzo,1989-03-18,"Thunder Bay, Ontario",193,97,R,b/borturo01
+38,Zach Boychuk,1989-10-04,"Airdrie, Alberta",178,83,L,b/boychza01
+39,Matt Cooke,1978-09-07,"Belleville, Ontario",180,92,L,c/cookema01
+40,Sidney Crosby,1987-08-07,"Cole Harbour, Nova Scotia",180,90,L,c/crosbsi01
+41,Simon Despres,1991-07-27,"Laval, Quebec",193,98,L,d/desprsi01
+42,Pascal Dupuis,1979-04-07,"Laval, Quebec",185,92,L,d/dupuipa01
+43,Mark Eaton,1977-05-06,"Wilmington, Delaware",185,97,L,e/eatonma01
+44,Deryk Engelland,1982-04-03,"Edmonton, Alberta",188,96,R,e/engelde01
+45,Marc-Andre Fleury,1984-11-28,"Sorel, Quebec",188,83,L,f/fleurma01
+46,Tanner Glass,1983-11-29,"Regina, Saskatchewan",185,96,L,g/glassta01
+47,Jarome Iginla,1977-07-01,"Edmonton, Alberta",185,95,R,i/iginlja01
+48,Dustin Jeffrey,1988-02-27,"Sarnia, Ontario",185,92,L,j/jeffrdu01
+49,Jussi Jokinen,1983-04-01,"Kalajoki, Finland",183,86,L,j/jokinju01
+50,Tyler Kennedy,1986-07-15,"Sault Ste. Marie, Ontario",180,83,R,k/kennety01
+51,Chris Kunitz,1979-09-26,"Regina, Saskatchewan",183,85,L,k/kunitch01
+52,Kris Letang,1987-04-24,"Montreal, Quebec",183,91,R,l/letankr01
+53,Ben Lovejoy,1984-02-20,"Concord, New Hampshire",185,92,R,l/lovejbe01
+54,Steve MacIntyre,1980-08-08,"Brock, Saskatchewan",196,113,None,m/macinst01
+55,Evgeni Malkin,1986-07-31,"Magnitogorsk, USSR",190,88,L,m/malkiev01
+56,Paul Martin,1981-03-05,"Minneapolis, Minnesota",185,90,L,m/martipa01
+57,Brenden Morrow,1979-01-16,"Carlyle, Saskatchewan",183,92,L,m/morrobr01
+58,Douglas Murray,1980-03-12,"Bromma, Sweden",190,108,L,m/murrado01
+59,James Neal,1987-09-03,"Whitby, Ontario",190,96,L,n/nealja01
+60,Matt Niskanen,1986-12-06,"Virginia, Minnesota",185,92,R,n/niskama01
+61,Brooks Orpik,1980-09-26,"San Francisco, California",190,98,L,o/orpikbr01
+62,Dylan Reese,1984-08-29,"Pittsburgh, Pennsylvania",185,91,R,r/reesedy01
+63,Trevor Smith,1985-02-08,"Ottawa, Ontario",185,88,L,s/smithtr01
+64,Brandon Sutter,1989-02-14,"Huntington, New York",190,86,R,s/suttebr03
+65,Eric Tangradi,1989-02-10,"Philadelphia, Pennsylvania",193,102,L,t/tangrer01
+66,Joe Vitale,1985-08-20,"St. Louis, Missouri",180,92,R,v/vitaljo01
+67,Tomas Vokoun,1976-07-02,"Karlovy Vary, Czechoslovakia",185,95,R,v/vokouto01
+68,Bruce Boudreau,1955-01-09,"Toronto, Ontario",175,77,L,/coaches/boudrbr01c.html
+69,Bryan Allen,1980-08-21,"Kingston, Ontario",196,101,L,a/allenbr01
+70,Francois Beauchemin,1980-06-04,"Sorel, Quebec",180,94,L,b/beaucfr01
+71,Matt Beleskey,1988-06-07,"Windsor, Ontario",183,93,L,b/belesma01
+72,Nick Bonino,1988-04-20,"Hartford, Connecticut",185,88,L,b/boninni01
+73,Andrew Cogliano,1987-06-14,"Toronto, Ontario",178,79,L,c/coglian01
+74,Radek Dvorak,1977-03-09,"Tabor, Czechoslovakia",188,88,R,d/dvorara01
+75,Emerson Etem,1992-06-16,"Long Beach, California",185,96,L,e/etemem01
+76,Viktor Fasth,1982-08-08,"Kalix, Sweden",183,82,L,f/fasthvi01
+77,Cam Fowler,1991-12-05,"Windsor, Ontario",188,97,L,f/fowleca01
+78,Ryan Getzlaf,1985-05-10,"Regina, Saskatchewan",193,99,R,g/getzlry01
+79,Jordan Hendry,1984-02-23,"Nokomis, Saskatchewan",183,89,L,h/hendrjo02
+80,Jonas Hiller,1982-02-12,"Felben Wellhausen, Switzerland",188,86,R,h/hillejo01
+81,Peter Holland,1991-01-14,"Toronto, Ontario",188,87,L,h/hollape01
+82,Saku Koivu,1974-11-23,"Turku, Finland",178,82,L,k/koivusa01
+83,Matthew Lombardi,1982-03-18,"Montreal, Quebec",180,88,L,l/lombama01
+84,Toni Lydman,1977-09-25,"Lahti, Finland",185,94,L,l/lydmato01
+85,Pat Maroon,1988-04-23,"St. Louis, Missouri",190,107,L,m/maroopa01
+86,Brandon McMillan,1990-03-22,"Richmond, British Columbia",180,86,L,m/mcmilbr01
+87,Kyle Palmieri,1991-02-01,"Smithtown, New York",183,86,R,p/palmiky01
+88,Corey Perry,1985-05-16,"Peterborough, Ontario",190,93,R,p/perryco01
+89,Rickard Rakell,1993-05-05,"Sundbyberg, Sweden",185,88,R,r/rakelri01
+90,Bobby Ryan,1987-03-17,"Cherry Hill, New Jersey",188,94,R,r/ryanbo01
+91,Luca Sbisa,1990-01-30,"Ozieri, Italy",190,92,L,s/sbisalu01
+92,Teemu Selanne,1970-07-03,"Helsinki, Finland",183,90,R,s/selante01
+93,Devante Smith-Pelly,1992-06-14,"Scarborough, Ontario",183,101,R,s/smithde06
+94,Sheldon Souray,1976-07-13,"Elk Point, Alberta",193,104,L,s/sourash01
+95,Brad Staubitz,1984-07-28,"Bright's Grove, Ontario",185,97,R,s/staubbr01
+96,David Steckel,1982-03-15,"Milwaukee, Wisconsin",198,97,L,s/steckda01
+97,Sami Vatanen,1991-06-03,"Jyvaskyla, Finland",178,83,R,v/vatansa01
+98,Daniel Winnik,1985-03-06,"Toronto, Ontario",188,95,L,w/winnida01
+99,Michel Therrien,1963-11-04,"Montreal, Quebec",None,None,None,/coaches/therrmi99c.html
+100,Colby Armstrong,1982-11-23,"Lloydminster, Saskatchewan",188,88,R,a/armstco01
+101,Nathan Beaulieu,1992-12-05,"Strathroy, Ontario",188,91,L,b/beaulna01
+102,Mike Blunden,1986-12-15,"Toronto, Ontario",193,98,R,b/blundmi01
+103,Francis Bouillon,1975-10-17,"New York, New York",173,87,L,b/bouilfr01
+104,Rene Bourque,1981-12-10,"Lac La Biche, Alberta",188,98,L,b/bourqre01
+105,Peter Budaj,1982-09-18,"Banska Bystrica, Czechoslovakia",185,88,L,b/budajpe01
+106,Erik Cole,1978-11-06,"Oswego, New York",188,95,L,c/coleer01
+107,David Desharnais,1986-09-14,"Laurier-Station, Quebec",170,81,L,d/deshada01
+108,Raphael Diaz,1986-01-09,"Baar, Switzerland",180,89,R,d/diazra01
+109,Davis Drewiske,1984-11-22,"Hudson, Wisconsin",188,100,L,d/drewida01
+110,Gabriel Dumont,1990-10-06,"Ville Degelis, Quebec",178,81,R,d/dumonga01
+111,Lars Eller,1989-05-08,"Rodovre, Denmark",188,94,L,e/ellerla01
+112,Alexei Emelin,1986-04-25,"Togliatti, USSR",188,98,L,e/emelial01
+113,Alex Galchenyuk,1994-02-12,"Milwaukee, Wisconsin",185,87,L,g/galchal01
+114,Brendan Gallagher,1992-05-06,"Edmonton, Alberta",175,83,R,g/gallabr01
+115,Brian Gionta,1979-01-18,"Rochester, New York",170,80,R,g/giontbr01
+116,Josh Gorges,1984-08-14,"Kelowna, British Columbia",185,92,L,g/gorgejo01
+117,Jeff Halpern,1976-05-03,"Washington, District of Columbia",183,90,R,h/halpeje01
+118,Tomas Kaberle,1978-03-02,"Rakovnik, Czechoslovakia",185,96,L,k/kaberto01
+119,Andrei Markov,1978-12-20,"Voskresensk, USSR",183,90,L,m/markoan01
+120,Travis Moen,1982-04-06,"Stewart Valley, Saskatchewan",188,97,L,m/moentr01
+121,Max Pacioretty,1988-11-20,"New Canaan, Connecticut",188,93,L,p/pacioma01
+122,Greg Pateryn,1990-06-20,"Sterling Heights, Michigan",188,100,R,p/patergr01
+123,Tomas Plekanec,1982-10-31,"Kladno, Czechoslovakia",180,86,L,p/plekato01
+124,Carey Price,1987-08-16,"Anahim Lake, British Columbia",190,98,L,p/priceca01
+125,Brandon Prust,1984-03-16,"London, Ontario",183,88,L,p/prustbr01
+126,Michael Ryder,1980-03-31,"Bonavista, Newfoundland and Labrador",185,90,R,r/rydermi01
+127,P.K. Subban,1989-05-13,"Toronto, Ontario",183,95,R,s/subbapk01
+128,Jarred Tinordi,1992-02-20,"Burnsville, Minnesota",198,92,L,t/tinorja01
+129,Yannick Weber,1988-09-23,"Morges, Switzerland",180,90,R,w/weberya01
+130,Ryan White,1988-03-17,"Brandon, Manitoba",183,90,R,w/whitery01
+131,Claude Julien,1960-04-23,"Blind River, Ontario",183,89,R,/coaches/juliecl01c.html
+132,Matt Bartkowski,1988-06-04,"Pittsburgh, Pennsylvania",185,92,L,b/bartkma01
+133,Patrice Bergeron,1985-07-24,"Ancienne-Lorette, Quebec",185,88,R,b/bergepa01
+134,Chris Bourque,1986-01-29,"Boston, Massachusetts",173,78,L,b/bourqch01
+135,Johnny Boychuk,1984-01-19,"Edmonton, Alberta",188,102,R,b/boychjo01
+136,Gregory Campbell,1983-12-17,"London, Ontario",183,85,L,c/campbgr01
+137,Jordan Caron,1990-11-02,"Sayabec, Quebec",190,92,L,c/caronjo01
+138,Zdeno Chara,1977-03-18,"Trencin, Czechoslovakia",206,113,L,c/charazd01
+139,Kaspars Daugavins,1988-05-18,"Riga, USSR",185,92,L,d/daugaka01
+140,Andrew Ference,1979-03-17,"Edmonton, Alberta",180,82,L,f/ferenan01
+141,Dougie Hamilton,1993-06-17,"Toronto, Ontario",198,104,R,h/hamildo01
+142,Nathan Horton,1985-05-29,"Welland, Ontario",188,103,R,h/hortona01
+143,Jaromir Jagr,1972-02-15,"Kladno, Czechoslovakia",190,104,L,j/jagrja01
+144,Aaron Johnson,1983-04-30,"Port Hawkesbury, Nova Scotia",185,92,L,j/johnsaa01
+145,Chris Kelly,1980-11-11,"Toronto, Ontario",183,86,L,k/kellych01
+146,Anton Khudobin,1986-05-07,"Ust-Kamenogorsk, USSR",180,88,L,k/khudoan01
+147,David Krejci,1986-04-28,"Sternberk, Czechoslovakia",183,85,R,k/krejcda01
+148,Torey Krug,1991-04-12,"Livonia, Michigan",175,84,L,k/krugto01
+149,Milan Lucic,1988-06-07,"Vancouver, British Columbia",190,104,L,l/lucicmi01
+150,Lane MacDermid,1989-08-25,"Hartford, Connecticut",190,92,L,m/macdela01
+151,Brad Marchand,1988-05-11,"Halifax, Nova Scotia",175,82,L,m/marchbr03
+152,Adam McQuaid,1986-10-12,"Charlottetown, Prince Edward Island",193,95,R,m/mcquaad01
+153,Daniel Paille,1984-04-15,"Welland, Ontario",185,90,L,p/paillda01
+154,Jay Pandolfo,1974-12-27,"Winchester, Massachusetts",185,86,L,p/pandoja01
+155,Rich Peverley,1982-07-08,"Kingston, Ontario",180,88,R,p/peverri01
+156,Tuukka Rask,1987-03-10,"Savonlinna, Finland",190,79,L,r/rasktu01
+157,Wade Redden,1977-06-12,"Lloydminster, Saskatchewan",188,92,L,r/reddewa01
+158,Tyler Seguin,1992-01-31,"Brampton, Ontario",185,90,R,s/seguity01
+159,Dennis Seidenberg,1981-07-18,"Schwenningen, Germany",183,90,L,s/seidede01
+160,Carl Soderberg,1985-10-12,"Malmo, Sweden",190,95,L,s/soderca01
+161,Ryan Spooner,1992-01-30,"Ottawa, Ontario",180,86,L,s/spoonry01
+162,Jamie Tardif,1985-01-23,"Welland, Ontario",183,92,R,t/tardija01
+163,Shawn Thornton,1977-07-23,"Oshawa, Ontario",188,98,R,t/thornsh01
+164,Ken Hitchcock,1951-12-17,"Edmonton, Alberta",None,None,None,/coaches/hitchke99c.html
+165,Jake Allen,1990-08-07,"Fredericton, New Brunswick",188,86,L,a/allenja01
+166,David Backes,1984-05-01,"Minneapolis, Minnesota",190,97,R,b/backeda01
+167,Patrik Berglund,1988-06-02,"Vasteras, Sweden",193,97,L,b/berglpa01
+168,Jay Bouwmeester,1983-09-27,"Edmonton, Alberta",193,93,L,b/bouwmja01
+169,Ian Cole,1989-02-21,"Ann Arbor, Michigan",185,102,L,c/coleia01
+170,Adam Cracknell,1985-07-15,"Prince Albert, Saskatchewan",190,94,R,c/crackad01
+171,Matt D'Agostini,1986-10-23,"Sault Ste. Marie, Ontario",183,89,R,d/dagosma01
+172,Brian Elliott,1985-04-09,"Newmarket, Ontario",188,94,L,e/elliobr01
+173,Jaroslav Halak,1985-05-13,"Bratislava, Czechoslovakia",180,83,L,h/halakja01
+174,Barret Jackman,1981-03-05,"Trail, British Columbia",183,92,L,j/jackmba01
+175,Dmitrij Jaskin,1993-03-23,"Omsk, Russian Federation",185,88,L,j/jaskidm01
+176,Jamie Langenbrunner,1975-07-24,"Cloquet, Minnesota",185,92,R,l/langeja01
+177,Jordan Leopold,1980-08-03,"Golden Valley, Minnesota",185,93,L,l/leopojo01
+178,Andy McDonald,1977-08-25,"Strathroy, Ontario",178,79,L,m/mcdonan01
+179,Andrew Murray,1981-11-06,"Selkirk, Manitoba",188,95,L,m/murraan01
+180,Scott Nichol,1974-12-31,"Edmonton, Alberta",173,81,R,n/nichosc01
+181,T.J. Oshie,1986-12-23,"Everett, Washington",180,88,R,o/oshietj01
+182,David Perron,1988-05-28,"Sherbrooke, Quebec",183,90,R,p/perroda01
+183,Alex Pietrangelo,1990-01-18,"King City, Ontario",190,95,R,p/pietral01
+184,Roman Polak,1986-04-28,"Ostrava, Czechoslovakia",188,108,R,p/polakro01
+185,Chris Porter,1984-05-29,"Toronto, Ontario",185,93,L,p/portech01
+186,Ryan Reaves,1987-01-20,"Winnipeg, Manitoba",188,102,R,r/reavery01
+187,Kris Russell,1987-05-02,"Caroline, Alberta",178,77,L,r/russekr01
+188,Jaden Schwartz,1992-06-25,"Wilcox, Saskatchewan",178,86,L,s/schwaja01
+189,Kevin Shattenkirk,1989-01-29,"New Rochelle, New York",183,96,R,s/shattke01
+190,Vladimir Sobotka,1987-07-02,"Trebic, Czechoslovakia",178,83,L,s/sobotvl01
+191,Alex Steen,1984-03-01,"Winnipeg, Manitoba",183,95,L,s/steenal01
+192,Chris Stewart,1987-10-30,"Toronto, Ontario",188,109,R,s/stewach02
+193,Vladimir Tarasenko,1991-12-13,"Yaroslavl, Russian Federation",183,102,L,t/tarasvl01
+194,Alain Vigneault,1961-05-14,"Quebec City, Quebec",180,88,R,/coaches/vigneal01c.html
+195,Andrew Alberts,1981-06-30,"Minneapolis, Minnesota",196,93,L,a/alberan01
+196,Keith Ballard,1982-11-26,"Baudette, Minnesota",180,94,L,b/ballake01
+197,Cam Barker,1986-04-04,"Winnipeg, Manitoba",190,101,L,b/barkeca01
+198,Kevin Bieksa,1981-06-16,"Grimsby, Ontario",185,89,R,b/biekske01
+199,David Booth,1984-11-24,"Detroit, Michigan",183,96,L,b/boothda01
+200,Alexandre Burrows,1981-04-11,"Pincourt, Quebec",185,89,L,b/burroal01
+201,Frank Corrado,1993-03-26,"Toronto, Ontario",183,92,R,c/corrafr01
+202,Andrew Ebbett,1983-01-02,"Vernon, British Columbia",175,78,L,e/ebbetan01
+203,Alexander Edler,1986-04-21,"Ostersund, Sweden",190,97,L,e/edleral01
+204,Jason Garrison,1984-11-13,"White Rock, British Columbia",185,98,L,g/garrija01
+205,Andrew Gordon,1985-12-13,"Halifax, Nova Scotia",183,87,None,g/gordoan01
+206,Dan Hamhuis,1982-12-13,"Smithers, British Columbia",185,92,L,h/hamhuda01
+207,Jannik Hansen,1986-03-15,"Rodovre, Denmark",185,89,R,h/hanseja01
+208,Chris Higgins,1983-06-02,"Smithtown, New York",183,92,L,h/higgich01
+209,Nicklas Jensen,1993-03-06,"Herning, Denmark",190,97,L,j/jenseni01
+210,Derek Joslin,1987-03-17,"Richmond Hill, Ontario",185,95,L,j/joslide01
+211,Zack Kassian,1991-01-24,"Windsor, Ontario",190,95,R,k/kassiza01
+212,Ryan Kesler,1984-08-31,"Livonia, Michigan",188,93,R,k/keslery01
+213,Maxim Lapierre,1985-03-29,"Saint-Leonard, Quebec",188,97,R,l/lapiema01
+214,Roberto Luongo,1979-04-04,"Montreal, Quebec",190,97,L,l/luongro01
+215,Manny Malhotra,1980-05-18,"Mississauga, Ontario",188,99,L,m/malhoma01
+216,Steve Pinizzotto,1984-04-26,"Mississauga, Ontario",185,90,R,p/pinizst01
+217,Mason Raymond,1985-09-17,"Cochrane, Alberta",185,81,L,r/raymoma01
+218,Derek Roy,1983-05-04,"Ottawa, Ontario",175,83,L,r/royde01
+219,Cory Schneider,1986-03-18,"Marblehead, Massachusetts",188,95,L,s/schneco01
+220,Jordan Schroeder,1990-09-29,"Lakeville, Minnesota",175,77,R,s/schrojo01
+221,Daniel Sedin,1980-09-26,"Ornskoldsvik, Sweden",185,86,L,s/sedinda01
+222,Henrik Sedin,1980-09-26,"Ornskoldsvik, Sweden",188,83,L,s/sedinhe01
+223,Tom Sestito,1987-09-28,"Rome, New York",196,103,L,s/sestito01
+224,Bill Sweatt,1988-09-21,"Elburn, Illinois",183,86,L,s/sweatbi01
+225,Chris Tanev,1989-12-20,"Toronto, Ontario",188,89,R,t/tanevch01
+226,Aaron Volpatti,1985-05-30,"Revelstoke, British Columbia",183,97,L,v/volpaaa01
+227,Dale Weise,1988-08-05,"Winnipeg, Manitoba",188,93,R,w/weiseda01
+228,Darryl Sutter,1958-08-19,"Viking, Alberta",180,79,L,/coaches/sutteda01c.html
+229,Jonathan Bernier,1988-08-07,"Laval, Quebec",183,83,L,b/bernijo01
+230,Dustin Brown,1984-11-04,"Ithaca, New York",183,95,R,b/browndu01
+231,Jeff Carter,1985-01-01,"London, Ontario",190,99,R,c/carteje01
+232,Kyle Clifford,1991-01-13,"Ayr, Ontario",188,95,L,c/cliffky01
+233,Drew Doughty,1989-12-08,"London, Ontario",185,92,R,d/doughdr01
+234,Keaton Ellerby,1988-11-05,"Strathmore, Alberta",196,100,None,e/ellerke01
+235,Colin Fraser,1985-01-28,"Sicamous, British Columbia",185,86,L,f/fraseco01
+236,Simon Gagne,1980-02-29,"Ste. Foy, Quebec",185,88,L,g/gagnesi01
+237,Matt Greene,1983-05-13,"Grand Ledge, Michigan",190,107,R,g/greenma01
+238,Dwight King,1989-07-05,"Meadow Lake, Saskatchewan",193,103,L,k/kingdw01
+239,Anze Kopitar,1987-08-24,"Jesenice, Slovenia",190,102,L,k/kopitan01
+240,Trevor Lewis,1987-01-08,"Salt Lake City, Utah",185,91,R,l/lewistr01
+241,Alec Martinez,1987-07-26,"Rochester Hills, Michigan",185,94,L,m/martial01
+242,Jake Muzzin,1989-02-21,"Woodstock, Ontario",190,98,L,m/muzzija01
+243,Jordan Nolan,1989-06-23,"Garden River, First Nations, Ontario",190,99,L,n/nolanjo01
+244,Dustin Penner,1982-09-28,"Winkler, Manitoba",193,111,L,p/pennedu01
+245,Jonathan Quick,1986-01-21,"Milford, Connecticut",185,97,L,q/quickjo01
+246,Robyn Regehr,1980-04-19,"Recife, Brazil",190,100,L,r/regehro01
+247,Mike Richards,1985-02-11,"Kenora, Ontario",180,88,L,r/richami02
+248,Brad Richardson,1985-02-04,"Belleville, Ontario",183,86,L,r/richabr02
+249,Rob Scuderi,1978-12-30,"Syosset, New York",185,96,L,s/scudero01
+250,Jarret Stoll,1982-06-24,"Melville, Saskatchewan",185,97,R,s/stollja01
+251,Tyler Toffoli,1992-04-24,"Scarborough, Ontario",183,89,R,t/toffoty01
+252,Slava Voynov,1990-01-15,"Chelyabinsk, Russian Federation",183,87,R,v/voynovi01
+253,Justin Williams,1981-10-04,"Cobourg, Ontario",185,83,R,w/williju01
+254,Todd McLellan,1967-10-03,"Melville, Saskatchewan",180,83,L,/coaches/mclelto01c.html
+255,Dan Boyle,1976-07-12,"Ottawa, Ontario",180,87,R,b/boyleda01
+256,Justin Braun,1987-02-10,"Minneapolis, Minnesota",188,92,R,b/braunju01
+257,Adam Burish,1983-01-06,"Madison, Wisconsin",185,88,R,b/burisad01
+258,Brent Burns,1985-03-09,"Barrie, Ontario",196,104,R,b/burnsbr01
+259,Ryane Clowe,1982-09-30,"St. John's, Newfoundland and Labrador",190,102,L,c/clowery01
+260,Logan Couture,1989-03-28,"Guelph, Ontario",185,90,L,c/coutulo01
+261,Jason Demers,1988-06-09,"Dorval, Quebec",185,88,R,d/demerja01
+262,Andrew Desjardins,1986-07-27,"Lively, Ontario",185,88,R,d/desjaan01
+263,T.J. Galiardi,1988-04-22,"Calgary, Alberta",188,88,L,g/galiatj01
+264,Scott Gomez,1979-12-23,"Anchorage, Alaska",180,90,L,g/gomezsc01
+265,Thomas Greiss,1986-01-29,"Fussen, Germany",188,105,L,g/greisth01
+266,Scott Hannan,1979-01-23,"Richmond, British Columbia",185,97,L,h/hannasc01
+267,Martin Havlat,1981-04-19,"Mlada Boleslav, Czechoslovakia",188,95,L,h/havlama01
+268,Matt Irwin,1987-11-29,"Victoria, British Columbia",188,85,L,i/irwinma01
+269,Bracken Kearns,1981-05-12,"North Vancouver, British Columbia",183,90,L,k/kearnbr01
+270,Tim Kennedy,1986-04-30,"Buffalo, New York",178,79,L,k/kenneti01
+271,Patrick Marleau,1979-09-15,"Aneroid, Saskatchewan",188,98,L,m/marlepa01
+272,Frazer McLaren,1987-10-29,"Winnipeg, Manitoba",196,104,L,m/mclarfr01
+273,Antti Niemi,1983-08-29,"Vantaa, Finland",188,94,L,n/niemian02
+274,Joe Pavelski,1984-07-11,"Plover, Wisconsin",180,88,R,p/paveljo01
+275,Matt Pelech,1987-09-04,"Toronto, Ontario",193,104,R,p/pelecma01
+276,Nicholas Petrecki,1989-07-11,None,190,102,None,p/petreni01
+277,James Sheppard,1988-04-25,"Halifax, Nova Scotia",185,97,L,s/sheppja01
+278,Alex Stalock,1987-07-28,"St. Paul, Minnesota",180,77,L,s/staloal01
+279,Brad Stuart,1979-11-06,"Rocky Mountain House, Alberta",188,97,L,s/stuarbr02
+280,Matt Tennyson,1990-04-23,"Minneapolis, Minnesota",188,92,R,t/tennyma01
+281,Joe Thornton,1979-07-02,"London, Ontario",193,99,L,t/thornjo01
+282,Raffi Torres,1981-10-08,"Toronto, Ontario",183,95,L,t/torrera01
+283,Marc-Edouard Vlasic,1987-03-30,"Montreal, Quebec",185,92,L,v/vlasima01
+284,Tommy Wingels,1988-04-12,"Evanston, Illinois",183,90,R,w/wingeto01
+285,Randy Carlyle,1956-04-19,"Sudbury, Ontario",178,90,L,/coaches/carlyra01c.html
+286,Tyler Bozak,1986-03-19,"Regina, Saskatchewan",185,90,R,b/bozakty01
+287,Mike Brown,1985-06-24,"Chicago, Illinois",180,92,R,b/brownmi02
+288,Joe Colborne,1990-01-30,"Calgary, Alberta",196,100,L,c/colbojo01
+289,Cody Franson,1987-08-08,"Sicamous, British Columbia",196,102,R,f/fransco01
+290,Mark Fraser,1986-09-29,"Ottawa, Ontario",193,99,L,f/frasema01
+291,Matt Frattin,1988-01-03,"Edmonton, Alberta",183,92,R,f/frattma01
+292,Jake Gardiner,1990-07-04,"Minnetonka, Minnesota",188,88,L,g/gardija01
+293,Mikhail Grabovski,1984-01-31,"Potsdam, Germany",180,84,L,g/grabomi01
+294,Carl Gunnarsson,1986-11-09,"Orebro, Sweden",188,89,L,g/gunnaca01
+295,Ryan Hamilton,1985-04-15,"Oshawa, Ontario",188,104,L,h/hamilry01
+296,Korbinian Holzer,1988-02-16,"Munich, Germany",190,93,R,h/holzeko01
+297,Nazem Kadri,1990-10-06,"London, Ontario",183,87,L,k/kadrina01
+298,Phil Kessel,1987-10-02,"Madison, Wisconsin",183,91,R,k/kesseph01
+299,Leo Komarov,1987-01-23,"Narva, USSR",180,92,L,k/komarle01
+300,Mike Komisarek,1982-01-19,"West Islip, New York",193,106,R,k/komismi01
+301,Mike Kostka,1985-11-28,"Etobicoke, Ontario",185,95,R,k/kostkmi01
+302,Nikolai Kulemin,1986-07-14,"Magnitogorsk, USSR",185,103,L,k/kulemni01
+303,John-Michael Liles,1980-11-25,"Indianapolis, Indiana",178,83,L,l/lilesjo01
+304,Joffrey Lupul,1983-09-23,"Ft. Saskatchewan, Alberta",185,93,R,l/lupuljo01
+305,Clarke MacArthur,1985-04-06,"Lloydminster, Alberta",183,87,L,m/macarcl01
+306,Jay McClement,1983-03-02,"Kingston, Ontario",185,92,L,m/mccleja01
+307,Ryan O'Byrne,1984-07-19,"Victoria, British Columbia",196,106,R,o/obyrnry01
+308,Colton Orr,1982-03-03,"Winnipeg, Manitoba",190,100,R,o/orrco01
+309,Dion Phaneuf,1985-04-10,"Edmonton, Alberta",193,100,L,p/phanedi01
+310,James Reimer,1988-03-15,"Morweena, Manitoba",188,99,L,r/reimeja01
+311,Jussi Rynnas,1987-05-22,"Pori, Finland",196,92,L,r/rynnaju01
+312,Ben Scrivens,1986-09-11,"Spruce Grove, Alberta",188,82,L,s/scrivbe01
+313,James van Riemsdyk,1989-05-04,"Middletown, New Jersey",190,96,L,v/vanrija01
+314,Adam Oates,1962-08-27,"Weston, Ontario",180,86,R,/coaches/oatesad01c.html
+315,Karl Alzner,1988-09-24,"Burnaby, British Columbia",190,96,L,a/alzneka01
+316,Nicklas Backstrom,1987-11-23,"Gavle, Sweden",185,93,L,b/backsni02
+317,Jay Beagle,1985-10-16,"Calgary, Alberta",190,95,R,b/beaglja01
+318,Troy Brouwer,1985-08-17,"Vancouver, British Columbia",190,96,R,b/brouwtr01
+319,John Carlson,1990-01-10,"Natick, Massachusetts",190,97,R,c/carlsjo01
+320,Jason Chimera,1979-05-02,"Edmonton, Alberta",190,97,L,c/chimeja01
+321,Joey Crabb,1983-04-03,"Anchorage, Alaska",185,86,R,c/crabbjo01
+322,Martin Erat,1981-08-29,"Trebic, Czechoslovakia",183,88,L,e/eratma01
+323,John Erskine,1980-06-26,"Kingston, Ontario",193,99,L,e/erskijo01
+324,Eric Fehr,1985-09-07,"Winkler, Manitoba",193,94,R,f/fehrer01
+325,Mike Green,1985-10-12,"Calgary, Alberta",185,95,R,g/greenmi03
+326,Philipp Grubauer,1991-11-25,"Rosenheim, Germany",185,85,L,g/grubaph01
+327,Roman Hamrlik,1974-04-12,"Zlin, Czechoslovakia",188,93,L,h/hamrlro01
+328,Matt Hendricks,1981-06-17,"Blaine, Minnesota",183,95,L,h/hendrma01
+329,Jack Hillen,1986-01-24,"Minnetonka, Minnesota",178,86,L,h/hilleja01
+330,Braden Holtby,1989-09-16,"Lloydminster, Saskatchewan",185,97,L,h/holtbbr01
+331,Marcus Johansson,1990-10-06,"Landskrona, Sweden",185,92,L,j/johanma03
+332,Tomas Kundratek,1989-12-26,"Prerov, Czechoslovakia",188,91,None,k/kundrto01
+333,Brooks Laich,1983-06-23,"Wawota, Saskatchewan",188,90,L,l/laichbr01
+334,Michal Neuvirth,1988-03-23,"Usti Nad Labem, Czechoslovakia",185,94,L,n/neuvimi01
+335,Steven Oleksy,1986-02-04,"Chesterfield, Michigan",180,85,R,o/oleksst01
+336,Dmitry Orlov,1991-07-23,"Novokuznetsk, USSR",180,95,L,o/orlovdm01
+337,Alex Ovechkin,1985-09-17,"Moscow, USSR",190,107,R,o/ovechal01
+338,Mathieu Perreault,1988-01-05,"Drummondville, Quebec",178,85,L,p/perrema01
+339,Tom Poti,1977-03-22,"Worcester, Massachusetts",190,86,L,p/potito01
+340,Mike Ribeiro,1980-02-10,"Montreal, Quebec",183,81,L,r/ribeimi01
+341,Cameron Schilling,1988-10-07,"Carmel, Indiana",188,82,L,s/schilca01
+342,Jeff Schultz,1986-02-25,"Calgary, Alberta",198,102,L,s/schulje02
+343,Joel Ward,1980-12-02,"North York, Ontario",185,102,R,w/wardjo02
+344,Wojtek Wolski,1986-02-24,"Zabrze, Poland",190,97,L,w/wolskwo01
+345,John Tortorella,1958-06-24,"Boston, United States",None,None,None,/coaches/tortojo99c.html
+346,Arron Asham,1978-04-13,"Portage La Prairie, Manitoba",180,92,R,a/ashamar01
+347,Stu Bickel,1986-10-02,"Chanhassen, Minnesota",193,93,R,b/bickest01
+348,Martin Biron,1977-08-15,"Lac-St-Charles, Quebec",188,84,L,b/bironma01
+349,Brian Boyle,1984-12-18,"Hingham, Massachusetts",198,111,L,b/boylebr01
+350,Derick Brassard,1987-09-22,"Hull, Quebec",185,91,L,b/brassde01
+351,Ryan Callahan,1985-03-21,"Rochester, New York",178,84,R,c/callary01
+352,Michael Del Zotto,1990-06-24,"Stouffville, Ontario",183,88,L,d/delzomi01
+353,Steve Eminger,1983-10-31,"Woodbridge, Ontario",188,93,R,e/emingst01
+354,Benn Ferriero,1987-04-29,"Essex, Massachusetts",180,88,None,f/ferribe01
+355,Marian Gaborik,1982-02-14,"Trencin, Czechoslovakia",185,90,L,g/gaborma01
+356,Matt Gilroy,1984-07-20,"North Bellmore, New York",185,90,R,g/gilroma01
+357,Dan Girardi,1984-04-29,"Welland, Ontario",185,96,R,g/girarda01
+358,Carl Hagelin,1988-08-23,"Sodertalje, Sweden",180,83,L,h/hagelca01
+359,Micheal Haley,1986-03-30,"Guelph, Ontario",180,92,L,h/haleymi01
+360,Chris Kreider,1991-04-30,"Boxford, Massachusetts",190,98,L,k/kreidch01
+361,Henrik Lundqvist,1982-03-02,"Are, Sweden",185,82,L,l/lundqhe01
+362,Brandon Mashinter,1988-09-20,"Bradford, Ontario",193,96,L,m/mashibr01
+363,Ryan McDonagh,1989-06-13,"St. Paul, Minnesota",185,97,L,m/mcdonry01
+364,J.T. Miller,1993-03-14,"East Palestine, Ohio",185,98,L,m/millejt01
+365,John Moore,1990-11-19,"Winnetka, Illinois",188,95,L,m/moorejo01
+366,Rick Nash,1984-06-16,"Brampton, Ontario",193,95,L,n/nashri01
+367,Kris Newbury,1982-02-19,"Brampton, Ontario",180,92,L,n/newbukr01
+368,Darroll Powe,1985-06-22,"Saskatoon, Saskatchewan",180,96,L,p/poweda01
+369,Taylor Pyatt,1981-08-19,"Thunder Bay, Ontario",193,104,L,p/pyattta01
+370,Brad Richards,1980-05-02,"Murray Harbour, Prince Edward Island",183,90,L,r/richabr01
+371,Mike Rupp,1980-01-13,"Cleveland, Ohio",196,110,L,r/ruppmi01
+372,Brandon Segal,1983-07-12,"Richmond, British Columbia",188,97,R,s/segalbr01
+373,Marc Staal,1987-01-13,"Thunder Bay, Ontario",193,96,L,s/staalma01
+374,Derek Stepan,1990-06-18,"Hastings, Minnesota",180,88,R,s/stepade01
+375,Anton Stralman,1986-08-01,"Tibro, Sweden",180,84,R,s/stralan01
+376,Christian Thomas,1992-05-26,"Toronto, Ontario",175,79,R,t/thomach01
+377,Mats Zuccarello,1987-09-01,"Oslo, Norway",173,83,L,z/zuccama01
+378,Mike Babcock,1963-04-29,"Manitouwadge, Ontario",None,None,None,/coaches/babcomi99c.html
+379,Justin Abdelkader,1987-02-25,"Muskegon, Michigan",188,96,L,a/abdelju01
+380,Joakim Andersson,1989-02-05,"Munkedal, Sweden",188,95,L,a/anderjo03
+381,Todd Bertuzzi,1975-02-02,"Sudbury, Ontario",190,103,L,b/bertuto01
+382,Damien Brunner,1986-03-09,"Oberlunkhofen, Switzerland",180,83,R,b/brunnda01
+383,Dan Cleary,1978-12-18,"Carbonear, Newfoundland and Labrador",185,92,L,c/clearda01
+384,Carlo Colaiacovo,1983-01-27,"Toronto, Ontario",185,91,L,c/colaica01
+385,Pavel Datsyuk,1978-07-20,"Sverdlovsk, USSR",180,87,L,d/datsypa01
+386,Danny DeKeyser,1990-03-07,"Detroit, Michigan",190,86,L,d/dekeyda01
+387,Patrick Eaves,1984-05-01,"Calgary, Alberta",180,92,R,e/eavespa01
+388,Cory Emmerton,1988-06-01,"St. Thomas, Ontario",183,86,L,e/emmerco01
+389,Jonathan Ericsson,1984-03-02,"Karlskrona, Sweden",193,98,L,e/ericsjo01
+390,Valtteri Filppula,1984-03-20,"Vantaa, Finland",183,85,L,f/filppva01
+391,Johan Franzen,1979-12-23,"Vetlanda, Sweden",193,105,L,f/franzjo01
+392,Jonas Gustavsson,1984-10-24,"Danderyd, Sweden",193,91,L,g/gustajo01
+393,Darren Helm,1987-01-21,"St. Andrews, Manitoba",183,87,L,h/helmda01
+394,Jimmy Howard,1984-03-26,"Syracuse, New York",185,98,L,h/howarja02
+395,Kent Huskins,1979-05-04,"Almonte, Ontario",193,95,L,h/huskike01
+396,Jakub Kindl,1987-02-10,"Sumperk, Czechoslovakia",190,90,L,k/kindlja01
+397,Niklas Kronwall,1981-01-12,"Stockholm, Sweden",183,87,L,k/kronwni01
+398,Brian Lashoff,1990-07-16,"Albany, New York",190,96,L,l/lashobr01
+399,Drew Miller,1984-02-17,"Dover, New Jersey",188,83,L,m/milledr01
+400,Petr Mrazek,1992-02-14,"Ostrava, Czechoslovakia",185,86,L,m/mrazepe01
+401,Jan Mursak,1988-01-20,"Maribor, Slovenia",180,86,R,m/mursaja01
+402,Gustav Nyquist,1989-09-01,"Halmstad, Sweden",180,81,L,n/nyquigu01
+403,Kyle Quincey,1985-08-12,"Kitchener, Ontario",188,95,L,q/quincky01
+404,Mikael Samuelsson,1976-12-23,"Mariefred, Sweden",188,98,R,s/samuemi01
+405,Riley Sheahan,1991-12-07,"St. Catharines, Ontario",193,92,L,s/sheahri01
+406,Brendan Smith,1989-02-08,"Mimico, Ontario",188,91,L,s/smithbr05
+407,Tomas Tatar,1990-12-01,"Ilava, Czechoslovakia",178,78,L,t/tatarto01
+408,Jordin Tootoo,1983-02-02,"Churchill, Manitoba",175,88,R,t/tootojo01
+409,Ian White,1984-06-04,"Steinbach, Manitoba",178,86,R,w/whiteia01
+410,Henrik Zetterberg,1980-10-09,"Njurunda, Sweden",183,89,L,z/zettehe01
+411,Paul MacLean,1958-03-09,"Grostenquin, France",188,98,R,/coaches/maclepa01c.html
+412,Daniel Alfredsson,1972-12-11,"Gothenburg, Sweden",180,88,R,a/alfreda01
+413,Craig Anderson,1981-05-21,"Park Ridge, Illinois",188,84,L,a/andercr01
+414,Andre Benoit,1984-01-06,"St. Albert, Ontario",180,86,L,b/benoian01
+415,Ben Bishop,1986-11-21,"Denver, Colorado",201,95,L,b/bishobe01
+416,Mark Borowiecki,1989-07-12,"Ottawa, Ontario",188,92,L,b/borowma01
+417,Cory Conacher,1989-12-14,"Burlington, Ontario",173,81,L,c/conacco01
+418,Erik Condra,1986-08-06,"Trenton, Michigan",180,83,R,c/condrer01
+419,Jared Cowen,1991-01-25,"Saskatoon, Saskatchewan",196,107,L,c/cowenja01
+420,Stephane Da Costa,1989-07-11,"Paris, France",180,83,R,d/dacosst01
+421,David Dziurzynski,1989-10-06,None,190,92,L,d/dziurda01
+422,Sergei Gonchar,1974-04-13,"Chelyabinsk, USSR",188,95,L,g/gonchse01
+423,Derek Grant,1990-04-20,"Abbotsford, British Columbia",190,95,L,g/grantde01
+424,Colin Greening,1986-03-09,"St. John's, Newfoundland and Labrador",188,95,L,g/greenco01
+425,Eric Gryba,1988-04-14,"Saskatoon, Saskatchewan",193,100,R,g/grybaer01
+426,Mike Hoffman,1989-11-24,"Kitchener, Ontario",183,81,L,h/hoffmmi02
+427,Erik Karlsson,1990-05-31,"Landsbro, Sweden",183,86,R,k/karlser01
+428,Matt Kassian,1986-10-28,"Edmonton, Alberta",193,105,None,k/kassima01
+429,Guillaume Latendresse,1987-05-24,"Ste-Catherine, Quebec",188,104,L,l/latengu01
+430,Robin Lehner,1991-07-24,"Gothenburg, Sweden",193,108,L,l/lehnero01
+431,Mike Lundin,1984-09-24,"Burnsville, Minnesota",188,86,L,l/lundimi01
+432,Marc Methot,1985-06-21,"Ottawa, Ontario",193,104,L,m/methoma01
+433,Milan Michalek,1984-12-07,"Jindrichuv Hradec, Czechoslovakia",188,102,L,m/michami01
+434,Chris Neil,1979-06-18,"Flesherton, Ontario",185,94,R,n/neilch01
+435,Jim O'Brien,1989-01-29,"Maplewood, Minnesota",190,88,R,o/obrieji01
+436,Jean-Gabriel Pageau,1992-11-11,"Ottawa, Ontario",180,81,R,p/pageaje01
+437,Chris Phillips,1978-03-09,"Calgary, Alberta",190,99,L,p/phillch02
+438,Peter Regin,1986-04-16,"Herning, Denmark",188,88,L,r/reginpe01
+439,Jakob Silfverberg,1990-10-13,"Gavle, Sweden",185,93,R,s/silfvja01
+440,Zack Smith,1988-04-05,"Maple Creek, Saskatchewan",188,94,L,s/smithza01
+441,Jason Spezza,1983-06-13,"Toronto, Ontario",190,97,R,s/spezzja01
+442,Mark Stone,1992-05-13,"Winnipeg, Manitoba",193,99,R,s/stonema01
+443,Kyle Turris,1989-08-14,"New Westminster, British Columbia",185,86,R,t/turriky01
+444,Patrick Wiercioch,1990-09-12,"Burnaby, British Columbia",196,91,L,w/wiercpa01
+445,Mika Zibanejad,1993-04-18,"Huddinge, Sweden",188,94,R,z/zibanmi01
+446,Todd Richards,1966-10-20,"Robbinsdale, United States",183,87,R,/coaches/richato01c.html
+447,Artem Anisimov,1988-05-24,"Yaroslavl, USSR",193,89,L,a/anisiar01
+448,Cam Atkinson,1989-06-05,"Riverside, Connecticut",173,79,R,a/atkinca01
+449,Adrian Aucoin,1973-07-03,"Ottawa, Ontario",188,97,R,a/aucoiad01
+450,Sergei Bobrovsky,1988-09-20,"Novokuznetsk, USSR",188,82,L,b/bobrose01
+451,Jared Boll,1986-05-13,"Charlotte, North Carolina",190,93,R,b/bollja01
+452,Matt Calvert,1989-12-24,"Brandon, Manitoba",180,84,L,c/calvema01
+453,Sean Collins,1988-12-29,"Saskatoon, Saskatchewan",190,83,L,c/collise02
+454,Blake Comeau,1986-02-18,"Meadow Lake, Saskatchewan",185,90,R,c/comeabl01
+455,Derek Dorsett,1986-12-20,"Kindersley, Saskatchewan",183,87,R,d/dorsede01
+456,Nick Drazenovic,1987-01-14,"Prince George, British Columbia",183,87,L,d/drazeni01
+457,Brandon Dubinsky,1986-04-29,"Anchorage, Alaska",188,94,L,d/dubinbr01
+458,Tim Erixon,1991-02-24,"Port Chester, New York",188,90,L,e/erixoti01
+459,Nick Foligno,1987-10-31,"Buffalo, New York",183,95,L,f/foligni01
+460,Colton Gillies,1989-02-12,"White Rock, British Columbia",193,94,L,g/gillico01
+461,Cody Goloubef,1989-11-30,"Mississauga, Ontario",185,86,R,g/golouco01
+462,Nick Holden,1987-05-15,"St. Albert, Alberta",193,97,L,h/holdeni01
+463,Ryan Johansen,1992-07-31,"Vancouver, British Columbia",190,98,R,j/johanry01
+464,Jack Johnson,1987-01-13,"Indianapolis, Indiana",185,102,L,j/johnsja02
+465,Mark Letestu,1985-02-04,"Elk Point, Alberta",178,88,R,l/letesma01
+466,Derek MacKenzie,1981-06-11,"Sudbury, Ontario",180,80,L,m/mackede01
+467,Jonathan Marchessault,1990-12-27,"Cap-Rouge, Quebec",175,81,R,a/audymjo01
+468,Steve Mason,1988-05-29,"Oakville, Ontario",193,95,R,m/masonst01
+469,Nikita Nikitin,1986-06-16,"Omsk, USSR",193,98,L,n/nikitni01
+470,Vinny Prospal,1975-02-17,"Ceske Budejovice, Czechoslovakia",188,86,L,p/prospva01
+471,Dalton Prout,1990-03-13,"Kingsville, Ontario",190,97,R,p/proutda01
+472,David Savard,1990-10-22,"St. Hyacinthe, Quebec",188,105,R,s/savarda01
+473,Fedor Tyutin,1983-07-19,"Izhevsk, USSR",188,100,L,t/tyutife01
+474,R.J. Umberger,1982-05-03,"Pittsburgh, Pennsylvania",188,97,L,u/umberrj01
+475,James Wisniewski,1984-02-21,"Canton, Michigan",180,92,R,w/wisnija01
+476,Jack Capuano,1966-07-07,"Cranston, United States",188,95,L,/coaches/capuaja01c.html
+477,Keith Aucoin,1978-11-06,"Waltham, Massachusetts",173,77,R,a/aucoike01
+478,Josh Bailey,1989-10-02,"Bowmanville, Ontario",185,90,L,b/bailejo01
+479,Eric Boulton,1976-08-17,"Halifax, Nova Scotia",183,102,L,b/boulter01
+480,Brad Boyes,1982-04-17,"Mississauga, Ontario",183,90,R,b/boyesbr01
+481,Matt Carkner,1980-11-03,"Winchester, Ontario",193,102,R,c/carknma01
+482,Casey Cizikas,1991-02-27,"Toronto, Ontario",180,88,L,c/cizikca01
+483,Rick DiPietro,1981-09-19,"Winthrop, Massachusetts",183,83,R,d/dipieri01
+484,Joe Finley,1987-06-29,None,203,112,None,f/finlejo01
+485,Michael Grabner,1987-10-05,"Villach, Austria",185,85,L,g/grabnmi01
+486,Travis Hamonic,1990-08-16,"St. Malo, Manitoba",188,92,R,h/hamontr01
+487,Thomas Hickey,1989-02-08,"Calgary, Alberta",183,83,L,h/hicketh01
+488,Jesse Joensuu,1987-10-05,"Pori, Finland",193,95,L,j/joensje01
+489,Anders Lee,1990-07-03,"Edina, Minnesota",190,106,L,l/leean01
+490,Andrew MacDonald,1986-09-07,"Judique, Nova Scotia",185,92,L,m/macdoan01
+491,Matt Martin,1989-05-08,"Windsor, Ontario",190,99,L,m/martima02
+492,Radek Martinek,1976-08-31,"Havlicko Brod, Czechoslovakia",183,93,R,m/martira01
+493,Colin McDonald,1984-09-30,"New Haven, Connecticut",188,99,R,m/mcdonco01
+494,Matt Moulson,1983-11-01,"North York, Ontario",185,92,L,m/moulsma01
+495,Evgeni Nabokov,1975-07-25,"Kamenogorsk, USSR",183,91,L,n/nabokev01
+496,Frans Nielsen,1984-04-24,"Herning, Denmark",185,84,L,n/nielsfr01
+497,Kyle Okposo,1988-04-16,"St. Paul, Minnesota",183,99,R,o/okposky01
+498,Kevin Poulin,1990-04-12,"Montreal, Quebec",188,92,L,p/poulike01
+499,Marty Reasoner,1977-02-26,"Honeoye Falls, New York",185,89,L,r/reasoma01
+500,Brian Strait,1988-01-04,"Waltham, Massachusetts",185,93,L,s/straibr01
+501,Mark Streit,1977-12-11,"Bern, Switzerland",180,84,L,s/streima01
+502,John Tavares,1990-09-20,"Mississauga, Ontario",185,97,L,t/tavarjo01
+503,David Ullstrom,1989-04-22,"Jonkoping, Sweden",188,88,L,u/ullstda01
+504,Lubomir Visnovsky,1976-08-11,"Topolcany, Czechoslovakia",178,89,L,v/visnolu01
+505,Mike Yeo,1973-07-31,"North Bay, Ontario",None,None,None,/coaches/yeomi99c.html
+506,Niklas Backstrom,1978-02-13,"Helsinki, Finland",188,87,L,b/backsni01
+507,Pierre-Marc Bouchard,1984-04-27,"Sherbrooke, Quebec",180,77,L,b/bouchpi02
+508,Jonas Brodin,1993-07-12,"Karlstad, Sweden",185,89,L,b/brodijo01
+509,Kyle Brodziak,1984-05-25,"St. Paul, Alberta",188,92,R,b/brodzky01
+510,Brett Clark,1976-12-23,"Wapella, Saskatchewan",183,87,L,c/clarkbr01
+511,Cal Clutterbuck,1987-11-18,"Welland, Ontario",183,96,R,c/cluttca01
+512,Charlie Coyle,1992-03-02,"E. Weymouth, Massachusetts",190,90,R,c/coylech01
+513,Matt Cullen,1976-11-02,"Virginia, Minnesota",185,91,L,c/cullema01
+514,Jake Dowell,1985-03-04,"Eau Claire, Wisconsin",183,89,L,d/dowelja01
+515,Justin Falk,1988-10-11,"Snowflake, Manitoba",196,101,L,f/falkju01
+516,Tom Gilbert,1983-01-10,"Bloomington, Minnesota",188,95,R,g/gilbeto01
+517,Mikael Granlund,1992-02-26,"Oulu, Finland",178,83,L,g/granlmi01
+518,Matt Hackett,1990-03-07,"London, Ontario",188,81,L,h/hackema01
+519,Josh Harding,1984-06-18,"Regina, Saskatchewan",185,91,R,h/hardijo01
+520,Dany Heatley,1981-01-21,"Freiburg, Germany",190,96,L,h/heatlda01
+521,Mikko Koivu,1983-03-12,"Turku, Finland",190,96,L,k/koivumi01
+522,Zenon Konopka,1981-01-02,"Niagara on the Lake, Ontario",183,94,L,k/konopze01
+523,Darcy Kuemper,1990-05-05,"Saskatoon, Saskatchewan",196,97,L,k/kuempda01
+524,Johan Larsson,1992-07-25,"Lau, Sweden",180,89,L,l/larssjo02
+525,Torrey Mitchell,1985-01-30,"Greenfield Park, Quebec",180,84,R,m/mitchto01
+526,Zach Parise,1984-07-28,"Minneapolis, Minnesota",180,88,L,p/parisza01
+527,Jason Pominville,1982-11-30,"Repentigny, Quebec",180,81,R,p/pominja01
+528,Nate Prosser,1986-05-07,"Elk River, Minnesota",188,91,R,p/prossna01
+529,Marco Scandella,1990-02-23,"Montreal, Quebec",190,95,L,s/scandma01
+530,Devin Setoguchi,1987-01-01,"Taber, Alberta",183,92,R,s/setogde01
+531,Jared Spurgeon,1989-11-29,"Edmonton, Alberta",175,75,R,s/spurgja01
+532,Clayton Stoner,1985-02-19,"Port McNeill, British Columbia",193,97,L,s/stonecl01
+533,Ryan Suter,1985-01-21,"Madison, Wisconsin",185,90,L,s/suterry01
+534,Jason Zucker,1992-01-16,"Newport Beach, California",180,87,L,z/zuckeja01
+535,Dave Tippett,1961-08-25,"Moosomin, Saskatchewan",178,81,L,/coaches/tippeda01c.html
+536,Paul Bissonnette,1985-03-11,"Welland, Ontario",188,97,L,b/bissopa01
+537,Mikkel Boedker,1989-12-16,"Brondby, Denmark",183,95,L,b/boedkmi01
+538,Alexandre Bolduc,1985-06-26,"Montreal, Quebec",190,90,L,b/boldual01
+539,Chris Brown,1991-02-03,"Flower Mound, Texas",188,97,R,b/brownch01
+540,Kyle Chipchura,1986-02-19,"Westlock, Alberta",188,92,L,c/chipcky01
+541,Chris Conner,1983-12-23,"Westland, Michigan",173,86,L,c/connech01
+542,Shane Doan,1976-10-10,"Halkirk, Alberta",185,101,R,d/doansh01
+543,Oliver Ekman-Larsson,1991-07-17,"Karlskrona, Sweden",188,90,L,e/ekmanol01
+544,Boyd Gordon,1983-10-19,"Unity, Saskatchewan",183,90,R,g/gordobo01
+545,Martin Hanzal,1987-02-20,"Pisek, Czechoslovakia",198,104,L,h/hanzama01
+546,Chad Johnson,1986-06-10,"Saskatoon, Saskatchewan",190,89,L,j/johnsch02
+547,Nick Johnson,1985-12-24,"Calgary, Alberta",188,90,R,j/johnsni01
+548,Rostislav Klesla,1982-03-21,"Novy Jicin, Czechoslovakia",190,101,L,k/kleslro01
+549,Rob Klinkhammer,1986-08-12,"Lethbridge, Alberta",190,97,L,k/klinkro01
+550,Lauri Korpikoski,1986-07-28,"Turku, Finland",185,87,L,k/korpila01
+551,Jason LaBarbera,1980-01-18,"Burnaby, British Columbia",190,105,L,l/labarja01
+552,Zbynek Michalek,1982-12-23,"Jindrichuv Hradec, Czechoslovakia",188,95,R,m/michazb01
+553,Andy Miele,1988-04-15,"Grosse Pointe Woods, Michigan",175,79,L,m/mielean01
+554,Derek Morris,1978-08-24,"Edmonton, Alberta",183,90,R,m/morride01
+555,Dave Moss,1981-12-28,"Livonia, Michigan",193,95,R,m/mossda01
+556,David Rundblad,1990-10-08,"Lycksele, Sweden",188,84,R,r/rundbda01
+557,David Schlemko,1987-05-07,"Edmonton, Alberta",185,86,L,s/schleda01
+558,Mike Smith,1982-03-22,"Kingston, Ontario",196,99,L,s/smithmi01
+559,Michael Stone,1990-06-07,"Winnipeg, Manitoba",190,95,R,s/stonemi01
+560,Steve Sullivan,1974-07-06,"Timmins, Ontario",175,74,R,s/sullist01
+561,Chris Summers,1988-02-05,"Ann Arbor, Michigan",188,93,L,s/summech01
+562,Antoine Vermette,1982-07-20,"St. Agapit, Quebec",185,89,L,v/vermean01
+563,Radim Vrbata,1981-06-13,"Mlada Boleslav, Czechoslovakia",185,87,R,v/vrbatra01
+564,Keith Yandle,1986-09-09,"Boston, Massachusetts",185,89,L,y/yandlke01
+565,Claude Noel,1955-10-31,"Kirkland Lake, Ontario",180,74,L,/coaches/noelcl01c.html
+566,Nik Antropov,1980-02-18,"Ust-Kamenogorsk, USSR",198,111,L,a/antroni01
+567,Zach Bogosian,1990-07-15,"Massena, New York",188,90,R,b/bogosza01
+568,Alexander Burmistrov,1991-10-21,"Kazan, USSR",185,81,L,b/burmial01
+569,Dustin Byfuglien,1985-03-27,"Roseau, Minnesota",196,117,R,b/byfugdu01
+570,Grant Clitsome,1985-04-14,"Gloucester, Ontario",180,97,L,c/clitsgr01
+571,Patrice Cormier,1990-06-14,"Moncton, New Brunswick",188,97,L,c/cormipa01
+572,Toby Enstrom,1984-11-05,"Nordingra, Sweden",178,81,L,e/enstrto01
+573,Aaron Gagnon,1986-04-24,"Quesnel, British Columbia",178,83,R,g/gagnoaa01
+574,Ron Hainsey,1981-03-24,"Bolton, Connecticut",190,92,L,h/hainsro01
+575,Olli Jokinen,1978-12-05,"Kuopio, Finland",188,95,L,j/jokinol01
+576,Evander Kane,1991-08-02,"Vancouver, British Columbia",188,95,L,k/kaneev01
+577,Andrew Ladd,1985-12-12,"Maple Ridge, British Columbia",190,92,L,l/laddan01
+578,Bryan Little,1987-11-12,"Edmonton, Alberta",183,86,R,l/littlbr01
+579,Derek Meech,1984-04-21,"Winnipeg, Manitoba",180,90,L,m/meechde01
+580,Antti Miettinen,1980-07-03,"Hameenlinna, Finland",183,86,R,m/miettan01
+581,Al Montoya,1985-02-13,"Chicago, Illinois",188,90,L,m/montoal01
+582,Ondrej Pavelec,1987-08-31,"Kladno, Czechoslovakia",190,96,L,p/pavelon01
+583,Anthony Peluso,1989-04-18,"North York, Ontario",190,102,R,p/pelusan01
+584,Alexei Ponikarovsky,1980-04-09,"Kiev, USSR",193,102,L,p/ponikal01
+585,Paul Postma,1989-02-22,"Red Deer, Alberta",190,88,R,p/postmpa01
+586,Zach Redmond,1988-07-26,"Traverse City, Michigan",188,96,R,r/redmoza01
+587,Mike Santorelli,1985-12-14,"Vancouver, British Columbia",183,85,R,s/santomi01
+588,Mark Scheifele,1993-03-15,"Kitchener, Ontario",190,93,R,s/scheima01
+589,Jim Slater,1982-12-09,"Lapeer, Michigan",183,90,L,s/slateji01
+590,Mark Stuart,1984-04-27,"Rochester, Minnesota",188,97,L,s/stuarma01
+591,Chris Thorburn,1983-06-03,"Sault Ste. Marie, Ontario",190,106,R,t/thorbch01
+592,Kyle Wellwood,1983-05-16,"Windsor, Ontario",178,82,R,w/wellwky01
+593,Blake Wheeler,1986-08-31,"Plymouth, Minnesota",196,102,R,w/wheelbl01
+594,James Wright,1990-03-24,"Saskatoon, Saskatchewan",193,95,L,w/wrighja02
+595,Peter Laviolette,1964-12-07,"Norwood, United States",188,90,L,/coaches/laviope01c.html
+596,Jason Akeson,1990-06-03,"Orleans, Ontario",178,86,R,a/akesoja01
+597,Brian Boucher,1977-01-02,"Woonsocket, Rhode Island",188,89,L,b/bouchbr01
+598,Daniel Briere,1977-10-06,"Gatineau, Quebec",175,78,R,b/brierda01
+599,Ilya Bryzgalov,1980-06-22,"Togliatti, USSR",190,96,L,b/bryzgil01
+600,Braydon Coburn,1985-02-27,"Shaunavon, Saskatchewan",196,101,L,c/coburbr01
+601,Sean Couturier,1992-12-07,"Phoenix, Arizona",190,93,L,c/coutuse01
+602,Ruslan Fedotenko,1979-01-18,"Kiev, USSR",185,90,L,f/fedotru01
+603,Kurtis Foster,1981-11-24,"Carp, Ontario",196,102,R,f/fosteku01
+604,Bruno Gervais,1984-10-03,"Longueuil, Quebec",185,90,R,g/gervabr01
+605,Claude Giroux,1988-01-12,"Hearst, Ontario",180,86,R,g/giroucl01
+606,Nicklas Grossmann,1985-01-22,"Stockholm, Sweden",193,104,L,g/grossni01
+607,Erik Gustafsson,1988-12-15,"Kvissleby, Sweden",178,81,L,g/gustaer01
+608,Adam Hall,1980-08-14,"Kalamazoo, Michigan",188,96,R,h/hallad01
+609,Scott Hartnell,1982-04-18,"Regina, Saskatchewan",188,97,L,h/hartnsc01
+610,Mike Knuble,1972-07-04,"Toronto, Ontario",190,103,R,k/knublmi01
+611,Matthew Konan,1991-09-03,None,193,84,R,k/konanma01
+612,Scott Laughton,1994-05-30,"Oakville, Ontario",185,83,L,l/laughsc01
+613,Oliver Lauridsen,1989-03-24,"Gentofte, Denmark",198,99,None,l/lauriol01
+614,Michael Leighton,1981-05-19,"Petrolia, Ontario",190,84,L,l/leighmi01
+615,Andreas Lilja,1975-07-13,"Helsingborg, Sweden",190,99,L,l/liljaan01
+616,Brandon Manning,1990-06-04,"Prince George, British Columbia",185,92,L,m/mannibr01
+617,Tye McGinn,1990-07-29,"Fergus, Ontario",190,98,L,m/mcginty01
+618,Andrej Meszaros,1985-10-13,"Povazska Bystrica, Czechoslovakia",188,101,L,m/meszaan01
+619,Matt Read,1986-06-14,"Ilderton, Ontario",178,85,R,r/readma01
+620,Zac Rinaldo,1990-06-15,"Mississauga, Ontario",178,87,L,r/rinalza01
+621,Jay Rosehill,1985-07-16,"Olds, Alberta",190,97,L,r/rosehja01
+622,Brayden Schenn,1991-08-22,"Saskatoon, Saskatchewan",185,90,L,s/schenbr01
+623,Luke Schenn,1989-11-02,"Saskatoon, Saskatchewan",188,102,R,s/schenlu01
+624,Jody Shelley,1976-02-07,"Thompson, Manitoba",190,104,L,s/shelljo01
+625,Wayne Simmonds,1988-08-26,"Scarborough, Ontario",188,83,R,s/simmowa01
+626,Maxime Talbot,1984-02-11,"Lemoyne, Quebec",180,84,L,t/talboma01
+627,Kimmo Timonen,1975-03-18,"Kuopio, Finland",178,87,L,t/timonki01
+628,Jakub Voracek,1989-08-15,"Kladno, Czechoslovakia",188,97,L,v/voracja01
+629,Eric Wellwood,1990-03-06,"Windsor, Ontario",180,81,L,w/wellwer01
+630,Harry Zolnierczyk,1987-09-01,"Toronto, Ontario",180,81,L,z/zolniha01
+631,Ron Rolston,1966-10-14,"Fenton, United States",None,None,None,/coaches/rolstro01c.html
+632,Lindy Ruff,1960-02-17,"Warburg, Alberta",188,91,L,/coaches/ruffli01c.html
+633,Luke Adam,1990-06-18,"St. John's, Newfoundland and Labrador",188,93,L,a/adamlu01
+634,T.J. Brennan,1989-04-03,"Willingboro, New Jersey",185,97,L,b/brenntj01
+635,Christian Ehrhoff,1982-07-06,"Moers, Germany",188,91,L,e/ehrhoch01
+636,Matt Ellis,1981-08-31,"Welland, Ontario",183,94,L,e/ellisma01
+637,Tyler Ennis,1989-10-06,"Edmonton, Alberta",175,73,L,e/ennisty01
+638,Jhonas Enroth,1988-06-25,"Stockholm, Sweden",178,79,L,e/enrotjh01
+639,Brian Flynn,1988-07-26,"Lynnfield, Massachusetts",185,83,R,f/flynnbr01
+640,Marcus Foligno,1991-08-10,"Buffalo, New York",190,103,L,f/foligma01
+641,Nathan Gerbe,1987-07-24,"Oxford, Michigan",163,79,L,g/gerbena01
+642,Mikhail Grigorenko,1994-05-16,"Khabarovsk, Russian Federation",190,94,L,g/grigomi01
+643,Jochen Hecht,1977-06-21,"Mannheim, Germany",185,89,L,h/hechtjo01
+644,Cody Hodgson,1990-02-18,"Toronto, Ontario",183,87,R,h/hodgsco01
+645,Patrick Kaleta,1986-06-08,"Buffalo, New York",185,89,R,k/kaletpa01
+646,Ville Leino,1983-10-06,"Savonlinna, Finland",185,86,L,l/leinovi01
+647,Cody McCormick,1983-04-18,"London, Ontario",188,100,R,m/mccorco01
+648,Ryan Miller,1980-07-17,"East Lansing, Michigan",188,76,L,m/millery01
+649,Tyler Myers,1990-02-01,"Houston, Texas",203,103,R,m/myersty01
+650,Steve Ott,1982-08-19,"Summerside, Prince Edward Island",183,87,L,o/ottst01
+651,Adam Pardy,1984-03-29,"Bonavista, Newfoundland and Labrador",193,102,L,p/pardyad01
+652,Kevin Porter,1986-03-12,"Detroit, Michigan",183,86,L,p/porteke01
+653,Mark Pysyk,1992-01-11,"Sherwood Park, Alberta",185,88,R,p/pysykma01
+654,Chad Ruhwedel,1990-05-07,"San Diego, California",180,86,R,r/ruhwech01
+655,John Scott,1982-09-26,"Edmonton, Alberta",203,117,L,s/scottjo01
+656,Andrej Sekera,1986-06-08,"Bojnice, Czechoslovakia",183,90,L,s/sekeran01
+657,Drew Stafford,1985-10-30,"Milwaukee, Wisconsin",188,97,R,s/staffdr01
+658,Alexander Sulzer,1984-05-30,"Kaufbeuren, Germany",185,92,L,s/sulzeal01
+659,Thomas Vanek,1984-01-19,"Vienna, Austria",188,97,R,v/vanekth01
+660,Mike Weber,1987-12-16,"Pittsburgh, Pennsylvania",188,98,L,w/webermi01
+661,Glen Gulutzan,1971-08-12,"The Pas, Manitoba",None,None,None,/coaches/gulutgl99c.html
+662,Richard Bachman,1987-07-25,"Salt Lake City, Utah",178,83,L,b/bachmri01
+663,Jamie Benn,1989-07-18,"Victoria, British Columbia",188,95,L,b/bennja01
+664,Jordie Benn,1987-07-26,"Victoria, British Columbia",188,90,L,b/bennjo01
+665,Alex Chiasson,1990-10-01,"Montreal, Quebec",190,94,R,c/chiasal01
+666,Trevor Daley,1983-10-09,"Toronto, Ontario",180,90,L,d/daleytr01
+667,Brenden Dillon,1990-11-13,"New Westminster, British Columbia",193,102,L,d/dillobr01
+668,Cody Eakin,1991-05-24,"Winnipeg, Manitoba",183,88,L,e/eakinco01
+669,Loui Eriksson,1985-07-17,"Gothenburg, Sweden",188,81,L,e/erikslo01
+670,Vernon Fiddler,1980-05-09,"Edmonton, Alberta",180,92,L,f/fiddlve01
+671,Matt Fraser,1990-05-20,"Red Deer, Alberta",185,92,L,f/frasema02
+672,Ryan Garbutt,1985-08-12,"Edmonton, Alberta",183,88,L,g/garbury01
+673,Alex Goligoski,1985-07-30,"Grand Rapids, Minnesota",180,83,L,g/goligal01
+674,Philip Larsen,1989-12-07,"Esbjerg, Denmark",185,83,R,l/larseph01
+675,Kari Lehtonen,1983-11-16,"Helsinki, Finland",193,94,L,l/lehtoka01
+676,Cristopher Nilstorp,1984-02-16,"Burlov, Sweden",190,87,R,n/nihlsch01
+677,Eric Nystrom,1983-02-14,"Syosset, New York",185,90,L,n/nystrer01
+678,Jamie Oleksiak,1992-12-21,"Toronto, Ontario",201,115,L,o/oleksja01
+679,Toby Petersen,1978-10-27,"Minneapolis, Minnesota",178,89,L,p/peterto01
+680,Stephane Robidas,1977-03-03,"Sherbrooke, Quebec",180,86,R,r/robidst01
+681,Aaron Rome,1983-09-27,"Nesbitt, Manitoba",185,98,L,r/romeaa01
+682,Antoine Roussel,1989-11-21,"Roubaix, France",180,90,L,r/roussan01
+683,Colton Sceviour,1989-04-20,"Red Deer, Alberta",183,87,R,s/scevico01
+684,Reilly Smith,1991-04-01,"Mimico, Ontario",183,83,L,s/smithre01
+685,Tomas Vincour,1990-11-19,"Brno, Czechoslovakia",188,92,R,v/vincoto01
+686,Tom Wandell,1987-01-29,"Sodertalje, Sweden",185,90,L,w/wandeto01
+687,Francis Wathier,1984-12-07,"St Isidore, Ontario",193,98,L,w/wathifr01
+688,Ray Whitney,1972-05-08,"Fort Saskatchewan, Alberta",178,81,R,w/whitnra01
+689,Peter DeBoer,1968-06-13,"Dunnville, Ontario",None,None,None,/coaches/deboepe99c.html
+690,Matt Anderson,1982-10-31,"West Islip, New York",180,88,R,a/anderma01
+691,Krys Barch,1980-03-26,"Hamilton, Ontario",188,95,L,b/barchkr01
+692,Steve Bernier,1985-03-31,"Quebec City, Quebec",190,101,R,b/bernist01
+693,Martin Brodeur,1972-05-06,"Montreal, Quebec",188,99,L,b/brodema01
+694,Bobby Butler,1987-04-26,"Marlborough, Massachusetts",183,85,R,b/butlebo01
+695,Ryan Carter,1983-08-03,"White Bear Lake, Minnesota",185,92,L,c/cartery01
+696,David Clarkson,1984-03-31,"Toronto, Ontario",183,93,R,c/clarkda03
+697,Patrik Elias,1976-04-13,"Trebic, Czechoslovakia",185,86,L,e/eliaspa01
+698,Mark Fayne,1987-05-15,"Nashua, New Hampshire",190,94,R,f/faynema01
+699,Jeff Frazee,1987-05-13,"Edina, Minnesota",183,88,L,f/frazeje01
+700,Eric Gelinas,1991-05-08,"Vanier, Ontario",193,97,L,g/geliner01
+701,Stephen Gionta,1983-10-09,"Rochester, New York",170,80,R,g/giontst01
+702,Andy Greene,1982-10-30,"Trenton, Michigan",180,86,L,g/greenan01
+703,Peter Harrold,1983-06-08,"Kirtland Hills, Ohio",180,81,R,h/harrope01
+704,Johan Hedberg,1973-05-05,"Leksand, Sweden",183,86,L,h/hedbejo01
+705,Adam Henrique,1990-02-06,"Brantford, Ontario",183,88,L,h/henriad01
+706,Cam Janssen,1984-04-15,"St. Louis, Missouri",183,97,R,j/janssca01
+707,Jacob Josefson,1991-03-02,"Stockholm, Sweden",183,88,L,j/josefja01
+708,Keith Kinkaid,1989-07-04,"Farmingville, New York",190,84,L,k/kinkake01
+709,Tom Kostopoulos,1979-01-24,"Mississauga, Ontario",183,90,R,k/kostoto01
+710,Ilya Kovalchuk,1983-04-15,"Tver, USSR",190,100,R,k/kovalil01
+711,Adam Larsson,1992-11-12,"Skelleftea, Sweden",190,94,R,l/larssad01
+712,Andrei Loktionov,1990-05-30,"Voskresensk, USSR",180,86,L,l/loktian01
+713,Stefan Matteau,1994-02-23,"Chicago, Illinois",188,94,L,m/mattest02
+714,Harri Pesonen,1988-08-06,"Muurame, Finland",183,90,L,p/pesonha01
+715,Bryce Salvador,1976-02-11,"Brandon, Manitoba",193,97,L,s/salvabr01
+716,Tim Sestito,1984-08-28,"Rome, New York",180,88,L,s/sestiti01
+717,Henrik Tallinder,1979-01-10,"Stockholm, Sweden",193,97,L,t/tallihe01
+718,Mattias Tedenby,1990-02-21,"Vetlanda, Sweden",175,79,L,t/tedenma01
+719,Alexander Urbom,1990-12-20,"Stockholm, Sweden",196,97,L,u/urbomal01
+720,Anton Volchenkov,1982-02-25,"Moscow, USSR",185,99,L,v/volchan01
+721,Travis Zajac,1985-05-13,"Winnipeg, Manitoba",188,83,R,z/zajactr01
+722,Marek Zidlicky,1977-02-03,"Most, Czechoslovakia",180,86,R,z/zidlima01
+723,Dainius Zubrus,1978-06-16,"Elektrenai, USSR",196,102,L,z/zubruda01
+724,Ralph Krueger,1959-08-31,"Winnipeg, Manitoba",None,None,None,/coaches/kruegra99c.html
+725,Mark Arcobello,1988-08-12,"Milford, Connecticut",173,78,R,a/arcobma01
+726,Eric Belanger,1977-12-16,"Sherbrooke, Quebec",180,83,L,b/belaner01
+727,Yann Danis,1981-06-21,"Lafontaine, Quebec",183,83,L,d/danisya01
+728,Devan Dubnyk,1986-05-04,"Regina, Saskatchewan",198,101,L,d/dubnyde01
+729,Ben Eager,1984-01-22,"Ottawa, Ontario",188,108,L,e/eagerbe01
+730,Jordan Eberle,1990-05-15,"Regina, Saskatchewan",180,84,R,e/eberljo01
+731,Mark Fistric,1986-06-01,"Edmonton, Alberta",188,102,L,f/fistrma01
+732,Sam Gagner,1989-08-10,"London, Ontario",180,90,R,g/gagnesa01
+733,Taylor Hall,1991-11-14,"Calgary, Alberta",185,93,L,h/hallta02
+734,Teemu Hartikainen,1990-05-03,"Kuopio, Finland",185,97,L,h/hartite01
+735,Ales Hemsky,1983-08-13,"Pardubice, Czechoslovakia",183,80,R,h/hemskal01
+736,Shawn Horcoff,1978-09-17,"Trail, British Columbia",185,95,L,h/horcosh01
+737,Darcy Hordichuk,1980-08-10,"Kamsack, Saskatchewan",185,96,L,h/hordida01
+738,Ryan Jones,1984-06-14,"Chatham, Ontario",185,92,L,j/jonesry01
+739,Nikolai Khabibulin,1973-01-13,"Sverdlovsk, USSR",185,94,L,k/khabini01
+740,Anton Lander,1991-04-24,"Sundsvall, Sweden",183,83,L,l/landean01
+741,Ryan Nugent-Hopkins,1993-04-12,"Burnaby, British Columbia",183,83,L,n/nugenry01
+742,Magnus Paajarvi,1991-04-12,"Norrkoping, Sweden",190,93,L,p/paajama01
+743,Theo Peckham,1987-11-10,"Richmond Hill, Ontario",188,111,L,p/peckhth01
+744,Lennart Petrell,1984-04-13,"Helsinki, Finland",190,89,L,p/petrele01
+745,Jeff Petry,1987-12-09,"Ann Arbor, Michigan",190,91,R,p/petryje01
+746,Corey Potter,1984-01-05,"Lansing, Michigan",190,92,R,p/potteco01
+747,Justin Schultz,1990-07-06,"Kelowna, British Columbia",188,84,R,s/schulju01
+748,Nick Schultz,1982-08-25,"Strasbourg, Saskatchewan",185,92,L,s/schulni01
+749,Ladislav Smid,1986-02-01,"Frydlant, Czechoslovakia",193,95,L,s/smidla01
+750,Jerred Smithson,1979-02-04,"Vernon, British Columbia",190,94,R,s/smithje01
+751,Ryan Smyth,1976-02-21,"Banff, Alberta",185,87,L,s/smythry01
+752,Chris VandeVelde,1987-03-15,"Moorhead, Minnesota",188,86,L,v/vandech01
+753,Ryan Whitney,1983-02-19,"Boston, Massachusetts",193,94,L,w/whitnry01
+754,Nail Yakupov,1993-10-06,"Nizhnekamsk, Russian Federation",180,88,L,y/yakupna01
+755,Kirk Muller,1966-02-08,"Kingston, Ontario",183,92,L,/coaches/mulleki01c.html
+756,Brett Bellemore,1988-06-25,"Windsor, Ontario",193,102,R,b/bellebr01
+757,Marc-Andre Bergeron,1980-10-13,"Trois-Rivieres, Quebec",175,86,L,b/bergema02
+758,Nicolas Blanchard,1987-05-31,"Granby, Quebec",190,93,L,b/blancni01
+759,Drayson Bowman,1989-03-08,"Grand Rapids, Michigan",185,88,L,b/bowmadr01
+760,Tim Brent,1984-03-10,"Cambridge, Ontario",183,85,R,b/brentti01
+761,Joe Corvo,1977-06-20,"Oak Park, Illinois",183,92,R,c/corvojo01
+762,Zac Dalpe,1989-11-01,"Paris, Ontario",188,89,R,d/dalpeza01
+763,Patrick Dwyer,1983-06-22,"Spokane, Washington",180,79,R,d/dwyerpa01
+764,Dan Ellis,1980-06-19,"Saskatoon, Saskatchewan",185,88,L,e/ellisda01
+765,Justin Faulk,1992-03-20,"South St. Paul, Minnesota",183,98,R,f/faulkju01
+766,Tim Gleason,1983-01-29,"Clawson, Michigan",183,98,L,g/gleasti01
+767,Marc-Andre Gragnani,1987-03-11,"Montreal, Quebec",188,91,L,g/gragnma01
+768,Jay Harrison,1982-11-03,"Oshawa, Ontario",193,99,L,h/harrija01
+769,Michal Jordan,1990-07-17,"Zlin, Czechoslovakia",185,88,L,j/jordami01
+770,Chad Larose,1982-03-27,"Fraser, Michigan",178,82,R,l/larosch01
+771,Jamie McBain,1988-02-25,"Edina, Minnesota",185,81,R,m/mcbaija02
+772,Ryan Murphy,1993-03-31,"Aurora, Ontario",180,82,R,m/murphry01
+773,Riley Nash,1989-05-09,"Consort, Alberta",188,85,R,n/nashri02
+774,Andreas Nodl,1987-02-28,"Vienna, Austria",185,88,L,n/nodlan01
+775,Justin Peters,1986-08-30,"Blyth, Ontario",185,95,L,p/peterju01
+776,Joni Pitkanen,1983-09-19,"Oulu, Finland",190,99,L,p/pitkajo01
+777,Tuomo Ruutu,1983-02-16,"Vantaa, Finland",183,90,L,r/ruututu01
+778,Bobby Sanguinetti,1988-02-29,"Trenton, New Jersey",190,86,None,s/sangubo01
+779,Alexander Semin,1984-03-03,"Krasnojarsk, USSR",188,94,R,s/seminal01
+780,Jeff Skinner,1992-05-16,"Toronto, Ontario",180,89,L,s/skinnje01
+781,Eric Staal,1984-10-29,"Thunder Bay, Ontario",193,93,L,s/staaler01
+782,Jared Staal,1990-08-21,"Thunder Bay, Ontario",193,95,None,s/staalja01
+783,Jordan Staal,1988-09-10,"Thunder Bay, Ontario",193,99,L,s/staaljo01
+784,Brett Sutter,1987-06-02,"Viking, Alberta",183,90,L,s/suttebr04
+785,Chris Terry,1989-04-07,"Brampton, Ontario",180,90,L,t/terrych01
+786,Jiri Tlusty,1988-03-16,"Slany, Czechoslovakia",183,92,L,t/tlustji01
+787,Tim Wallace,1984-08-06,"Anchorage, Alaska",185,93,R,w/wallati01
+788,Cam Ward,1984-02-29,"Saskatoon, Saskatchewan",185,87,L,w/wardca01
+789,Jeremy Welsh,1988-04-30,"Bayfield, Ontario",190,95,L,w/welshje01
+790,Kevin Westgarth,1984-02-07,"Amherstburg, Ontario",193,106,R,w/westgke01
+791,Bob Hartley,1960-09-09,"Hawkesbury, Ontario",None,None,None,/coaches/hartlbo99c.html
+792,Akim Aliu,1989-04-24,"Okene, Nigeria",193,102,R,a/aliuak01
+793,Anton Babchuk,1984-05-06,"Kiev, USSR",196,90,R,b/babchan01
+794,Mikael Backlund,1989-03-17,"Vasteras, Sweden",183,90,L,b/backlmi01
+795,Sven Baertschi,1992-10-05,"Bern, Switzerland",180,86,L,b/baertsv01
+796,Carter Bancks,1989-08-09,"Calgary, Alberta",180,82,L,b/banckca01
+797,Steve Begin,1978-06-14,"Trois-Rivieres, Quebec",183,87,L,b/beginst01
+798,T.J. Brodie,1990-06-07,"Chatham, Ontario",185,83,L,b/broditj01
+799,Chris Butler,1986-10-27,"St. Louis, Missouri",185,88,L,b/butlech01
+800,Paul Byron,1989-04-27,"Ottawa, Ontario",175,71,L,b/byronpa01
+801,Mike Cammalleri,1982-06-08,"Toronto, Ontario",175,83,L,c/cammami01
+802,Brett Carson,1985-11-29,"Regina, Saskatchewan",193,99,R,c/carsobr01
+803,Roman Cervenka,1985-12-10,None,180,91,L,c/cervero01
+804,Mark Cundari,1990-04-23,"Toronto, Ontario",175,88,L,c/cundama01
+805,Mark Giordano,1983-10-03,"Toronto, Ontario",185,90,L,g/giordma01
+806,Curtis Glencross,1982-12-28,"Kindersley, Saskatchewan",185,89,L,g/glenccu01
+807,Ben Hanowski,1990-10-18,None,188,95,None,h/hanowbe01
+808,Roman Horak,1991-05-21,"Ceske Budejovice, Czechoslovakia",183,77,L,h/horakro01
+809,Jiri Hudler,1984-01-04,"Olomouc, Czechoslovakia",178,86,L,h/hudleji01
+810,Leland Irving,1988-04-11,"Barrhead, Alberta",183,80,L,i/irvinle01
+811,Tim Jackman,1981-11-14,"Minot, North Dakota",188,101,R,j/jackmti01
+812,Blair Jones,1986-09-27,"Central Butte, Saskatchewan",188,97,R,j/jonesbl01
+813,Miikka Kiprusoff,1976-10-26,"Turku, Finland",185,83,L,k/kiprumi01
+814,Joey MacDonald,1980-02-07,"Pictou, Nova Scotia",183,89,L,m/macdojo01
+815,Brian McGrattan,1981-09-02,"Hamilton, Ontario",193,106,R,m/mcgrabr01
+816,Max Reinhart,1992-02-04,"West Vancouver, British Columbia",185,88,L,r/reinhma01
+817,Cory Sarich,1978-08-16,"Saskatoon, Saskatchewan",193,93,R,s/saricco01
+818,Derek Smith,1984-10-13,"Belleville, Ontario",185,89,L,s/smithde05
+819,Matt Stajan,1983-12-19,"Mississauga, Ontario",185,88,L,s/stajama01
+820,Lee Stempniak,1983-02-04,"West Seneca, New York",180,88,R,s/stemple01
+821,Ben Street,1987-02-13,"Coquitlam, British Columbia",180,90,L,s/streebe01
+822,Alex Tanguay,1979-11-21,"Ste-Justine, Quebec",185,87,L,t/tangual01
+823,Daniel Taylor,1986-04-28,"Plymouth, United Kingdom",183,89,None,t/tayloda02
+824,Dennis Wideman,1983-03-20,"Kitchener, Ontario",183,91,R,w/widemde01
+825,Barry Trotz,1962-07-15,"Winnipeg, Manitoba",None,None,None,/coaches/trotzba99c.html
+826,Daniel Bang,1987-04-19,"Stockholm, Sweden",190,94,L,b/bangda01
+827,Victor Bartley,1988-02-17,"Ottawa, Ontario",183,98,L,b/bartlvi01
+828,Taylor Beck,1991-05-13,"St. Catharines, Ontario",188,92,R,b/beckta01
+829,Jonathon Blum,1989-01-30,"Long Beach, California",185,84,R,b/blumjo02
+830,Gabriel Bourque,1990-09-23,"Rimouski, Quebec",178,93,L,b/bourqga01
+831,Rich Clune,1987-04-25,"Toronto, Ontario",180,95,L,c/cluneri01
+832,Mattias Ekholm,1990-05-24,"Borlange, Sweden",193,97,L,e/ekholma01
+833,Ryan Ellis,1991-01-03,"Hamilton, Ontario",178,81,R,e/ellisry01
+834,Mike Fisher,1980-06-05,"Peterborough, Ontario",185,97,R,f/fishemi01
+835,Filip Forsberg,1994-08-13,"Ostervala, Sweden",185,92,R,f/forsbfi01
+836,Paul Gaustad,1982-02-03,"Fargo, North Dakota",196,102,L,g/gaustpa01
+837,Hal Gill,1975-04-06,"Concord, Massachusetts",201,110,L,g/gillha01
+838,Matt Halischuk,1988-06-01,"Toronto, Ontario",183,81,R,h/halisma01
+839,Kevin Henderson,1986-12-03,None,190,95,None,h/hendeke01
+840,Patric Hornqvist,1987-01-01,"Sollentuna, Sweden",180,85,R,h/hornqpa01
+841,Roman Josi,1990-06-01,"Bern, Switzerland",185,91,L,j/josiro01
+842,Kevin Klein,1984-12-13,"Kitchener, Ontario",185,93,R,k/kleinke01
+843,Sergei Kostitsyn,1987-03-20,"Novopolotsk, USSR",183,88,L,k/kostise01
+844,David Legwand,1980-08-17,"Detroit, Michigan",188,93,L,l/legwada01
+845,Chris Mason,1976-04-20,"Red Deer, Alberta",183,89,L,m/masonch02
+846,Chris Mueller,1986-03-06,"West Seneca, New York",178,88,R,m/muellch01
+847,Joonas Rask,1990-03-24,"Savonlinna, Finland",180,76,R,r/raskjo01
+848,Pekka Rinne,1982-11-03,"Kempele, Finland",196,98,L,r/rinnepe01
+849,Craig Smith,1989-09-05,"Madison, Wisconsin",185,94,R,s/smithcr01
+850,Nick Spaling,1988-09-19,"Palmerston, Ontario",185,89,L,s/spalini01
+851,Austin Watson,1992-01-13,"Ann Arbor, Michigan",193,89,R,w/watsoau01
+852,Shea Weber,1985-08-14,"Sicamous, British Columbia",193,104,R,w/webersh01
+853,Colin Wilson,1989-10-20,"Greenwich, Connecticut",185,97,L,w/wilsoco01
+854,Brandon Yip,1985-04-25,"Vancouver, British Columbia",185,89,R,y/yipbr01
+855,Guy Boucher,1971-08-03,"Notre-Dame-du-Lac, Quebec",None,None,None,/coaches/bouchgu99c.html
+856,Jon Cooper,1967-08-23,"Prince George, British Columbia",None,None,R,/coaches/coopejo01c.html
+857,Mike Angelidis,1985-06-27,"Woodbridge, Ontario",185,96,L,a/angelmi01
+858,Keith Aulie,1989-06-11,"Rouleau, Saskatchewan",198,100,L,a/aulieke01
+859,Mark Barberio,1990-03-23,"Montreal, Quebec",185,90,L,b/barbema01
+860,Eric Brewer,1979-04-17,"Vernon, British Columbia",193,97,L,b/breweer01
+861,Matt Carle,1984-09-25,"Anchorage, Alaska",183,89,L,c/carlema01
+862,Brett Connolly,1992-05-02,"Campbell River, British Columbia",190,89,R,c/connobr01
+863,B.J. Crombeen,1985-07-10,"Denver, Colorado",188,94,R,c/crombbj01
+864,Cedrick Desjardins,1985-09-30,None,183,87,None,d/desjace01
+865,Mathieu Garon,1978-01-09,"Chandler, Quebec",185,93,R,g/garonma01
+866,Radko Gudas,1990-06-05,"Prague, Czechoslovakia",183,94,R,g/gudasra01
+867,Victor Hedman,1990-12-18,"Ornskoldsvik, Sweden",198,109,L,h/hedmavi01
+868,Tyler Johnson,1990-07-29,"Spokane, Washington",173,83,R,j/johnsty01
+869,Alex Killorn,1989-09-14,"Halifax, Nova Scotia",185,90,L,k/killoal01
+870,Pierre-Cedric Labrie,1986-12-06,"Baie-Comeau, Quebec",190,102,L,l/labripi01
+871,Vincent Lecavalier,1980-04-21,"Ile Bizard, Quebec",193,97,L,l/lecavvi01
+872,Brian Lee,1987-03-26,"Moorhead, Minnesota",190,90,R,l/leebr01
+873,Anders Lindback,1988-05-03,"Gavle, Sweden",198,97,L,l/lindban01
+874,Ryan Malone,1979-12-01,"Pittsburgh, Pennsylvania",193,99,L,m/malonry01
+875,Brendan Mikkelson,1987-06-22,"Regina, Saskatchewan",190,95,L,m/mikkebr01
+876,Ondrej Palat,1991-03-28,"Frydek-Mistek, Czechoslovakia",183,87,L,p/palaton01
+877,Richard Panik,1991-02-07,"Martin, Czechoslovakia",188,95,L,p/panikri01
+878,Benoit Pouliot,1986-09-29,"Alfred, Ontario",190,90,L,p/poulibe01
+879,Teddy Purcell,1985-09-08,"St. John's, Newfoundland and Labrador",188,88,R,p/purcete01
+880,Tom Pyatt,1987-02-14,"Thunder Bay, Ontario",180,83,L,p/pyattto01
+881,Mathieu Roy,1983-08-10,"Saint-Georges, Quebec",185,90,R,r/royma01
+882,Sami Salo,1974-09-02,"Turku, Finland",190,97,R,s/salosa01
+883,Martin St. Louis,1975-06-18,"Laval, Quebec",173,81,L,s/stlouma01
+884,Steven Stamkos,1990-02-07,"Markham, Ontario",185,87,R,s/stamkst01
+885,Andrej Sustr,1990-11-29,"Plzen, Czechoslovakia",201,98,R,s/sustran01
+886,Matt Taormina,1986-10-20,"Warren, Michigan",178,82,L,t/taormma01
+887,Nate Thompson,1984-10-05,"Anchorage, Alaska",185,92,L,t/thompna01
+888,Dana Tyrell,1989-04-23,"Airdrie, Alberta",178,87,L,t/tyrelda01
+889,J.T. Wyman,1986-02-27,"Edina, Minnesota",188,90,R,w/wymanja01
+890,Joe Sacco,1969-02-04,"Medford, United States",185,86,L,/coaches/saccojo01c.html
+891,Sami Aittokallio,1992-08-06,"Tampere, Finland",185,78,None,a/aittosa01
+892,Tyson Barrie,1991-07-26,"Victoria, British Columbia",180,89,R,b/barrity01
+893,Patrick Bordeleau,1986-03-23,"Montreal, Quebec",198,102,L,b/bordepa02
+894,Steve Downie,1987-04-03,"Newmarket, Ontario",180,86,R,d/downist01
+895,Matt Duchene,1991-01-16,"Haliburton, Ontario",180,88,L,d/duchema01
+896,Stefan Elliott,1991-01-30,"Vancouver, British Columbia",185,86,R,e/elliost01
+897,Jean-Sebastien Giguere,1977-05-16,"Montreal, Quebec",185,91,L,g/gigueje01
+898,Jan Hejda,1978-06-18,"Prague, Czechoslovakia",193,107,L,h/hejdaja01
+899,Milan Hejduk,1976-02-14,"Usti nad Labem, Czechoslovakia",183,86,R,h/hejdumi01
+900,Matt Hunwick,1985-05-21,"Warren, Michigan",180,90,L,h/hunwima01
+901,Erik Johnson,1988-03-21,"Bloomington, Minnesota",193,102,R,j/johnser01
+902,David Jones,1984-08-10,"Guelph, Ontario",190,94,R,j/jonesda01
+903,Chuck Kobasew,1982-04-17,"Vancouver, British Columbia",183,87,R,k/kobasch01
+904,Gabriel Landeskog,1992-11-23,"Stockholm, Sweden",185,97,L,l/landega01
+905,Brad Malone,1989-05-20,"Miramichi, New Brunswick",188,99,L,m/malonbr01
+906,Jamie McGinn,1988-08-05,"Fergus, Ontario",185,92,L,m/mcginja01
+907,Cody McLeod,1984-06-26,"Binscarth, Manitoba",188,92,L,m/mcleoco01
+908,John Mitchell,1985-01-22,"Oakville, Ontario",185,92,L,m/mitchjo01
+909,Shane O'Brien,1983-08-09,"Port Hope, Ontario",190,104,L,o/obriesh01
+910,Ryan O'Reilly,1991-02-07,"Clinton, Ontario",185,97,L,o/oreilry01
+911,Mark Olver,1988-01-01,"Burnaby, British Columbia",178,77,L,o/olverma01
+912,Aaron Palushaj,1989-09-07,"Livonia, Michigan",183,84,R,p/palusaa01
+913,P.A. Parenteau,1983-03-24,"Hull, Quebec",183,90,R,p/parenpi01
+914,Michael Sgarbossa,1992-07-25,"Campbellville, Ontario",183,82,L,s/sgarbmi01
+915,Paul Stastny,1985-12-27,"Quebec City, Quebec",183,87,L,s/stastpa01
+916,David Van Der Gulik,1983-04-20,"Abbotsford, British Columbia",178,78,L,v/vandeda01
+917,Semyon Varlamov,1988-04-27,"Samara, USSR",188,95,L,v/varlasi01
+918,Ryan Wilson,1987-02-03,"Windsor, Ontario",185,93,L,w/wilsory01
+919,Greg Zanon,1980-06-05,"Burnaby, British Columbia",180,91,L,z/zanongr01
+920,Kevin Dineen,1963-10-28,"Quebec City, Quebec",180,89,R,/coaches/dineeke01c.html
+921,Nick Bjugstad,1992-07-17,"Minneapolis, Minnesota",198,97,R,b/bjugsni01
+922,Brian Campbell,1979-05-23,"Strathroy, Ontario",178,87,L,c/campbbr02
+923,Michael Caruso,1988-07-05,"Mississauga, Ontario",188,86,L,c/carusmi01
+924,Scott Clemmensen,1977-07-23,"Des Moines, Iowa",188,91,L,c/clemmsc01
+925,Tomas Fleischmann,1984-05-16,"Koprivnice, Czechoslovakia",185,87,L,f/fleisto01
+926,Marcel Goc,1983-08-24,"Calw, Germany",185,89,L,g/gocma01
+927,Erik Gudbranson,1992-01-07,"Ottawa, Ontario",196,100,R,g/gudbrer01
+928,Quinton Howden,1992-01-21,"Winnipeg, Manitoba",188,85,L,h/howdequ01
+929,Jonathan Huberdeau,1993-06-04,"Saint-Jerome, Quebec",185,91,L,h/huberjo01
+930,Ed Jovanovski,1976-06-26,"Windsor, Ontario",190,99,L,j/jovaned01
+931,Tomas Kopecky,1982-02-05,"Ilava, Czechoslovakia",190,95,L,k/kopecto01
+932,Alex Kovalev,1973-02-24,"Togliatti, USSR",188,100,L,k/kovalal01
+933,Filip Kuba,1976-12-29,"Ostrava, Czechoslovakia",193,102,L,k/kubafi01
+934,Dmitry Kulikov,1990-10-29,"Lipetsk, USSR",185,92,L,k/kulikdm01
+935,Jacob Markstrom,1990-01-31,"Gavle, Sweden",198,93,L,m/marksja02
+936,Shawn Matthias,1988-02-19,"Mississauga, Ontario",193,104,L,m/matthsh01
+937,Peter Mueller,1988-04-14,"Bloomington, Minnesota",188,92,R,m/muellpe01
+938,George Parros,1979-12-29,"Washington, Pennsylvania",196,103,R,p/parroge01
+939,Alexander Petrovic,1992-03-03,"Edmonton, Alberta",193,95,R,p/petroal01
+940,Greg Rallo,1981-08-26,"Gurnee, Illinois",183,88,R,r/rallogr01
+941,Jon Rheault,1986-08-01,"Arlington, Texas",180,90,R,r/rheaujo01
+942,Colby Robak,1990-04-24,"Dauphin, Manitoba",190,87,L,r/robakco01
+943,Eric Selleck,1987-10-20,"Brockville, Ontario",188,94,L,s/selleer01
+944,Drew Shore,1991-01-29,"Denver, Colorado",188,94,R,s/shoredr01
+945,Jack Skille,1987-05-19,"Madison, Wisconsin",185,97,R,s/skillja01
+946,Tyson Strachan,1984-10-30,"Melfort, Saskatchewan",190,94,R,s/stracty01
+947,Jose Theodore,1976-09-13,"Laval, Quebec",180,78,R,t/theodjo01
+948,Scott Timmins,1989-09-11,None,180,86,None,t/timmisc01
+949,Scottie Upshall,1983-10-07,"Fort McMurray, Alberta",183,90,L,u/upshasc01
+950,Kris Versteeg,1986-05-13,"Lethbridge, Alberta",180,79,R,v/verstkr01
+951,Mike Weaver,1978-05-02,"Bramalea, Ontario",178,83,R,w/weavemi01
+952,Stephen Weiss,1983-04-03,"Toronto, Ontario",180,86,L,w/weissst01
+953,Nolan Yonkman,1981-04-01,"Punnichy, Saskatchewan",198,114,None,y/yonkmno01
+954,Craig Cunningham,1990-09-13,"Trail, British Columbia",178,83,R,c/cunnicr01
+955,Justin Florek,1990-05-18,"Marquette, Michigan",193,92,L,f/floreju01
+956,Alexander Khokhlachev,1993-09-09,"Moscow, Russian Federation",180,83,L,k/khokhal01
+957,Matt Lindblad,1990-03-23,"Evanston, Illinois",180,87,None,l/lindbma01
+958,Kevan Miller,1987-11-15,"Los Angeles, California",188,95,R,m/milleke03
+959,Niklas Svedberg,1989-09-04,"Sollentuna, Sweden",185,73,None,s/svedbni01
+960,Zach Trotman,1990-08-26,"Carmel, Indiana",190,98,R,t/trotmza01
+961,David Warsofsky,1990-05-30,"Marshfield, Massachusetts",175,77,L,w/warsoda01
+962,Frederik Andersen,1989-10-02,"Herning, Denmark",193,103,None,a/anderfr01
+963,John Gibson,1993-07-14,"Pittsburgh, Pennsylvania",188,95,None,g/gibsojo02
+964,Alex Grant,1989-01-20,"Antigonish, Nova Scotia",190,95,R,g/grantal01
+965,Hampus Lindholm,1994-01-20,"Helsingborg, Sweden",193,97,L,l/lindhha01
+966,Patrick Roy,1965-10-05,"Quebec City, Quebec",188,83,L,/coaches/roypa01c.html
+967,Reto Berra,1987-01-03,"Bulach, Switzerland",193,98,None,b/berrare01
+968,Paul Carey,1988-09-24,"Boston, Massachusetts",185,90,L,c/careypa01
+969,Marc-Andre Cliche,1987-03-23,"Rouyn-Noranda, Quebec",183,91,R,c/clichma01
+970,Nate Guenin,1982-12-10,"Aliquippa, Pennsylvania",190,93,R,g/guenina01
+971,Nathan MacKinnon,1995-09-01,"Halifax, Nova Scotia",183,90,R,m/mackina01
+972,Karl Stollery,1987-11-21,"Camrose, Alberta",180,81,L,s/stollka01
+973,Ty Rattie,1993-02-05,"Calgary, Alberta",183,83,R,r/rattity01
+974,Freddie Hamilton,1992-01-01,"Toronto, Ontario",185,88,R,h/hamilfr01
+975,Eriah Hayes,1988-07-07,"LaCresent, Minnesota",193,95,None,h/hayeser01
+976,Tomas Hertl,1993-11-12,"Praha, Czech Republic",188,97,L,h/hertlto01
+977,John McCarthy,1986-08-09,"Boston, Massachusetts",185,88,L,m/mccarjo01
+978,Matthew Nieto,1992-11-05,"Long Beach, California",180,83,L,n/nietoma01
+979,Brian Dumoulin,1991-09-06,"Biddeford, Maine",193,93,L,d/dumoubr01
+980,Brian Gibbons,1988-02-26,"Braintree, Massachusetts",173,79,L,g/gibbobr02
+981,Pierre-Luc Letourneau-Leblond,1985-06-04,"Levis, Quebec",188,95,L,l/letoupi01
+982,Olli Maatta,1994-08-22,"Jyvaskyla, Finland",188,95,L,m/maattol01
+983,Jayson Megna,1990-02-01,"Fort Lauderdale, Florida",185,88,R,m/megnaja01
+984,Adam Payerl,1991-03-04,"Kitchener, Ontario",190,98,R,p/payerad01
+985,Philip Samuelsson,1991-07-26,"Leksand, Sweden",188,87,L,s/samueph01
+986,Zach Sill,1988-05-24,"Truro, Nova Scotia",183,91,L,s/sillza01
+987,Jeff Zatkoff,1987-06-09,"Detroit, Michigan",188,84,None,z/zatkoje01
+988,Matt Carey,1992-02-28,"Hamilton, Ontario",183,88,L,c/careyma01
+989,Brad Mills,1983-05-03,None,183,88,None,m/millsbr01
+990,Joakim Nordstrom,1992-02-25,"Stockholm, Sweden",185,87,L,n/nordsjo02
+991,Antti Raanta,1989-05-12,"Rauma, Finland",183,89,None,r/raantan01
+992,Kent Simpson,1992-03-26,"Edmonton, Alberta",188,89,None,s/simpske01
+993,Teuvo Teravainen,1994-09-11,"Helsinki, Finland",180,88,L,t/teravte01
+994,J.T. Brown,1990-07-02,"Burnsville, Minnesota",178,75,R,b/brownjt01
+995,Jean-Philippe Cote,1982-04-22,"Charlesbourg, Quebec",190,96,L,c/coteje01
+996,Kristers Gudlevskis,1992-07-31,"Aizkraukle, Latvia",190,97,None,g/gudlekr01
+997,Dmitry Korobov,1989-03-12,None,190,104,None,k/korobdm01
+998,Nikita Kucherov,1993-06-17,"Maykop, Russian Federation",180,83,L,k/kucheni01
+999,Cody Kunyk,1990-05-20,None,180,87,None,k/kunykco01
+1000,Vladislav Namestnikov,1992-11-22,"Zhukovskiy, Russian Federation",183,83,L,n/namesvl01
+1001,Cedric Paquette,1993-08-13,"Gaspe, Quebec",183,92,L,p/paquece01
+1002,Michael Bournival,1992-05-31,"Shawinigan, Quebec",180,89,L,b/bournmi01
+1003,Patrick Holland,1992-01-07,None,183,75,None,h/hollapa01
+1004,Louis Leblanc,1991-01-26,"Point-Claire, Quebec",183,80,R,l/leblalo01
+1005,Joonas Nattinen,1991-01-03,None,190,87,None,n/nattijo01
+1006,Martin St. Pierre,1983-08-11,"Ottawa, Ontario",175,84,L,s/stpiema01
+1007,Dustin Tokarski,1989-09-16,"Watson, Saskatchewan",183,89,L,t/tokardu01
+1008,Andrew Campbell,1988-02-04,"Caledonia, Ontario",193,92,L,c/campban01
+1009,Martin Jones,1990-01-10,"North Vancouver, British Columbia",193,86,None,j/jonesma02
+1010,Willie Mitchell,1977-04-23,"Port McNeill, British Columbia",190,95,L,m/mitchwi01
+1011,Tanner Pearson,1992-08-10,"Kitchener, Ontario",185,91,L,p/pearsta01
+1012,Linden Vey,1991-07-17,"Wakaw, Saskatchewan",183,85,R,v/veyli01
+1013,Brett Bulmer,1992-04-26,"Prince George, British Columbia",188,82,R,b/bulmebr01
+1014,John Curry,1984-02-27,"Shorewood, Minnesota",180,83,L,c/curryjo01
+1015,Mathew Dumba,1994-07-25,"Regina, Saskatchewan",183,82,R,d/dumbama01
+1016,Christian Folin,1991-02-09,"Gothenburg, Sweden",190,92,R,f/folinch01
+1017,Justin Fontaine,1987-11-06,"Bonnyville, Alberta",178,78,R,f/fontaju01
+1018,Erik Haula,1991-03-23,"Pori, Finland",183,87,L,h/haulaer01
+1019,Carson McMillan,1988-09-10,None,188,96,None,m/mcmilca01
+1020,Nino Niederreiter,1992-09-08,"Chur, Switzerland",188,97,L,n/niedeni01
+1021,Stephane Veilleux,1981-11-16,"Beauceville, Quebec",185,90,L,v/veillst01
+1022,Conor Allen,1990-01-31,"Chicago, Illinois",185,92,L,a/allenco01
+1023,Jesper Fast,1991-12-02,"Nassjo, Sweden",185,86,R,f/fastje01
+1024,Dylan McIlrath,1992-04-20,"Winnipeg, Manitoba",193,106,R,m/mcilrdy01
+1025,Dominic Moore,1980-08-03,"Thornhill, Ontario",183,87,L,m/mooredo01
+1026,Cam Talbot,1987-07-05,"Caledonia, Ontario",193,88,None,t/talboca01
+1027,Craig Berube,1965-12-17,"Calahoo, Alberta",185,95,L,/coaches/berubcr01c.html
+1028,Cal Heeter,1988-11-02,"St. Louis, Missouri",193,88,None,h/heeteca01
+1029,Michael Raffl,1988-12-01,"Villach, Austria",185,92,L,r/rafflmi01
+1030,Cody Bass,1987-01-07,"Owen Sound, Ontario",183,92,R,b/bassco01
+1031,Michael Chaput,1992-04-09,"Ile Bizard, Quebec",188,90,L,c/chapumi01
+1032,Ryan Craig,1982-01-06,"Abbotsford, British Columbia",185,97,L,c/craigry01
+1033,Boone Jenner,1993-06-15,"Dorchester, Ontario",188,93,L,j/jennebo01
+1034,Curtis McElhinney,1983-05-23,"London, Ontario",188,92,L,m/mcelhcu01
+1035,Mike McKenna,1983-04-11,"St. Louis, Missouri",188,83,R,m/mckenmi01
+1036,Ryan Murray,1993-09-27,"Regina, Saskatchewan",185,93,L,m/murrary01
+1037,Corey Tropp,1989-07-25,"Grosse Pointe Woods, Michigan",183,84,R,t/troppco01
+1038,Adam Almqvist,1991-02-27,None,180,78,None,a/almqvad01
+1039,Mitch Callahan,1991-08-17,"Whittier, California",180,89,R,c/callami01
+1040,Landon Ferraro,1991-08-08,"Trail, British Columbia",183,79,R,f/ferrala01
+1041,Luke Glendening,1989-04-28,"Grand Rapids, Michigan",180,86,R,g/glendlu01
+1042,Tomas Jurco,1992-12-28,"Kosice, Czechoslovakia",185,85,L,j/jurcoto01
+1043,Alexey Marchenko,1992-01-02,"Moscow, Russian Federation",190,95,R,m/marchal01
+1044,Xavier Ouellet,1993-07-29,"Bayonne, France",185,87,L,o/ouellxa01
+1045,Teemu Pulkkinen,1992-01-02,"Vantaa, Finland",178,83,R,p/pulkkte01
+1046,Ryan Sproul,1993-01-13,"Mississauga, Ontario",193,92,R,s/sproury01
+1047,Jack Campbell,1992-01-09,"Port Huron, Michigan",188,89,None,c/campbja01
+1048,Kevin Connauton,1990-02-23,"Edmonton, Alberta",188,92,L,c/connake01
+1049,Maxime Fortunus,1983-07-28,"Longueil, Quebec",185,89,R,f/fortuma01
+1050,Cameron Gaunce,1990-03-19,"Sudbury, Ontario",185,95,L,g/gauncca01
+1051,Travis Morin,1984-01-09,"Minneapolis, Minnesota",185,88,L,m/morintr01
+1052,Patrik Nemeth,1992-02-08,"Stockholm, Sweden",190,103,L,n/nemetpa01
+1053,Valeri Nichushkin,1995-03-04,"Chelyabinsk, Russian Federation",193,95,L,n/nichuva01
+1054,Tim Thomas,1974-04-15,"Flint, Michigan",180,91,L,t/thomati01
+1055,Julien Brouillette,1986-12-05,"St. Espirit, Quebec",180,83,None,b/brouiju01
+1056,Connor Carrick,1994-04-13,"Orland Park, Illinois",180,87,R,c/carrico01
+1057,Nicolas Deschamps,1990-01-06,None,183,78,None,d/deschni01
+1058,Evgeny Kuznetsov,1992-05-19,"Chelyabinsk, Russian Federation",185,92,L,k/kuzneev01
+1059,Michael Latta,1991-05-25,"St. Clements, Ontario",183,93,R,l/lattami01
+1060,Peter LeBlanc,1988-02-03,None,180,90,None,l/leblape01
+1061,Nate Schmidt,1991-07-16,"St. Cloud, Minnesota",183,87,L,s/schmina01
+1062,Ryan Stoa,1987-04-13,"Bloomington, Minnesota",190,90,L,s/stoary01
+1063,Casey Wellman,1987-10-18,"Brentwood, California",183,78,None,w/wellmca01
+1064,Patrick Wey,1991-05-21,None,188,90,None,w/weypa01
+1065,Tom Wilson,1994-03-29,"Toronto, Ontario",193,99,R,w/wilsoto01
+1066,Gilbert Brule,1987-01-01,"Edmonton, Alberta",180,84,R,b/brulegi01
+1067,Brandon Gormley,1992-02-18,"Murray River, Prince Edward Island",188,88,L,g/gormlbr01
+1068,Lucas Lessio,1993-01-23,"Maple, Ontario",185,96,L,l/lessilu01
+1069,Connor Murphy,1993-03-26,"Dublin, Ohio",193,96,R,m/murphco02
+1070,Jordan Szwarz,1991-05-14,"Burlington, Ontario",180,90,R,s/szwarjo01
+1071,Mark Visentin,1992-08-07,"Hamilton, Ontario",188,88,None,v/visenma01
+1072,Magnus Hellberg,1991-04-04,"Uppsala, Sweden",198,94,None,h/hellbma01
+1073,Calle Jarnkrok,1991-09-25,"Gavle, Sweden",180,84,R,j/jarnkca01
+1074,Seth Jones,1994-10-03,"Arlington, Texas",193,94,R,j/jonesse01
+1075,Marek Mazanec,1991-07-18,"Pisek, Czechoslovakia",193,91,None,m/mazanma01
+1076,Simon Moser,1989-03-10,None,188,97,None,m/mosersi01
+1077,Joe Piskula,1984-07-05,"Antigo, Wisconsin",190,94,L,p/piskujo01
+1078,Colton Sissons,1993-11-05,"North Vancouver, British Columbia",185,90,R,s/sissoco01
+1079,Mark Van Guilder,1984-01-17,None,185,84,None,v/vanguma01
+1080,Cody Ceci,1993-12-21,"Ottawa, Ontario",188,95,R,c/cecico01
+1081,Andrew Hammond,1988-02-11,"Surrey, British Columbia",188,101,None,h/hammoan01
+1082,Nathan Lawson,1983-09-29,"Calgary, Alberta",188,92,L,l/lawsona01
+1083,Reid Boucher,1993-09-08,"Lansing, Michigan",178,88,L,b/bouchre01
+1084,Jonathon Merrill,1992-02-03,"Oklahoma City, Oklahoma",190,88,L,m/merrijo01
+1085,Rostislav Olesz,1985-10-10,"Bilovec, Czechoslovakia",188,97,L,o/oleszro01
+1086,Mike Sislo,1988-01-20,"Superior, Wisconsin",180,86,R,s/sislomi01
+1087,Joe Whitney,1988-02-06,"Reading, Massachusetts",168,77,L,w/whitnjo01
+1088,Paul Maurice,1967-01-30,"Sault Ste. Marie, Ontario",None,None,None,/coaches/mauripa99c.html
+1089,John Albert,1989-01-19,"Cleveland, Ohio",180,86,None,a/alberjo01
+1090,Ben Chiarot,1991-05-09,"Hamilton, Ontario",190,102,L,c/chiarbe01
+1091,Michael Hutchinson,1990-03-02,"Barrie, Ontario",190,89,None,h/hutchmi01
+1092,Carl Klingberg,1991-01-28,"Gothenburg, Sweden",190,92,R,k/klingca01
+1093,Julian Melchiori,1991-12-06,"Richmond Hill, Ontario",196,97,L,m/melchju01
+1094,Eric O'Dell,1990-06-21,"Ottawa, Ontario",183,83,R,o/odeller01
+1095,Jacob Trouba,1994-02-26,"Rochester, Michigan",190,94,R,t/troubja01
+1096,Spencer Abbott,1988-04-30,"Hamilton, Ontario",175,77,R,a/abbotsp01
+1097,Carter Ashton,1991-04-01,"Winnipeg, Manitoba",190,97,L,a/ashtoca01
+1098,Troy Bodie,1985-01-25,"Portage La Prairie, Manitoba",196,102,R,b/bodietr01
+1099,David Broll,1993-01-04,"Mississauga, Ontario",188,97,L,b/brollda01
+1100,Jerry D'Amigo,1991-02-19,"Binghamton, New York",180,94,None,d/damigje01
+1101,Jamie Devane,1991-02-20,"Mississauga, Ontario",196,98,L,d/devanja01
+1102,Petter Granberg,1992-08-27,"Gallivare, Sweden",190,90,R,g/granbpe01
+1103,Josh Leivo,1993-05-26,"Innisfil, Ontario",188,87,R,l/leivojo01
+1104,Drew MacIntyre,1983-06-24,"Charlottetown, Prince Edward Island",185,86,None,m/macindr01
+1105,Greg McKegg,1992-06-17,"St. Thomas, Ontario",183,87,L,m/mckeggr01
+1106,Paul Ranger,1984-09-12,"Whitby, Ontario",190,95,L,r/rangepa01
+1107,Morgan Rielly,1994-03-09,"Vancouver, British Columbia",185,99,L,r/riellmo01
+1108,Elias Lindholm,1994-12-02,"Boden, Sweden",185,88,R,l/lindhel01
+1109,Darren Archibald,1990-02-09,"Newmarket, Ontario",190,95,L,a/archida02
+1110,Joacim Eriksson,1990-04-09,None,185,85,None,e/eriksjo01
+1111,Eddie Lack,1988-01-05,"Norrtalje, Sweden",193,84,None,l/lacked01
+1112,Kellan Lain,1989-08-11,None,198,95,None,l/lainke01
+1113,Pascal Pelletier,1983-06-16,"Labrador City, Newfoundland and Labrador",180,86,R,p/pellepa01
+1114,Yann Sauve,1990-02-18,"Montreal, Quebec",190,94,L,s/sauveya01
+1115,Michael Zalewski,1992-08-18,"New Hartford, New York",188,92,L,z/zalewmi01
+1116,Kevin Czuczman,1991-01-09,"Port Elgin, Ontario",188,93,L,c/czuczke01
+1117,Calvin de Haan,1991-05-09,"Carp, Ontario",185,88,L,d/dehaaca01
+1118,Matt Donovan,1990-05-09,"Edmond, Oklahoma",185,92,L,d/donovma01
+1119,Brett Gallant,1988-12-28,"Summerside, Prince Edward Island",183,86,L,g/gallabr02
+1120,Mike Halmo,1991-05-15,"Waterloo, Ontario",180,87,L,h/halmomi01
+1121,Justin Johnson,1981-05-05,None,185,99,None,j/johnsju01
+1122,Scott Mayfield,1992-10-14,"St. Louis, Missouri",196,99,R,m/mayfisc01
+1123,Brock Nelson,1991-10-15,"Warroad, Minnesota",193,95,L,n/nelsobr01
+1124,Aaron Ness,1990-05-18,"Roseau, Minnesota",178,83,L,n/nessaa01
+1125,Anders Nilsson,1990-03-19,"Lulea, Sweden",198,105,L,n/nilssan01
+1126,John Persson,1992-05-18,None,188,96,None,p/perssjo01
+1127,Ryan Strome,1993-07-11,"Mississauga, Ontario",185,87,R,s/stromry01
+1128,Johan Sundstrom,1992-09-21,None,188,88,None,s/sundsjo01
+1129,Kenny Agostino,1992-04-30,"Morristown, New Jersey",183,90,L,a/agostke01
+1130,Bill Arnold,1992-05-13,"Boston, Massachusetts",183,98,R,a/arnolbi01
+1131,Chad Billins,1989-05-26,"Port Huron, Michigan",178,81,L,b/billich01
+1132,Lance Bouma,1990-03-25,"Provost, Alberta",188,94,L,b/boumala01
+1133,Christopher Breen,1989-06-29,"Uxbridge, Ontario",201,102,L,b/breench01
+1134,Johnny Gaudreau,1993-08-13,"Salem, New Jersey",175,74,L,g/gaudrjo01
+1135,Markus Granlund,1993-04-16,"Oulu, Finland",183,81,L,g/granlma01
+1136,Corban Knight,1990-09-10,"Oliver, British Columbia",188,88,R,k/knighco01
+1137,Sean Monahan,1994-10-12,"Brampton, Ontario",188,90,L,m/monahse01
+1138,Joni Ortio,1991-04-16,"Turku, Finland",185,86,None,o/ortiojo01
+1139,Karri Ramo,1986-07-01,"Asikkala, Finland",188,93,L,r/ramoka01
+1140,Bryce Van Brabant,1991-11-12,"Morinville, Alberta",188,92,L,v/vanbrbr01
+1141,Tyler Wotherspoon,1993-03-12,"Burnaby, British Columbia",188,93,L,w/wothety01
+1142,Dallas Eakins,1967-02-27,"Dade City, United States",188,88,L,/coaches/eakinda01c.html
+1143,Will Acton,1987-07-16,"Edina, Minnesota",185,90,None,a/actonwi01
+1144,Anton Belov,1986-07-29,"Ryazan, USSR",193,98,None,b/belovan01
+1145,Taylor Fedun,1988-06-04,"Edmonton, Alberta",185,90,R,f/fedunta01
+1146,Luke Gazdic,1989-07-25,"Toronto, Ontario",193,102,L,g/gazdilu01
+1147,Denis Grebeshkov,1983-10-11,"Yaroslavl, USSR",183,94,L,g/grebede01
+1148,Brad Hunt,1988-08-24,"Maple Ridge, British Columbia",175,80,L,h/huntbr01
+1149,Oscar Klefbom,1993-07-20,"Karlstad, Sweden",190,97,L,k/klefbos01
+1150,Martin Marincin,1992-02-18,"Kosice, Czechoslovakia",196,98,L,m/marinma01
+1151,Linus Omark,1987-02-05,"Overtornea, Sweden",178,81,L,o/omarkli01
+1152,Tyler Pitlick,1991-11-01,"Minneapolis, Minnesota",188,90,R,p/pitlity01
+1153,Peter Horachek,1960-01-26,None,None,None,None,/coaches/horacpe01c.html
+1154,Aleksander Barkov,1995-09-02,"Tampere, Finland",190,97,L,b/barkoal01
+1155,Sean Bergenheim,1984-02-08,"Helsinki, Finland",180,90,L,b/bergese01
+1156,Mike Mottau,1978-03-19,"Quincy, Massachusetts",183,86,L,m/mottami01
+1157,Dylan Olsen,1991-01-03,"Salt Lake City, Utah",188,101,L,o/olsendy01
+1158,Jonathan Racine,1993-05-28,"Montreal, Quebec",188,87,L,r/racinjo01
+1159,Vincent Trocheck,1993-07-11,"Pittsburgh, Pennsylvania",178,84,R,t/trochvi01
+1160,Garrett Wilson,1991-03-16,"Barrie, Ontario",188,90,L,w/wilsoga01
+1161,Jesse Winchester,1983-10-04,"Long Sault, Ontario",185,92,R,w/winchje01
+1162,Ted Nolan,1958-04-07,"Sault Ste. Marie, Ontario",183,83,L,/coaches/nolante01c.html
+1163,Nicolas Deslauriers,1991-02-22,"Lasalle, Quebec",185,99,L,d/deslani01
+1164,Zemgus Girgensons,1994-01-05,"Riga, Latvia",188,96,L,g/girgeze01
+1165,Connor Knapp,1990-05-01,None,198,93,None,k/knappco01
+1166,Nathan Lieuwen,1991-08-08,"Abbotsford, British Columbia",196,85,None,l/lieuwna01
+1167,Jake McCabe,1993-10-12,"Eau Claire, Wisconsin",185,92,L,m/mccabja01
+1168,Brayden McNabb,1991-01-21,"Davidson, Saskatchewan",193,96,L,m/mcnabbr01
+1169,Rasmus Ristolainen,1994-10-27,"Turku, Finland",193,99,R,r/ristora01
+1170,Phil Varone,1990-12-04,"Vaughan, Ontario",178,83,L,v/varonph01
+1171,Nikita Zadorov,1995-04-16,"Moscow, Russian Federation",198,106,L,z/zadorni01
+1172,Ryan Bourque,1991-01-03,"Boxford, Massachusetts",175,79,L,b/bourqry01
+1173,Anthony Duclair,1995-08-26,"Pointe-Claire, Quebec",180,89,L,d/duclaan01
+1174,Kevin Hayes,1992-05-08,"Dorchester, Massachusetts",196,98,L,h/hayeske01
+1175,Oscar Lindberg,1991-10-29,"Skelleftea, Sweden",185,91,L,l/lindbos02
+1176,Mackenzie Skapski,1994-06-15,"Abbotsford, British Columbia",190,87,None,s/skapsma01
+1177,Sven Andrighetto,1993-03-21,"Zurich, Switzerland",178,85,L,a/andrisv01
+1178,Jacob de La Rose,1995-05-20,"Arvika, Sweden",190,97,L,d/delarja01
+1179,Jiri Sekac,1992-06-10,"Kladno, Czechoslovakia",185,83,L,s/sekacji01
+1180,Jesse Blacker,1991-04-19,"Toronto, Ontario",185,86,R,b/blackje01
+1181,Mat Clark,1990-10-17,"Lakewood, Colorado",193,96,R,c/clarkma01
+1182,Max Friberg,1992-11-20,"Skovde, Sweden",180,89,R,f/fribema01
+1183,William Karlsson,1993-01-08,"Marsta, Sweden",185,85,L,k/karlswi01
+1184,Josh Manson,1991-10-07,"Hinsdale, Illinois",190,98,R,m/mansojo01
+1185,Stefan Noesen,1993-02-12,"Plano, Texas",185,92,R,n/noesest01
+1186,Chris Wagner,1991-05-27,"Walpole, Massachusetts",183,89,R,w/wagnech01
+1187,Jori Lehtera,1987-12-23,"Helsinki, Finland",188,96,L,l/lehtejo01
+1188,Petteri Lindbohm,1993-09-23,"Helsinki, Finland",190,89,L,l/lindbpe02
+1189,Joakim Lindstrom,1983-12-05,"Skelleftea, Sweden",183,84,L,l/lindsjo01
+1190,Jonathan Drouin,1995-03-28,"Ste-Agathe, Quebec",183,89,L,d/drouijo01
+1191,Slater Koekkoek,1994-02-18,"Winchester, Ontario",188,87,L,k/koekksl01
+1192,Nikita Nesterov,1993-03-28,"Chelyabinsk, Russian Federation",183,83,L,n/nesteni01
+1193,Andrei Vasilevskiy,1994-07-25,"Tyumen, Russian Federation",190,102,None,v/vasilan02
+1194,Luke Witkowski,1990-04-14,"Holland, Michigan",188,97,R,w/witkolu01
+1195,Viktor Arvidsson,1993-04-08,"Skelleftea, Sweden",178,83,R,a/arvidvi01
+1196,Anthony Bitetto,1990-07-15,"Island Park, New York",185,95,L,b/bitetan01
+1197,Kevin Fiala,1996-07-22,"St. Gallen, Switzerland",178,87,L,f/fialake01
+1198,Miikka Salomaki,1993-03-09,"Raahe, Finland",180,92,L,s/salommi01
+1199,Kyle Baun,1992-05-04,"Toronto, Ontario",188,94,R,b/baunky01
+1200,Adam Clendening,1992-10-26,"Niagara Falls, New York",183,87,R,c/clendad01
+1201,Kyle Cumiskey,1986-12-02,"Abbotsford, British Columbia",180,81,L,c/cumisky01
+1202,Klas Dahlbeck,1991-07-06,"Katrineholm, Sweden",190,93,L,d/dahlbkl01
+1203,Phillip Danault,1993-02-24,"Victoriaville, Quebec",185,90,L,d/danauph01
+1204,Scott Darling,1988-12-22,"Newport News, Virginia",196,102,L,d/darlisc01
+1205,Ryan Hartman,1994-09-20,"Hilton Head Island, South Carolina",183,82,R,h/hartmry01
+1206,Michael Paliotta,1993-04-06,"Westport, Connecticut",190,95,R,p/paliomi01
+1207,Trevor van Riemsdyk,1991-07-24,"Middletown, New Jersey",190,85,R,v/vanritr01
+1208,Kael Mouillierat,1987-12-09,"Edmonton, Alberta",183,85,L,m/mouilka01
+1209,Griffin Reinhart,1994-01-24,"North Vancouver, British Columbia",193,96,L,r/reinhgr01
+1210,Willie Desjardins,1957-02-11,"Climax, Saskatchewan",173,72,None,/coaches/desjawi99c.html
+1211,Alex Biega,1988-04-04,"Montreal, Quebec",178,90,R,b/biegaal01
+1212,Brandon DeFazio,1988-09-13,"Oakville, Ontario",188,92,L,d/defazbr01
+1213,Bo Horvat,1995-04-05,"London, Ontario",183,97,L,h/horvabo01
+1214,Ronalds Kenins,1991-02-28,"Riga, USSR",183,91,L,k/keninro01
+1215,Andre Burakovsky,1995-02-09,"Klagenfurt, Austria",190,91,L,b/burakan01
+1216,Stanislav Galiev,1992-01-17,"Moscow, Russian Federation",185,84,R,g/galiest01
+1217,Liam O'Brien,1994-07-29,"Halifax, Nova Scotia",185,96,L,o/obrieli01
+1218,Tyler Graovac,1993-04-27,"Brampton, Ontario",196,94,L,g/graovty01
+1219,Thomas McCollum,1989-12-07,"Amherst, New York",188,97,L,m/mccolth01
+1220,Andrej Nestrasil,1991-02-22,"Prague, Czechoslovakia",190,90,L,n/nestran01
+1221,Andrew Copp,1994-07-08,"Ann Arbor, Michigan",185,93,L,c/coppan01
+1222,Adam Lowry,1993-03-29,"St. Louis, Missouri",196,95,L,l/lowryad01
+1223,Dave Cameron,1958-07-29,"Charlottetown, Prince Edward Island",183,83,L,/coaches/camerda01c.html
+1224,Chris Driedger,1994-05-18,"Winnipeg, Manitoba",193,94,None,d/driedch01
+1225,Curtis Lazar,1995-02-02,"Salmon Arm, British Columbia",183,87,R,l/lazarcu01
+1226,Shane Prince,1992-11-16,"Rochester, New York",180,87,L,p/princsh01
+1227,Matt Puempel,1993-01-24,"Windsor, Ontario",185,92,L,p/puempma01
+1228,Mike Johnston,1957-02-19,"Dartmouth, Nova Scotia",None,None,None,/coaches/johnsmi99c.html
+1229,Taylor Chorney,1987-04-27,"Thunder Bay, Ontario",183,87,L,c/chornta01
+1230,Bobby Farnham,1989-01-21,"North Andover, Massachusetts",178,86,L,f/farnhbo01
+1231,Scott Harrington,1993-03-10,"Kingston, Ontario",188,93,L,h/harrisc01
+1232,Derrick Pouliot,1994-01-16,"Estevan, Saskatchewan",183,88,L,p/poulide01
+1233,Bryan Rust,1992-05-11,"Pontiac, Michigan",180,87,R,r/rustbr01
+1234,Dominik Uher,1992-12-31,"Ostvava, Czechoslovakia",185,90,None,u/uherdo01
+1235,Scott Wilson,1992-04-24,"Oakville, Ontario",180,80,L,w/wilsosc01
+1236,Sam Bennett,1996-06-20,"Holland Landing, Ontario",185,88,L,b/bennesa01
+1237,Micheal Ferland,1992-04-20,"Swan River, Manitoba",185,98,L,f/ferlami01
+1238,Josh Jooris,1990-07-14,"Burlington, Ontario",185,89,R,j/joorijo01
+1239,Brett Kulak,1994-01-06,"Edmonton, Alberta",188,86,L,k/kulakbr01
+1240,Emile Poirier,1994-12-14,"Montreal, Quebec",185,83,L,p/poiriem01
+1241,John Ramage,1991-02-07,"Mississauga, Ontario",183,86,R,r/ramagjo01
+1242,David Wolf,1989-09-15,"Dusseldorf, Germany",190,97,None,w/wolfda01
+1243,Brian Ferlin,1992-06-03,"Jacksonville, Florida",188,96,R,f/ferlibr01
+1244,Seth Griffith,1993-01-04,"Wallaceburg, Ontario",175,86,R,g/griffse01
+1245,Joseph Morrow,1992-12-09,"Edmonton, Alberta",183,88,L,m/morrojo02
+1246,David Pastrnak,1996-05-25,"Havirov, Czech Republic",183,87,R,p/pastrda01
+1247,Bobby Robins,1981-10-17,"Rhinelander, Wisconsin",185,99,None,r/robinbo01
+1248,Malcolm Subban,1993-12-21,"Toronto, Ontario",188,90,None,s/subbama01
+1249,Andy Andreoff,1991-05-17,"Pickering, Ontario",188,90,L,a/andrean01
+1250,Nick Shore,1992-09-26,"Denver, Colorado",185,88,R,s/shoreni01
+1251,Jyrki Jokipakka,1991-08-20,"Tampere, Finland",190,97,L,j/jokipjy01
+1252,John Klingberg,1992-08-14,"Gothenburg, Sweden",190,86,R,k/klingjo01
+1253,Curtis McKenzie,1991-02-22,"Golden, British Columbia",188,92,L,m/mckencu01
+1254,Brendan Ranford,1992-05-03,"Edmonton, Alberta",178,86,L,r/ranfobr01
+1255,Brett Ritchie,1993-07-01,"Orangeville, Ontario",193,99,R,r/ritchbr01
+1256,Gerard Gallant,1963-09-02,"Summerside, Prince Edward Island",178,86,L,/coaches/gallage01c.html
+1257,Aaron Ekblad,1996-02-07,"Windsor, Ontario",193,97,R,e/ekblaaa01
+1258,Rocco Grimaldi,1993-02-08,"Anaheim, California",168,81,R,g/grimaro01
+1259,Steven Kampfer,1988-09-24,"Ann Arbor, Michigan",180,89,R,k/kampfst01
+1260,Andrew Agozzino,1991-01-03,"Kleinburg, Ontario",178,84,L,a/agozzan01
+1261,Dennis Everberg,1991-12-31,"Vasteras, Sweden",193,92,R,e/everbde01
+1262,Joey Hishon,1991-10-20,"Stratford, Ontario",178,77,L,h/hishojo01
+1263,Calvin Pickard,1992-04-15,"Moncton, New Brunswick",185,95,None,p/pickaca01
+1264,Borna Rendulic,1992-03-25,None,188,90,R,r/rendubo01
+1265,Duncan Siemens,1993-09-07,"Edmonton, Alberta",190,95,L,s/siemedu01
+1266,Colin Smith,1993-06-20,"Edmonton, Alberta",178,73,R,s/smithco01
+1267,Barclay Goodrow,1993-02-26,"Toronto, Ontario",188,92,L,g/goodrba01
+1268,Troy Grosenick,1989-08-27,"Brookfield, Wisconsin",185,86,None,g/grosetr01
+1269,Melker Karlsson,1990-07-18,"Lycksele, Sweden",183,81,R,k/karlsme01
+1270,Bryan Lerg,1986-01-20,"Livonia, Michigan",178,79,L,l/lergbr01
+1271,Mirco Mueller,1995-03-21,"Winterthur, Switzerland",190,95,L,m/muellmi01
+1272,Daniil Tarasov,1991-06-20,"Moscow, USSR",178,83,L,t/tarasda01
+1273,Chris Tierney,1994-07-01,"Keswick, Ontario",185,92,L,t/tiernch01
+1274,Josh Anderson,1994-05-07,"Burlington, Ontario",190,102,R,a/anderjo05
+1275,Marko Dano,1994-11-30,"Eisenstadt, Austria",180,91,L,d/danoma01
+1276,Anton Forsberg,1992-11-27,"Harnosand, Sweden",188,79,None,f/forsban01
+1277,Kerby Rychel,1994-10-07,"Torrance, California",185,93,L,r/rycheke01
+1278,Frederic St. Denis,1986-01-23,"Greenfield Park, Quebec",180,86,L,s/stdenfr01
+1279,Alexander Wennberg,1994-09-22,"Stockholm, Sweden",188,89,L,w/wennbal01
+1280,Mark Alt,1991-10-18,"Kansas City, Missouri",193,90,R,a/altma01
+1281,Pierre-Edouard Bellemare,1985-03-06,"Le Blanc-Mesnil, France",183,89,L,b/bellepi01
+1282,Nick Cousins,1993-06-20,"Belleville, Ontario",180,83,L,c/cousini01
+1283,Shayne Gostisbehere,1993-04-20,"Pembroke Pines, Florida",180,81,L,g/gostish01
+1284,Petr Straka,1992-06-15,"Pizen, Czechoslovakia",185,83,L,s/strakpe01
+1285,Rob Zepp,1981-09-07,"Newmarket, Ontario",185,87,None,z/zeppro01
+1286,NJD Bench,None,None,None,None,None,/coaches/benchnj01c.html
+1287,Seth Helgeson,1990-10-08,"Faribault, Minnesota",193,99,L,h/helgese01
+1288,Raman Hrabarenka,1992-08-24,"Mogilev, Belarus",190,96,R,h/hrabara01
+1289,Damon Severson,1994-08-07,"Melville, Saskatchewan",188,92,R,s/severda01
+1290,Bill Peters,1965-01-13,"Three Hills, Alberta",None,None,None,/coaches/peterbi99c.html
+1291,Danny Biega,1991-09-29,"Montreal, Quebec",183,92,R,b/biegada01
+1292,Patrick Brown,1992-05-29,"Bloomfield Hills, Michigan",185,95,R,b/brownpa02
+1293,Keegan Lowe,1993-03-29,"Greenwich, Connecticut",188,86,L,l/loweke02
+1294,Victor Rask,1993-03-01,"Leksand, Sweden",188,90,L,r/raskvi01
+1295,Rasmus Rissanen,1991-07-13,"Kuopio, Finland",190,98,L,r/rissara01
+1296,Justin Shugg,1991-12-24,"Niagara Falls, Ontario",180,83,R,s/shuggju01
+1297,Brody Sutter,1991-09-26,"Viking, Alberta",196,92,R,s/suttebr05
+1298,Brendan Woods,1992-06-11,"Humboldt, Saskatchewan",193,95,L,w/woodsbr01
+1299,Casey Bailey,1991-10-27,"Anchorage, Alaska",190,88,R,b/baileca01
+1300,Sam Carrick,1992-02-04,"Markham, Ontario",183,90,R,c/carrisa01
+1301,Brandon Kozun,1990-03-08,"Los Angeles, California",173,75,None,k/kozunbr01
+1302,Andrew MacWilliam,1990-03-25,"Calgary, Alberta",188,97,L,m/macwian01
+1303,Stuart Percy,1993-05-18,"Oakville, Ontario",185,84,L,p/percyst01
+1304,Todd Nelson,1969-05-11,"Prince Albert, Saskatchewan",183,91,L,/coaches/nelsoto01c.html
+1305,Laurent Brossoit,1993-03-23,"Port Alberni, British Columbia",190,92,None,b/brossla01
+1306,Tyler Bunz,1992-02-11,"Regina, Saskatchewan",185,92,None,b/bunzty01
+1307,Brandon Davidson,1991-08-21,"Taber, Alberta",188,94,L,d/davidbr01
+1308,Leon Draisaitl,1995-10-27,"Cologne, Germany",188,94,L,d/draisle01
+1309,Curtis Hamilton,1991-12-04,"Tacoma, Washington",188,94,None,h/hamilcu01
+1310,Andrew Miller,1988-09-18,"Bloomfield Hills, Michigan",178,82,R,m/millean01
+1311,David Musil,1993-04-09,"Calgary, Alberta",193,93,L,m/musilda01
+1312,Darnell Nurse,1995-02-04,"Hamilton, Ontario",193,100,L,n/nurseda01
+1313,Jordan Oesterle,1992-06-25,"Dearborn Heights, Michigan",183,82,L,o/oestejo01
+1314,Iiro Pakarinen,1991-08-25,"Loviisa, Finland",185,96,R,p/pakarii01
+1315,Bogdan Yakimov,1994-10-04,"Nizhnekamsk, Russian Federation",196,91,None,y/yakimbo01
+1316,Louis Domingue,1992-03-06,"St-Hyacinthe, Quebec",190,94,None,d/dominlo01
+1317,Tyler Gaudet,1993-04-04,"Hamilton, Ontario",190,92,L,g/gaudety01
+1318,Justin Hodgman,1988-06-27,"Brampton, Ontario",185,92,None,h/hodgmju01
+1319,Jordan Martinook,1992-07-25,"Brandon, Manitoba",185,92,L,m/martijo01
+1320,Tobias Rieder,1993-01-10,"Landshut, Germany",180,85,L,r/riedeto01
+1321,Henrik Samuelsson,1994-02-07,"Pittsburgh, Pennsylvania",190,98,R,s/samuehe01
+1322,Brendan Shinnimin,1991-01-07,"East Saint Paul, Manitoba",178,82,L,s/shinnbr01
+1323,Joel Armia,1993-05-31,"Pori, Finland",193,96,R,a/armiajo01
+1324,Andrey Makarov,1993-04-20,"Kazan, Russian Federation",185,87,None,m/makaran01
+1325,Sam Reinhart,1995-11-06,"West Vancouver, British Columbia",188,87,R,r/reinhsa01
+1326,Tim Schaller,1990-11-16,"Merrimack, New Hampshire",188,92,L,s/schalti01
+1327,Chandler Stephenson,1994-04-22,"Saskatoon, Saskatchewan",183,92,L,s/stephch02
+1328,Jason Dickinson,1995-07-04,"Georgetown, Ontario",188,90,L,d/dickija01
+1329,Radek Faksa,1994-01-09,"Vitkov, Czech Republic",190,99,L,f/faksara01
+1330,Mattias Janmark,1992-12-08,"Stockholm, Sweden",185,88,L,j/janmama02
+1331,Stephen Johns,1992-04-18,"Ellwood City, Pennsylvania",193,102,R,j/johnsst03
+1332,Esa Lindell,1994-05-23,"Vantaa, Finland",190,99,L,l/lindees01
+1333,Devin Shore,1994-07-19,"Ajax, Ontario",185,93,L,s/shorede01
+1334,Jordan Binnington,1993-07-11,"Richmond Hill, Ontario",185,78,None,b/binnijo01
+1335,Pheonix Copley,1992-01-18,"North Pole, Alaska",193,89,None,c/copleph01
+1336,Joel Edmundson,1993-06-28,"Brandon, Manitoba",193,102,L,e/edmunjo01
+1337,Robby Fabbri,1996-01-22,"Mississauga, Ontario",178,86,L,f/fabbrro01
+1338,Colton Parayko,1993-05-12,"St. Albert, Alberta",198,104,R,p/parayco01
+1339,Mike Sullivan,1968-02-27,"Marshfield, United States",188,92,L,/coaches/sullimi01c.html
+1340,Josh Archibald,1992-10-06,"Regina, Saskatchewan",178,79,R,a/archijo01
+1341,Tom Kuhnhackl,1992-01-21,"Landshut, Germany",188,86,L,k/kuhnhto01
+1342,Matt Murray,1994-05-25,"Thunder Bay, Ontario",193,80,None,m/murrama02
+1343,Sergei Plotnikov,1990-06-03,"Komsomolsk, USSR",188,91,L,p/plotnse01
+1344,Conor Sheary,1992-06-08,"Winchester, Massachusetts",175,80,L,s/shearco01
+1345,Dominik Simon,1994-08-08,"Prague, Czech Republic",180,86,L,s/simondo01
+1346,Daniel Sprong,1997-03-17,"Amsterdam, Netherlands",183,90,R,s/spronda01
+1347,Oskar Sundqvist,1994-03-23,"Boden, Sweden",190,94,R,s/sundqos01
+1348,Nick Ritchie,1995-12-05,"Orangeville, Ontario",188,104,L,r/ritchni01
+1349,Shea Theodore,1995-08-03,"Langley, British Columbia",188,88,L,t/theodsh01
+1350,Erik Gustafsson,1992-03-14,"Nynashamn, Sweden",183,89,L,g/gustaer02
+1351,Vinnie Hinostroza,1994-04-03,"Chicago, Illinois",178,80,R,h/hinosvi01
+1352,Tanner Kero,1992-07-24,"Hancock, Michigan",183,83,L,k/kerota01
+1353,Mark McNeill,1993-02-22,"Langley, British Columbia",188,97,R,m/mcneima01
+1354,Artemi Panarin,1991-10-30,"Korkino, USSR",180,77,R,p/panarar01
+1355,Dennis Rasmussen,1990-07-03,"Vasteras, Sweden",190,87,R,r/rasmude01
+1356,Viktor Svedberg,1991-05-24,"Gothenburg, Sweden",203,107,L,s/svedbvi01
+1357,Viktor Tikhonov,1988-05-12,"Riga, USSR",188,85,R,t/tikhovi01
+1358,Connor Brickley,1992-02-25,"Everett, Massachusetts",183,92,L,b/brickco01
+1359,Mike Matheson,1994-02-27,"Pointe-Claire, Quebec",188,85,L,m/mathemi01
+1360,John McFarland,1992-04-02,"Richmond Hill, Ontario",183,95,R,m/mcfarjo01
+1361,Kyle Rau,1992-10-24,"Eden Prairie, Minnesota",173,79,L,r/rauky01
+1362,Brent Regner,1989-05-17,"Westlock, Alberta",180,85,R,r/regnebr01
+1363,Logan Shaw,1991-10-05,"Glace Bay, Nova Scotia",190,94,R,s/shawlo01
+1364,Nic Dowd,1990-05-27,"Huntsville, Alabama",185,87,R,d/dowdni01
+1365,Derek Forbort,1992-03-04,"Duluth, Minnesota",193,99,L,f/forbode01
+1366,Kevin Gravel,1992-03-06,"Kingsford, Michigan",193,92,L,g/graveke01
+1367,Michael Mersch,1992-10-02,"Park Ridge, Illinois",188,95,L,m/merscmi01
+1368,Jordan Weal,1992-04-15,"North Vancouver, British Columbia",178,81,R,w/wealjo01
+1369,Marek Hrivik,1991-08-28,"Cadca, Czechoslovakia",188,89,R,h/hrivima01
+1370,Brady Skjei,1994-03-26,"Lakeville, Minnesota",190,95,L,s/skjeibr01
+1371,Jean-Francois Berube,1991-07-13,"Repentigny, Quebec",185,79,None,b/berubje02
+1372,Christopher Gibson,1992-12-27,"Karkkila, Finland",188,98,None,g/gibsoch01
+1373,Ross Johnston,1994-02-18,"Charlottetown, Prince Edward Island",196,105,L,j/johnsro02
+1374,Adam Pelech,1994-08-16,"Toronto, Ontario",190,96,L,p/pelecad01
+1375,Ryan Pulock,1994-10-06,"Dauphin, Manitoba",188,99,R,p/pulocry01
+1376,Alan Quine,1993-02-25,"Belleville, Ontario",183,92,L,q/quineal01
+1377,Ryan Carpenter,1991-01-18,"Oviedo, Florida",183,90,R,c/carpery01
+1378,Dylan DeMelo,1993-05-01,"London, Ontario",185,87,R,d/demeldy01
+1379,Joonas Donskoi,1992-04-13,"Raahe, Finland",183,86,R,d/donskjo01
+1380,Nikolay Goldobin,1995-10-07,"Moscow, Russian Federation",180,88,L,g/goldoni01
+1381,Yanni Gourde,1991-12-15,"Saint-Narcisse, Quebec",175,78,L,g/gourdya01
+1382,Joel Vermin,1992-02-05,"Bern, Switzerland",180,87,L,v/vermijo01
+1383,Dave Hakstol,1968-07-30,"Drayton Valley, Alberta",None,None,None,/coaches/hakstda99c.html
+1384,Taylor Leier,1994-02-15,"Saskatoon, Saskatchewan",180,81,L,l/leierta01
+1385,Evgeny Medvedev,1982-08-27,"Chelyabinsk, USSR",190,84,L,m/medveev01
+1386,Juuse Saros,1995-04-19,"Forssa, Finland",180,81,None,s/sarosju01
+1387,Jeff Blashill,1973-12-10,"Detroit, United States",None,None,None,/coaches/blashje99c.html
+1388,Andreas Athanasiou,1994-08-06,"Woodbridge, Ontario",188,86,L,a/athanan01
+1389,Dylan Larkin,1996-07-30,"Waterford, Michigan",185,89,L,l/larkidy01
+1390,Anthony Mantha,1994-09-16,"Longueuil, Quebec",196,106,L,m/manthan01
+1391,Tomas Nosek,1992-09-01,"Pardubice, Czechoslovakia",188,92,L,n/nosekto01
+1392,Noel Acciari,1991-12-01,"Johnston, Rhode Island",178,94,R,a/acciano01
+1393,Tommy Cross,1989-09-12,"Hartford, Connecticut",190,91,L,c/crossto01
+1394,Joonas Kemppainen,1988-04-07,"Kajaani, Finland",190,101,L,k/kemppjo01
+1395,Colin Miller,1992-10-29,"Sault Ste. Marie, Ontario",185,90,R,m/milleco02
+1396,Tyler Randell,1991-06-15,"Scarborough, Ontario",185,89,R,r/randety01
+1397,Frank Vatrano,1994-03-14,"East Longmeadow, Massachusetts",180,89,L,v/vatrafr01
+1398,John Torchetti,1965-07-09,"Boston, United States",None,None,None,/coaches/torchjo99c.html
+1399,Christoph Bertschy,1994-04-05,"Fribourg, Switzerland",178,84,R,b/bertsch02
+1400,Kurtis Gabriel,1993-04-20,"Newmarket, Ontario",198,96,R,g/gabriku01
+1401,Michael Keranen,1990-01-04,None,185,79,L,k/keranmi01
+1402,Gustav Olofsson,1994-12-01,"Boras, Sweden",190,88,L,o/olofsgu01
+1403,Mike Reilly,1993-07-13,"Chicago, Illinois",185,90,L,r/reillmi01
+1404,Trevor Carrick,1994-07-04,"Stouffville, Ontario",188,92,L,c/carritr01
+1405,Phillip Di Giuseppe,1993-10-09,"Toronto, Ontario",183,87,L,d/digiuph01
+1406,Noah Hanifin,1997-01-25,"Boston, Massachusetts",190,97,L,h/hanifno01
+1407,Brock McGinn,1994-02-02,"Fergus, Ontario",183,84,L,m/mcginbr01
+1408,Brett Pesce,1994-11-15,"Tarrytown, New York",193,91,R,p/pescebr01
+1409,Derek Ryan,1986-12-29,"Spokane, Washington",178,83,R,r/ryande01
+1410,Jaccob Slavin,1994-05-01,"Denver, Colorado",190,96,L,s/slavija01
+1411,Sergey Tolchinsky,1995-02-03,"Moscow, Russian Federation",173,77,L,t/tolchse01
+1412,Fredrik Claesson,1992-11-24,"Stockholm, Sweden",185,88,L,c/claesfr01
+1413,Ryan Dzingel,1992-03-09,"Wheaton, Illinois",183,86,L,d/dzingry01
+1414,Ben Harpur,1995-01-12,"Hamilton, Ontario",198,104,L,h/harpube01
+1415,Max McCormick,1992-05-01,"De Pere, Wisconsin",180,85,L,m/mccorma01
+1416,Matt O'Connor,1992-02-14,"Sault Ste. Marie, Ontario",198,92,None,o/oconnma01
+1417,Nick Paul,1995-03-20,"Mississauga, Ontario",190,102,L,p/paulni01
+1418,Buddy Robinson,1991-08-30,"Bellmawr, New Jersey",198,102,R,r/robinbu01
+1419,Chris Wideman,1990-01-07,"St. Louis, Missouri",178,83,R,w/widemch01
+1420,John Hynes,1975-02-10,"Warwick, United States",None,None,None,/coaches/hynesjo01c.html
+1421,Joseph Blandisi,1994-06-18,"Markham, Ontario",183,82,L,b/blandjo01
+1422,Sergey Kalinin,1991-03-17,"Omsk, USSR",190,90,L,k/kalinse01
+1423,Vojtech Mozik,1992-12-26,"Prague, Czechoslovakia",190,90,R,m/mozikvo01
+1424,Brian O'Neill,1988-06-01,"Yardley, Pennsylvania",175,78,L,o/oneilbr01
+1425,Blake Pietila,1993-02-20,"Milford, Michigan",180,90,L,p/pietibl01
+1426,Steven Santini,1995-03-07,"Bronxville, New York",188,92,R,s/santist01
+1427,Paul Thompson,1988-11-30,"Methuen, Massachusetts",185,90,R,t/thomppa02
+1428,Scott Wedgewood,1992-08-14,"Brampton, Ontario",188,92,None,w/wedgesc01
+1429,Miles Wood,1995-09-13,"Buffalo, New York",188,88,L,w/woodmi01
+1430,Pavel Zacha,1997-04-06,"Brno, Czech Republic",190,95,L,z/zachapa01
+1431,Chris Bigras,1995-02-22,"Orillia, Ontario",185,86,L,b/bigrach01
+1432,Andrew Bodnarchuk,1988-07-11,"Drumheller, Alberta",180,88,L,b/bodnaan01
+1433,Andreas Martinsen,1990-06-13,"Baerum, Norway",190,103,L,m/martian01
+1434,Mikko Rantanen,1996-10-29,"Nousiainen, Finland",193,97,L,r/rantami01
+1435,Roman Will,1992-05-22,"Plzen, Czechoslovakia",185,88,None,w/willro01
+1436,Daniel Carr,1991-11-01,"Sherwood Park, Alberta",183,84,L,c/carrda01
+1437,Mike Condon,1990-04-27,"Holliston, Massachusetts",188,88,None,c/condomi01
+1438,Darren Dietz,1993-07-17,"Medicine Hat, Alberta",185,91,R,d/dietzda01
+1439,Morgan Ellis,1992-04-30,"Summerside, Prince Edward Island",185,95,R,e/ellismo01
+1440,Joel Hanley,1991-06-08,"Keswick, Ontario",180,86,L,h/hanlejo01
+1441,Bud Holloway,1988-03-01,"Wapella, Saskatchewan",183,91,R,h/hollobu01
+1442,Charles Hudon,1994-06-23,"Alma, Quebec",178,84,L,h/hudonch01
+1443,Ryan Johnston,1992-02-14,"Sudbury, Ontario",178,81,R,j/johnsry02
+1444,Brett Lernout,1995-09-24,"Winnipeg, Manitoba",193,97,R,l/lernobr01
+1445,Charlie Lindgren,1993-12-18,"Lakeville, Minnesota",185,82,None,l/lindgch01
+1446,Michael McCarron,1995-03-07,"Grosse Pointe, Michigan",198,105,R,m/mccarmi01
+1447,Justin Bailey,1995-07-01,"Buffalo, New York",193,97,R,b/baileju01
+1448,Daniel Catenacci,1993-03-09,"Richmond Hill, Ontario",178,87,L,c/catenda01
+1449,Jack Eichel,1996-10-28,"North Chelmsford, Massachusetts",188,96,R,e/eicheja01
+1450,Hudson Fasching,1995-07-28,"Milwaukee, Wisconsin",190,92,R,f/faschhu01
+1451,Jason Kasdorf,1992-05-18,"Winnipeg, Manitoba",190,78,None,k/kasdoja01
+1452,Casey Nelson,1992-07-18,"Wisconsin Rapids, Wisconsin",185,83,R,n/nelsoca01
+1453,Cal O'Reilly,1986-09-30,"Toronto, Ontario",183,84,L,o/oreilca01
+1454,Evan Rodrigues,1993-07-28,"Toronto, Ontario",180,83,R,r/rodriev01
+1455,Cole Schneider,1990-08-26,"Williamsville, New York",188,89,L,s/schneco02
+1456,Linus Ullmark,1993-07-31,"Lugnvik, Sweden",193,97,None,u/ullmali01
+1457,Chase De Leo,1995-10-25,"La Mirada, California",175,83,L,d/deleoch01
+1458,Nikolaj Ehlers,1996-02-14,"Aalborg, Denmark",183,78,L,e/ehlerni01
+1459,Connor Hellebuyck,1993-05-19,"Commerce, Michigan",193,93,None,h/helleco01
+1460,Scott Kosmachuk,1994-01-24,"Richmond Hill, Ontario",180,83,R,k/kosmasc01
+1461,J.C. Lipon,1993-07-10,"Regina, Saskatchewan",183,86,R,l/liponj.01
+1462,Josh Morrissey,1995-03-28,"Calgary, Alberta",183,88,L,m/morrijo04
+1463,Nic Petan,1995-03-22,"Delta, British Columbia",175,79,L,p/petanni01
+1464,Brandon Tanev,1991-12-31,"Toronto, Ontario",183,81,L,t/tanevbr01
+1465,Laurent Dauphin,1995-03-26,"Repentigny, Quebec",185,85,None,d/dauphla01
+1466,Max Domi,1995-03-02,"Winnipeg, Manitoba",178,87,L,d/domima01
+1467,Niklas Treutle,1991-04-29,"Nuremberg, Germany",185,83,None,t/treutni01
+1468,Turner Elson,1992-09-13,"New Westminster, British Columbia",183,82,L,e/elsontu01
+1469,Garnet Hathaway,1991-11-23,"Kennebunkport, Maine",188,96,R,h/hathaga01
+1470,Oliver Kylington,1997-05-19,"Stockholm, Sweden",183,83,L,k/kylinol01
+1471,Jakub Nakladal,1987-12-30,"Hradec Kralove, Czechoslovakia",188,96,R,n/naklaja01
+1472,Hunter Shinkaruk,1994-10-13,"Calgary, Alberta",178,82,L,s/shinkhu01
+1473,Patrick Sieloff,1994-05-15,"Ann Arbor, Michigan",185,92,L,s/sielopa01
+1474,Oliver Bjorkstrand,1995-04-10,"Herning, Denmark",183,80,R,b/bjorkol01
+1475,Markus Hannikainen,1993-03-26,"Helsinki, Finland",185,90,L,h/hannima01
+1476,Joonas Korpisalo,1994-04-28,"Pori, Finland",190,87,None,k/korpijo01
+1477,Dean Kukan,1993-07-08,"Volketswil, Switzerland",188,84,L,k/kukande01
+1478,Sonny Milano,1996-05-12,"Massapequa, New York",183,92,L,m/milanso01
+1479,Alex Friesen,1991-01-30,"St. Catharines, Ontario",175,84,L,f/friesal01
+1480,Brendan Gaunce,1994-03-25,"Sudbury, Ontario",188,98,L,g/gauncbr01
+1481,Alexandre Grenier,1991-09-05,"Laval, Quebec",196,90,R,g/grenial01
+1482,Ben Hutton,1993-04-20,"Brockville, Ontario",188,93,L,h/huttobe01
+1483,Jared McCann,1996-05-31,"Stratford, Ontario",185,83,L,m/mccanja01
+1484,Andrey Pedan,1993-07-03,"Kaunas, Lithuania",196,96,L,p/pedanan01
+1485,Nikita Tryamkin,1994-08-30,"Yekaterinburg, Russian Federation",201,120,L,t/tryamni01
+1486,Jake Virtanen,1996-08-17,"Langley, British Columbia",185,102,R,v/virtaja01
+1487,Jujhar Khaira,1994-08-13,"Surrey, British Columbia",193,96,L,k/khairju01
+1488,Connor McDavid,1997-01-13,"Richmond Hill, Ontario",185,87,L,m/mcdavco01
+1489,Anton Slepyshev,1994-05-13,"Penza, Russian Federation",188,100,R,s/slepyan01
+1490,Connor Brown,1994-01-14,"Toronto, Ontario",183,83,R,b/brownco02
+1491,Byron Froese,1991-03-12,"Winkler, Manitoba",185,91,R,f/froesby01
+1492,Frederik Gauthier,1995-04-26,"Laval, Quebec",196,108,L,g/gauthfr01
+1493,Zach Hyman,1992-06-09,"Toronto, Ontario",185,95,R,h/hymanza01
+1494,Kasperi Kapanen,1996-07-23,"Kuopio, Finland",185,87,R,k/kapanka01
+1495,Brendan Leipsic,1994-05-19,"Winnipeg, Manitoba",178,81,L,l/leipsbr01
+1496,Tobias Lindberg,1995-07-22,"Stockholm, Sweden",190,97,L,l/lindbto01
+1497,Viktor Loov,1992-11-16,"Sodertalje, Sweden",185,96,L,l/loovvi01
+1498,William Nylander,1996-05-01,"Calgary, Alberta",183,88,R,n/nylanwi01
+1499,Nikita Soshnikov,1993-10-14,"Nizhny Tagil, Russian Federation",180,83,L,s/soshnni01
+1500,Garret Sparks,1993-06-28,"Elmhurst, Illinois",190,92,None,s/sparkga01
+1501,Rinat Valiev,1995-05-11,"Nizhnekamsk, Russian Federation",190,97,L,v/valieri01
+1502,Riley Barber,1994-02-07,"Pittsburgh, Pennsylvania",183,89,R,b/barberi01
+1503,Garrett Mitchell,1991-09-02,"Regina, Saskatchewan",180,83,R,m/mitchga01
+1504,Zach Sanford,1994-11-09,"Salem, Massachusetts",193,93,L,s/sanfoza01
+1505,Jakub Vrana,1996-02-28,"Prague, Czech Republic",183,88,L,v/vranaja01
+1506,Jean-Sebastien Dea,1994-02-08,"Laval, Quebec",180,76,R,d/deaje01
+1507,Jake Guentzel,1994-10-06,"Omaha, Nebraska",180,81,L,g/guentja01
+1508,Tristan Jarry,1995-04-29,"Surrey, British Columbia",188,87,None,j/jarrytr01
+1509,Carter Rowney,1989-05-10,"Grand Prairie, Alberta",185,94,R,r/rowneca01
+1510,Gustav Forsling,1996-06-12,"Linkoping, Sweden",183,84,L,f/forslgu02
+1511,John Hayden,1995-02-14,"Chicago, Illinois",190,101,R,h/haydejo01
+1512,Michal Kempny,1990-09-08,"Hodonin, Czechoslovakia",185,88,L,k/kempnmi01
+1513,Tyler Motte,1995-03-10,"St. Clair, Michigan",178,87,L,m/mottety01
+1514,Nick Schmaltz,1996-02-23,"Madison, Wisconsin",183,80,R,s/schmani01
+1515,Gabriel Carlsson,1997-01-02,"Orebro, Sweden",196,92,L,c/carlsga01
+1516,Markus Nutivaara,1994-06-06,"Oulu, Finland",185,84,L,n/nutivma01
+1517,Lukas Sedlak,1993-02-25,"Ceske Budejovice, Czech Republic",183,92,L,s/sedlalu01
+1518,T.J. Tynan,1992-02-25,"Orland Park, Illinois",173,74,R,t/tynant.01
+1519,Zach Werenski,1997-07-19,"Grosse Pointe, Michigan",188,98,L,w/werenza01
+1520,Patrick Cannone,1986-08-09,"Bayport, New York",180,87,R,c/cannopa01
+1521,Joel Eriksson Ek,1997-01-29,"Karlstad, Sweden",185,94,L,e/eriksjo02
+1522,Zack Mitchell,1993-01-07,"Orangeville, Ontario",185,88,R,m/mitchza01
+1523,Alex Tuch,1996-05-10,"Syracuse, New York",193,100,R,t/tuchal01
+1524,Joseph Cramarossa,1992-10-26,"Toronto, Ontario",183,85,L,c/cramajo01
+1525,Ondrej Kase,1995-11-08,"Kadan, Czech Republic",183,86,R,k/kaseon01
+1526,Nicolas Kerdiles,1994-01-11,"Lewisville, Texas",188,90,L,k/kerdini01
+1527,Kalle Kossila,1993-04-14,"Kauniainen, Finland",178,83,L,k/kossika01
+1528,Jacob Larsson,1997-04-29,"Ljungby, Sweden",190,91,L,l/larssja01
+1529,Jaycob Megna,1992-12-10,"Plantation, Florida",198,99,L,m/megnaja02
+1530,Brandon Montour,1994-04-11,"Brantford, Ontario",183,87,R,m/montobr01
+1531,Nick Sorensen,1994-10-23,"Farevejle, Denmark",185,82,R,s/sorenni01
+1532,Matt Benning,1994-05-25,"Edmonton, Alberta",185,91,R,b/bennima01
+1533,Drake Caggiula,1994-06-20,"Pickering, Ontario",178,79,L,c/caggidr01
+1534,Jesse Puljujarvi,1998-05-07,"Alvkarleby, Sweden",193,91,R,p/puljuje01
+1535,Dillon Simpson,1993-02-10,"Edmonton, Alberta",188,92,L,s/simpsdi01
+1536,Artturi Lehkonen,1995-07-04,"Piikkio, Finland",183,79,L,l/lehkoar01
+1537,Alexander Radulov,1986-07-05,"Nizhny Tagil, USSR",185,90,L,r/radulal01
+1538,Nikita Scherbak,1995-12-30,"Moscow, Russian Federation",188,87,L,s/scherni01
+1539,Mikhail Sergachev,1998-06-25,"Nizhnekamsk, Russian Federation",190,97,L,s/sergami01
+1540,Pavel Buchnevich,1995-04-17,"Cherepovets, Russian Federation",190,88,L,b/buchnpa01
+1541,Boo Nieves,1994-01-23,"Syracuse, New York",190,95,L,n/nievecr01
+1542,Jimmy Vesey,1993-05-26,"Boston, Massachusetts",190,91,L,v/veseyji02
+1543,Ivan Barbashev,1995-12-14,"Moscow, Russian Federation",183,84,L,b/barbaiv01
+1544,Wade Megan,1990-07-22,"Canton, New York",185,86,L,m/meganwa01
+1545,Jordan Schmaltz,1993-10-08,"Madison, Wisconsin",188,88,R,s/schmajo01
+1546,Aaron Dell,1989-05-04,"Airdrie, Alberta",183,94,None,d/dellaa01
+1547,Tim Heed,1991-01-27,"Gothenburg, Sweden",180,81,R,h/heedti01
+1548,Kevin Labanc,1995-12-12,"Brooklyn, New York",180,83,R,l/labanke01
+1549,Timo Meier,1996-10-08,"Herisau, Switzerland",183,95,L,m/meierti01
+1550,Danny O'Regan,1994-01-30,"Berlin, Germany",175,79,R,o/oregada01
+1551,Marcus Sorensen,1992-04-07,"Sodertalje, Sweden",180,79,L,s/sorenma01
+1552,Thomas Chabot,1997-01-30,"Sainte-Marie, Quebec",188,86,L,c/chaboth01
+1553,Christopher Didomenico,1989-02-20,"Toronto, Ontario",180,78,R,d/didomch01
+1554,Andreas Englund,1996-01-21,"Stockholm, Sweden",190,85,L,e/engluan01
+1555,Colin White,1997-01-30,"Boston, Massachusetts",185,89,R,w/whiteco02
+1556,Bruce Cassidy,1965-05-20,"Ottawa, Ontario",180,79,L,/coaches/cassibr01c.html
+1557,Anton Blidh,1995-03-14,"Molnlycke, Sweden",183,83,L,b/blidhan01
+1558,Brandon Carlo,1996-11-26,"Colorado Springs, Colorado",196,96,R,c/carlobr01
+1559,Peter Cehlarik,1995-08-02,"Zilina, Slovakia",188,91,L,c/cehlape01
+1560,Austin Czarnik,1992-12-12,"Detroit, Michigan",175,77,R,c/czarnau01
+1561,Jakob Forsbacka Karlsson,1996-10-31,"Stockholm, Sweden",185,83,R,f/forsbja01
+1562,Matt Grzelcyk,1994-01-05,"Charlestown, Massachusetts",175,78,L,g/grzelma01
+1563,Danton Heinen,1995-07-05,"Langley, British Columbia",185,85,L,h/heineda01
+1564,Sean Kuraly,1993-01-20,"Dublin, Ohio",188,96,L,k/kuralse01
+1565,Zane McIntyre,1992-08-20,"Grand Forks, North Dakota",188,93,None,m/mcintza01
+1566,Rob O'Gara,1993-07-06,"Massapequa, New York",193,97,L,o/ogararo01
+1567,Antoine Bibeau,1994-05-01,"Victoriaville, Quebec",190,92,None,b/bibeaan01
+1568,Mitch Marner,1997-05-05,"Markham, Ontario",183,79,R,m/marnemi01
+1569,Auston Matthews,1997-09-17,"San Ramon, California",190,99,L,m/matthau01
+1570,Nikita Zaitsev,1991-10-29,"Moscow, USSR",188,90,R,z/zaitsni01
+1571,Doug Weight,1971-01-21,"Warren, United States",180,91,L,/coaches/weighdo01c.html
+1572,Mathew Barzal,1997-05-26,"Coquitlam, British Columbia",185,84,R,b/barzama01
+1573,Anthony Beauvillier,1997-06-08,"Sorel-Tracy, Quebec",180,81,L,b/beauvan01
+1574,Joshua Ho-Sang,1996-01-22,"Toronto, Ontario",183,78,R,h/hosanjo01
+1575,Connor Jones,1990-08-16,"Montrose, British Columbia",178,80,L,j/jonesco01
+1576,Jake Dotchin,1994-03-24,"Cambridge, Ontario",190,95,R,d/dotchja01
+1577,Adam Erne,1995-04-20,"New Haven, Connecticut",185,96,L,e/ernead01
+1578,Matthew Peca,1993-04-27,"Petawawa, Ontario",173,82,L,p/pecama01
+1579,Brayden Point,1996-03-13,"Calgary, Alberta",180,83,R,p/pointbr01
+1580,Tanner Richard,1993-04-06,"Markham, Ontario",183,87,L,r/richata01
+1581,Pontus Aberg,1993-09-23,"Stockholm, Sweden",183,87,R,a/abergpo01
+1582,Alexandre Carrier,1996-10-08,"Quebec City, Quebec",180,78,R,c/carrial01
+1583,Frederick Gaudreau,1993-05-01,"Bromont, Quebec",183,81,R,g/gaudrfr01
+1584,Vladislav Kamenev,1996-08-12,"Orsk, Russian Federation",188,87,L,k/kamenvl01
+1585,Michael Liambas,1989-02-16,"Toronto, Ontario",178,88,L,l/liambmi01
+1586,Rasmus Andersson,1996-10-27,"Malmo, Sweden",185,97,R,a/anderra01
+1587,Jon Gillies,1994-01-22,"Concord, New Hampshire",198,101,None,g/gillijo01
+1588,Mark Jankowski,1994-09-13,"Hamilton, Ontario",193,96,L,j/jankoma01
+1589,David Rittich,1992-08-19,"Jihlava, Czechoslovakia",190,93,None,r/rittida01
+1590,Matthew Tkachuk,1997-12-11,"Scottsdale, Arizona",188,91,L,t/tkachma01
+1591,Robert Hagg,1995-02-08,"Uppsala, Sweden",188,92,L,h/haggro01
+1592,Travis Konecny,1997-03-11,"London, Ontario",178,84,R,k/konectr01
+1593,Roman Lyubimov,1992-01-06,"Tver, Russian Federation",188,93,R,l/lyubiro01
+1594,Samuel Morin,1995-07-12,"Lac-Beauport, Quebec",198,104,L,m/morinsa01
+1595,Ivan Provorov,1997-01-13,"Yaroslavl, Russian Federation",185,97,L,p/provoiv01
+1596,Anthony Stolarz,1994-01-20,"Edison, New Jersey",198,110,None,s/stolaan01
+1597,Mike Vecchione,1993-02-25,"Saugus, Massachusetts",178,87,R,v/vecchmi01
+1598,Sebastian Aho,1997-07-26,"Rauma, Finland",183,78,L,a/ahose01
+1599,Jorge Alves,1979-01-30,None,None,None,L,a/alvesjo01
+1600,Martin Frk,1993-10-05,"Pelhrimov, Czech Republic",185,92,R,f/frkma01
+1601,Alex Nedeljkovic,1996-01-07,"Parma, Ohio",183,85,None,n/nedelal01
+1602,Andrew Poturalski,1994-01-14,"Williamsville, New York",178,83,R,p/poturan01
+1603,Lucas Wallmark,1995-09-05,"Umea, Sweden",183,80,L,w/wallmlu01
+1604,Valentin Zykov,1995-05-15,"St. Petersburg, Russian Federation",183,90,R,z/zykovva01
+1605,Eric Comrie,1995-07-06,"Edmonton, Alberta",185,81,None,c/comrier01
+1606,Kyle Connor,1996-12-09,"Shelby Township, Michigan",185,83,L,c/connoky01
+1607,Patrik Laine,1998-04-19,"Tampere, Finland",196,95,R,l/lainepa01
+1608,Nelson Nogier,1996-05-27,"Saskatoon, Saskatchewan",190,93,R,n/nogiene01
+1609,Jack Roslovic,1997-01-29,"Columbus, Ohio",185,84,R,r/rosloja01
+1610,Jonny Brodzinski,1993-06-19,"Ham Lake, Minnesota",185,97,R,b/brodzjo01
+1611,Adrian Kempe,1996-09-13,"Kramfors, Sweden",188,92,L,k/kempead01
+1612,Paul Ladue,1992-09-06,"Grand Forks, North Dakota",190,90,R,l/laduepa01
+1613,Tom Rowe,1956-05-23,"Lynn, United States",183,86,R,/coaches/roweto01c.html
+1614,Shane Harper,1989-02-01,"Valencia, California",180,87,R,h/harpesh01
+1615,Denis Malgin,1997-01-18,"Olten, Switzerland",175,80,R,m/malgide01
+1616,Ian McCoshen,1995-08-05,"Anaheim, California",190,98,L,m/mccosia01
+1617,MacKenzie Weegar,1994-01-07,"Ottawa, Ontario",183,90,R,w/weegama01
+1618,Tyler Bertuzzi,1995-02-24,"Sudbury, Ontario",185,90,L,b/bertuty01
+1619,Jared Coreau,1991-11-05,"Perth, Ontario",196,97,None,c/coreaja01
+1620,Nick Jensen,1990-09-21,"Rogers, Minnesota",185,92,R,j/jenseni02
+1621,Matthew Lorito,1990-07-03,"Oakville, Ontario",175,77,L,l/loritma01
+1622,Dan Renouf,1994-06-01,"Pickering, Ontario",190,89,L,r/renouda01
+1623,Robbie Russo,1993-02-15,"Westmont, Illinois",183,86,R,r/russoro01
+1624,Evgeny Svechnikov,1996-10-31,"Yuzhno-Sakhalinsk, Russian Federation",190,93,L,s/svechev01
+1625,Justin Dowling,1990-10-01,"Calgary, Alberta",178,81,L,d/dowliju01
+1626,Remi Elie,1995-04-16,"Cornwall, Ontario",185,97,L,e/eliere01
+1627,Denis Gurianov,1997-06-07,"Togliatti, Russian Federation",190,88,L,g/guriade01
+1628,Julius Honka,1995-12-03,"Jyvaskyla, Finland",180,81,R,h/honkaju01
+1629,Gemel Smith,1994-04-16,"Toronto, Ontario",178,92,L,s/smithge02
+1630,Brady Austin,1993-06-16,"Bobcaygeon, Ontario",193,103,L,a/austibr01
+1631,Nicholas Baptiste,1995-08-04,"Ottawa, Ontario",185,92,R,b/baptini01
+1632,Erik Burgdoerfer,1988-12-11,"Abington, Pennsylvania",185,93,R,b/burgder01
+1633,William Carrier,1994-12-20,"LaSalle, Quebec",188,98,L,c/carriwi01
+1634,Brendan Guhle,1997-07-29,"Edmonton, Alberta",188,86,L,g/guhlebr01
+1635,Sean Malone,1995-04-30,"Buffalo, New York",183,89,L,m/malonse01
+1636,Alexander Nylander,1998-03-02,"Calgary, Alberta",185,87,R,n/nylanal01
+1637,C.J. Smith,1994-12-01,"Des Moines, Iowa",180,83,L,s/smithcj01
+1638,Yohann Auvitu,1989-07-27,"Ivry-sur-Seine, France",180,84,L,a/auvityo01
+1639,Blake Coleman,1991-11-28,"Plano, Texas",180,93,L,c/colembl01
+1640,Michael Kapla,1994-09-19,"Eau Claire, Wisconsin",183,91,L,k/kaplami01
+1641,Nick Lappin,1992-11-01,"Geneva, Illinois",185,79,R,l/lappini01
+1642,John Quenneville,1996-04-16,"Edmonton, Alberta",185,88,L,q/quennjo02
+1643,Kevin Rooney,1993-05-21,"Canton, Massachusetts",188,86,L,r/rooneke01
+1644,Blake Speers,1997-01-02,"Sault Ste. Marie, Ontario",180,83,R,s/speerbl01
+1645,Ben Thomson,1993-01-16,"Brampton, Ontario",190,97,L,t/thomsbe01
+1646,Jakob Chychrun,1998-03-31,"Boca Raton, Florida",188,95,L,c/chychja01
+1647,Lawson Crouse,1997-06-23,"Mt. Brydges, Ontario",193,99,L,c/crousla01
+1648,Anthony DeAngelo,1995-10-24,"Sewell, New Jersey",180,81,R,d/deangan01
+1649,Christian Dvorak,1996-02-02,"Palos, Illinois",183,88,L,d/dvorach01
+1650,Christian Fischer,1997-04-15,"Chicago, Illinois",188,97,R,f/fischch01
+1651,Clayton Keller,1998-07-29,"Chesterfield, Missouri",178,77,L,k/kellecl01
+1652,Marek Langhamer,1994-07-22,"Moravska Trebova, Czech Republic",188,86,None,l/langhma01
+1653,Brendan Perlini,1996-04-27,"Guildford, United Kingdom",190,95,L,p/perlibr01
+1654,Dylan Strome,1997-03-07,"Mississauga, Ontario",190,90,L,s/stromdy01
+1655,Brock Boeser,1997-02-25,"Burnsville, Minnesota",185,94,R,b/boesebr01
+1656,Joseph Labate,1993-04-16,"Burnsville, Minnesota",196,96,L,l/labatjo01
+1657,Evan McEneny,1994-05-22,"Hamilton, Ontario",188,92,L,m/mceneev01
+1658,Griffen Molino,1994-01-21,"Trenton, Michigan",180,77,L,m/molingr01
+1659,Anton Rodin,1990-11-21,"Stockholm, Sweden",183,84,L,r/rodinan01
+1660,Troy Stecher,1994-04-07,"Richmond, British Columbia",178,84,R,s/stechtr01
+1661,Jared Bednar,1972-02-28,"Yorkton, Saskatchewan",190,92,None,/coaches/bednaja99c.html
+1662,J.T. Compher,1995-04-08,"Northbrook, Illinois",183,86,R,c/comphj.01
+1663,A.J. Greer,1996-12-14,"Joliette, Quebec",190,95,L,g/greeraj01
+1664,Samuel Henley,1993-07-25,"Val-d'Or, Quebec",193,95,L,h/henlesa01
+1665,Tyson Jost,1998-03-14,"St. Albert, Alberta",180,84,L,j/jostty01
+1666,Anton Lindholm,1994-11-29,"Skelleftea, Sweden",180,86,L,l/lindhan01
+1667,Spencer Martin,1995-06-08,"Oakville, Ontario",190,86,None,m/martisp01
+1668,Jeremy Smith,1989-04-13,"Dearborn, Michigan",185,80,None,s/smithje02
+1669,Samuel Girard,1998-05-12,"Roberval, Quebec",178,77,L,g/girarsa01
+1670,Eeli Tolvanen,1999-04-22,"Vihti, Finland",178,86,L,t/tolvaee01
+1671,Brendan Lemieux,1996-03-15,"Denver, Colorado",185,97,L,l/lemiebr01
+1672,Sami Niku,1996-10-10,"Haapavesi, Finland",185,87,L,n/nikusa01
+1673,Tucker Poolman,1993-06-08,"Dubuque, Iowa",188,90,R,p/poolmtu01
+1674,Anthony Cirelli,1997-07-15,"Etobicoke, Ontario",183,86,L,c/cirelan01
+1675,Anders Bjork,1996-08-05,"Mequon, Wisconsin",183,89,L,b/bjorkan01
+1676,Colby Cave,1994-12-26,"Battleford, Saskatchewan",185,90,L,c/caveco01
+1677,Jake DeBrusk,1996-10-17,"Edmonton, Alberta",183,85,L,d/debruja01
+1678,Ryan Donato,1996-04-09,"Boston, Massachusetts",183,87,L,d/donatry01
+1679,Charlie McAvoy,1997-12-21,"Long Beach, New York",183,94,R,m/mcavoch01
+1680,Oscar Dansk,1994-02-28,"Stockholm, Sweden",190,88,None,d/danskos01
+1681,Dylan Ferguson,1998-09-20,"Lantzville, British Columbia",188,83,L,f/fergudy01
+1682,Tomas Hyka,1993-03-23,"Mlada Boleslav, Czech Republic",180,72,R,h/hykato01
+1683,Maxime Lagace,1993-01-12,"Saint-Augustin, Quebec",188,86,None,l/lagacma01
+1684,Vadim Shipachyov,1987-03-12,"Cherepovets, USSR",183,84,L,s/shipava01
+1685,Zach Whitecloud,1996-11-28,"Brandon, Manitoba",188,94,R,w/whiteza01
+1686,Madison Bowey,1995-04-22,"Winnipeg, Manitoba",188,91,R,b/boweyma01
+1687,Travis Boyd,1993-09-14,"Hopkins, Minnesota",183,86,R,b/boydtr01
+1688,Christian Djoos,1994-08-06,"Gothenburg, Sweden",183,76,L,d/djoosch01
+1689,Shane Gersich,1996-07-10,"Chaska, Minnesota",180,81,L,g/gersish01
+1690,Jakub Jerabek,1991-05-12,"Pilsen, Czechoslovakia",180,90,L,j/jerabja01
+1691,Nathan Walker,1994-02-07,"Cardiff, United Kingdom",175,84,L,w/walkena01
+1692,Andreas Borgman,1995-06-18,"Stockholm, Sweden",183,90,L,b/borgman01
+1693,Travis Dermott,1996-12-22,"Newmarket, Ontario",183,92,L,d/dermotr01
+1694,Justin Holl,1992-01-30,"Tonka Bay, Minnesota",193,95,R,h/hollju01
+1695,Andreas Johnsson,1994-11-21,"Gavle, Sweden",178,87,L,j/johnsan01
+1696,Calle Rosen,1994-02-02,"Vaxjo, Sweden",185,84,L,r/rosenca01
+1697,Giovanni Fiore,1996-08-13,"Laval, Quebec",185,85,L,f/fioregi01
+1698,Marcus Pettersson,1996-05-08,"Skelleftea, Sweden",190,80,L,p/pettema01
+1699,Kevin Roy,1993-05-20,"Greenfield Park, Quebec",175,77,L,r/royke01
+1700,Troy Terry,1997-09-10,"Denver, Colorado",183,83,R,t/terrytr01
+1701,Andy Welinski,1993-04-27,"Duluth, Minnesota",185,91,R,w/welinan01
+1702,Louis Belpedio,1996-05-14,"Skokie, Illinois",180,86,R,b/belpelo01
+1703,Jordan Greenway,1997-02-16,"Canton, New York",198,102,L,g/greenjo02
+1704,Justin Kloos,1993-11-30,"Lakeville, Minnesota",175,81,R,k/kloosju01
+1705,Luke Kunin,1997-12-04,"Chesterfield, Missouri",183,88,R,k/kuninlu01
+1706,Nick Seeler,1993-06-03,"Eden Prairie, Minnesota",188,91,L,s/seeleni01
+1707,Carson Soucy,1994-07-27,"Viking, Alberta",196,95,L,s/soucyca01
+1708,Dylan Gambrell,1996-08-26,"Bonney Lake, Washington",183,84,R,g/gambrdy01
+1709,Joakim Ryan,1993-06-17,"Rumson, New Jersey",180,83,L,r/ryanjo02
+1710,Zach Aston-Reese,1994-08-10,"Staten Island, New York",183,92,L,a/astonza01
+1711,Casey DeSmith,1991-08-13,"Rochester, New Hampshire",183,81,None,d/desmica01
+1712,Tyrell Goulbourne,1994-01-26,"Edmonton, Alberta",183,90,L,g/goulbty01
+1713,Oskar Lindblom,1996-08-15,"Gavle, Sweden",185,86,L,l/lindbos01
+1714,Alex Lyon,1992-12-09,"Baudette, Minnesota",185,91,None,l/lyonal01
+1715,Danick Martel,1994-12-12,"Drummondville, Quebec",173,79,L,m/marteda01
+1716,Will O'Neill,1988-04-28,"Boston, Massachusetts",185,86,L,o/oneilwi01
+1717,Nolan Patrick,1998-09-19,"Winnipeg, Manitoba",188,89,R,p/patrino01
+1718,Travis Sanheim,1996-03-29,"Elkhorn, Manitoba",190,94,L,s/sanhetr01
+1719,John Stevens,1966-05-04,"Campbellton, New Brunswick",185,88,L,/coaches/stevejo01c.html
+1720,Michael Amadio,1996-05-13,"Sault Ste. Marie, Ontario",185,92,R,a/amadimi01
+1721,Justin Auger,1994-05-14,"Kitchener, Ontario",201,103,R,a/augerju01
+1722,Daniel Brickley,1995-03-30,"Sandy, Utah",190,92,L,b/brickda01
+1723,Andrew Crescenzi,1992-07-29,"Thornhill, Ontario",193,90,L,c/crescan01
+1724,Oscar Fantenberg,1991-10-07,"Ljungby, Sweden",183,93,L,f/fanteos01
+1725,Alex Iafallo,1993-12-21,"Eden, New York",183,86,L,i/iafalal01
+1726,Kurtis MacDermid,1994-03-25,"Sauble Beach, Ontario",196,105,L,m/macdeku01
+1727,Kenneth Appleby,1995-04-10,"North Bay, Ontario",196,97,None,a/appleke01
+1728,Jesper Bratt,1998-07-30,"Stockholm, Sweden",178,79,L,b/brattje01
+1729,Will Butcher,1995-01-06,"Sun Prairie, Wisconsin",178,86,L,b/butchwi01
+1730,Nico Hischier,1999-01-04,"Brig, Switzerland",185,79,L,h/hischni01
+1731,Alex Broadhurst,1993-03-07,"New Lenox, Illinois",183,80,L,b/broadal01
+1732,Pierre-Luc Dubois,1998-06-24,"Ste-Agathe-Des-Monts, Quebec",190,98,L,d/duboipi01
+1733,Eric Robinson,1995-06-14,"Bellmawr, New Jersey",188,90,L,r/robiner01
+1734,Bob Boughner,1971-03-08,"Windsor, Ontario",183,92,R,/coaches/boughbo01c.html
+1735,Chase Balisy,1992-02-02,"Fullerton, California",180,81,L,b/balisch01
+1736,Henrik Borgstrom,1997-08-06,"Helsinki, Finland",190,86,L,b/borgshe01
+1737,Evgenii Dadonov,1989-03-12,"Chelyabinsk, USSR",180,83,L,d/dadonev01
+1738,Henrik Haapala,1994-02-28,"Lempaala, Finland",175,74,L,h/haapahe01
+1739,Dryden Hunt,1995-11-24,"Cranbrook, British Columbia",183,87,L,h/huntdr01
+1740,Maxim Mamin,1995-01-13,"Moscow, Russian Federation",188,93,L,m/maminma01
+1741,Harri Sateri,1989-12-29,"Toijala, Finland",185,92,None,s/saterha01
+1742,Owen Tippett,1999-02-16,"Peterborough, Ontario",185,93,R,t/tippeow01
+1743,Curtis Valk,1993-02-08,"Medicine Hat, Alberta",175,75,L,v/valkcu01
+1744,Alexander Kerfoot,1994-08-11,"Vancouver, British Columbia",178,83,L,k/kerfoal01
+1745,Andrei Mironov,1994-07-29,"Moscow, Russian Federation",190,87,L,m/mironan01
+1746,Dominic Toninato,1994-03-09,"Duluth, Minnesota",188,91,L,t/tonindo01
+1747,Sammy Blais,1996-06-17,"Montmagny, Quebec",188,92,L,b/blaissa01
+1748,Vince Dunn,1996-10-29,"Mississauga, Ontario",183,92,L,d/dunnvi02
+1749,Mitch Reinke,1996-02-04,"Stillwater, Minnesota",180,82,R,r/reinkmi01
+1750,Tage Thompson,1997-10-30,"Phoenix, Arizona",201,99,R,t/thompta01
+1751,Dillon Heatherington,1995-05-09,"Calgary, Alberta",193,99,L,h/heathdi01
+1752,Spencer Foo,1994-05-19,"St. Albert, Alberta",183,86,R,f/foosp01
+1753,Morgan Klimchuk,1995-03-02,"Calgary, Alberta",180,81,L,k/klimcmo01
+1754,Ryan Lomberg,1994-09-12,"Richmond Hill, Ontario",175,84,L,l/lombery01
+1755,Andrew Mangiapane,1996-04-04,"Toronto, Ontario",178,83,L,m/mangian01
+1756,Haydn Fleury,1996-07-08,"Carlyle, Saskatchewan",190,94,L,f/fleurha01
+1757,Warren Foegele,1996-04-01,"Markham, Ontario",188,89,L,f/foegewa01
+1758,Janne Kuokkanen,1998-05-25,"Oulunsalo, Finland",185,87,L,k/kuokkja01
+1759,Roland McKeown,1996-01-20,"Listowel, Ontario",185,88,R,m/mckeoro01
+1760,Martin Necas,1999-01-15,"Nove Mesto na Morave, Czech Republic",190,86,R,n/necasma01
+1761,Nicolas Roy,1997-02-05,"Amos, Quebec",193,92,R,r/royni01
+1762,Sebastian Aho,1996-02-17,"Umea, Sweden",180,83,L,a/ahose02
+1763,Michael Dal Colle,1996-06-20,"Woodbridge, Ontario",190,88,L,d/dalcomi01
+1764,Tanner Fritz,1991-08-20,"Grande Prairie, Alberta",180,87,R,f/fritzta01
+1765,Ethan Bear,1997-06-26,"Regina, Saskatchewan",180,89,R,b/bearet01
+1766,Kailer Yamamoto,1998-09-29,"Spokane, Washington",173,69,R,y/yamamka01
+1767,Lias Andersson,1998-10-13,"Smogen, Sweden",180,86,L,a/anderli01
+1768,Filip Chytil,1999-09-05,"Kromeriz, Czech Republic",188,93,L,c/chytifi01
+1769,Steven Fogarty,1993-04-19,"Chambersburg, Pennsylvania",190,92,R,f/fogarst01
+1770,Alexandar Georgiev,1996-02-10,"Ruse, Bulgaria",185,80,L,g/georgal01
+1771,John Gilmour,1993-05-17,"Montreal, Quebec",183,88,L,g/gilmojo01
+1772,Brandon Halverson,1996-03-29,"Traverse City, Michigan",193,95,L,h/halvebr01
+1773,Vinni Lettieri,1995-02-06,"Excelsior, Minnesota",175,78,R,l/lettivi01
+1774,Neal Pionk,1995-07-29,"Omaha, Nebraska",183,86,R,p/pionkne01
+1775,Carl Dahlstrom,1995-01-28,"Stockholm, Sweden",193,100,L,d/dahlsca01
+1776,Alex DeBrincat,1997-12-18,"Farmington Hills, Michigan",170,74,R,d/debrial01
+1777,Collin Delia,1994-06-20,"Rancho Cucamonga, California",188,94,None,d/deliaco01
+1778,Victor Ejdsell,1995-06-06,"Karlstad, Sweden",196,97,L,e/ejdsevi01
+1779,Scott Foster,1982-01-17,"Sarnia, Ontario",183,83,None,f/fostesc01
+1780,Jeff Glass,1985-11-19,"Calgary, Alberta",190,93,None,g/glassje01
+1781,Matthew Highmore,1996-02-27,"Halifax, Nova Scotia",180,85,L,h/highmma01
+1782,Blake Hillman,1996-01-26,"Elk River, Minnesota",185,81,L,h/hillmbl01
+1783,David Kampf,1995-01-12,"Chomutov, Czech Republic",188,85,L,k/kampfda01
+1784,Jan Rutta,1990-07-29,"Pisek, Czechoslovakia",190,92,R,r/ruttaja02
+1785,Dylan Sikura,1995-06-01,"Aurora, Ontario",180,77,L,s/sikurdy01
+1786,Joe Hicketts,1996-05-04,"Kamloops, British Columbia",173,81,L,h/hickejo01
+1787,Dominic Turgeon,1996-02-25,"Pointe-Claire, Quebec",188,90,L,t/turgedo01
+1788,Travis Green,1970-12-20,"Castlegar, British Columbia",185,92,R,/coaches/greentr01c.html
+1789,Thatcher Demko,1995-12-08,"San Diego, California",193,87,L,d/demkoth01
+1790,Adam Gaudette,1996-10-03,"Braintree, Massachusetts",185,77,R,g/gaudead01
+1791,Philip Holm,1991-12-08,"Stockholm, Sweden",185,86,L,h/holmph01
+1792,Ashton Sautner,1994-05-27,"Flin Flon, Manitoba",185,88,L,s/sautnas01
+1793,Noah Juulsen,1997-04-02,"Surrey, British Columbia",188,91,R,j/juulsno01
+1794,Victor Mete,1998-06-07,"Woodbridge, Ontario",175,83,L,m/metevi01
+1795,Rick Tocchet,1964-04-09,"Scarborough, Ontario",183,95,R,/coaches/tocchri01c.html
+1796,Kyle Capobianco,1997-08-13,"Mississauga, Ontario",185,88,L,c/capobky01
+1797,Adin Hill,1996-05-11,"Comox, British Columbia",198,90,L,h/hillad01
+1798,Mario Kempe,1988-09-19,"Kramfors, Sweden",183,83,L,k/kempema01
+1799,Nicholas Merkley,1997-05-23,"Calgary, Alberta",178,88,R,m/merklni01
+1800,Dakota Mermis,1994-01-05,"Alton, Illinois",183,88,L,m/mermida01
+1801,Trevor Murphy,1995-07-17,"Windsor, Ontario",178,81,L,m/murphtr01
+1802,Logan Brown,1998-03-05,"Raleigh, North Carolina",198,98,L,b/brownlo01
+1803,Filip Chlapik,1997-06-03,"Prague, Czech Republic",188,87,L,c/chlapfi01
+1804,Alex Formenton,1999-09-13,"Barrie, Ontario",188,83,L,f/formeal01
+1805,Christian Jaros,1996-04-02,"Kosice, Slovakia",190,100,R,j/jarosch01
+1806,Jack Rodewald,1994-02-14,"Calgary, Alberta",188,85,R,r/rodewja01
+1807,Ben Sexton,1991-06-06,"Ottawa, Ontario",180,88,R,s/sextobe01
+1808,Christian Wolanin,1995-03-17,"Quebec City, Quebec",188,86,L,w/wolanch01
+1809,Phil Housley,1964-03-09,"St. Paul, United States",178,83,L,/coaches/houslph01c.html
+1810,Victor Antipin,1992-12-06,"Ust-Kamenogorsk, Kazakhstan",180,79,L,a/antipvi01
+1811,Kyle Criscuolo,1992-05-05,"Southampton, New Jersey",173,81,R,c/criscky01
+1812,Casey Mittelstadt,1998-11-22,"Eden Prairie, Minnesota",185,88,L,m/mitteca01
+1813,Adam Wilcox,1992-11-26,"South St. Pau, Minnesota",183,85,None,w/wilcoad01
+1814,Erik Cernak,1997-05-28,"Kosice, Slovakia",190,104,R,c/cernaer01
+1815,Mathieu Joseph,1997-02-09,"Laval, Quebec",185,86,L,j/josepma01
+1816,Eddie Pasquale,1990-11-20,"Toronto, Ontario",188,97,None,p/pasqued01
+1817,Dillon Dube,1998-07-20,"Golden, British Columbia",180,84,L,d/dubedi01
+1818,Juuso Valimaki,1998-10-06,"Tampere, Finland",188,96,L,v/valimju01
+1819,Connor Clifton,1995-04-28,"Long Branch, New Jersey",180,79,R,c/cliftco01
+1820,Trent Frederic,1998-02-11,"St. Louis, Missouri",188,92,L,f/fredetr01
+1821,Karson Kuhlman,1995-09-26,"Esko, Minnesota",180,83,R,k/kuhlmka01
+1822,Jeremy Lauzon,1997-04-28,"Val D'or, Quebec",185,92,L,l/lauzoje01
+1823,Zachary Senyshyn,1997-03-30,"Ottawa, Ontario",185,87,R,s/senysza01
+1824,Urho Vaakanainen,1999-01-01,"Joensuu, Finland",185,83,L,v/vaakaur01
+1825,Jakub Zboril,1997-02-21,"Brno, Czech Republic",183,90,L,z/zborija01
+1826,Todd Reirden,1971-06-25,"Deerfield, United States",196,102,L,/coaches/reirdto01c.html
+1827,Tyler Lewington,1994-12-05,"Edmonton, Alberta",183,87,R,l/lewinty01
+1828,Jonas Siegenthaler,1997-05-06,"Zurich, Switzerland",188,98,L,s/siegejo01
+1829,Devon Toews,1994-02-21,"Abbotsford, British Columbia",185,86,L,t/toewsde01
+1830,Rourke Chartier,1996-04-03,"Saskatoon, Saskatchewan",180,86,L,c/chartro01
+1831,Jacob Middleton,1996-01-02,"Wainwright, Alberta",190,99,L,m/middlja01
+1832,Lukas Radil,1990-08-05,"Caslav, Czechoslovakia",193,90,R,r/radillu01
+1833,Radim Simek,1992-09-20,"Mlada Boleslav, Czechoslovakia",183,90,L,s/simekra01
+1834,Antti Suomela,1994-03-17,"Espoo, Finland",183,81,L,s/suomean01
+1835,Colin Blackwell,1993-03-28,"Lawrence, Massachusetts",175,86,R,b/blackco01
+1836,Dante Fabbro,1998-06-20,"Coquitlam, British Columbia",183,85,R,f/fabbrda01
+1837,Rem Pitlick,1997-04-02,"Plymouth, Minnesota",180,88,L,p/pitlire01
+1838,Anthony Richard,1996-12-20,"Trois-Rivieres, Quebec",178,73,L,r/richaan01
+1839,Par Lindholm,1991-10-05,"Kusmark, Sweden",183,83,L,l/lindhpa01
+1840,Trevor Moore,1995-03-31,"Thousand Oaks, California",178,83,L,m/mooretr01
+1841,Igor Ozhiganov,1992-10-13,"Krasnogorsk, Russian Federation",188,95,R,o/ozhigig01
+1842,Teddy Blueger,1994-08-15,"Riga, Latvia",183,83,L,b/bluegte01
+1843,Adam Johnson,1994-06-22,"Grand Rapids, Minnesota",183,79,L,j/johnsad01
+1844,Juuso Riikola,1993-11-09,"Joensuu, Finland",183,85,L,r/riikoju01
+1845,Rod Brind'Amour,1970-08-09,"Ottawa, Ontario",185,92,L,/coaches/brindro01c.html
+1846,Jake Bean,1998-06-09,"Calgary, Alberta",185,84,L,b/beanja01
+1847,Clark Bishop,1996-03-29,"St. John's, Newfoundland and Labrador",185,90,L,b/bishocl01
+1848,Saku Maenalanen,1994-05-29,"Kemi, Finland",193,93,L,m/maenasa01
+1849,Andrei Svechnikov,2000-03-26,"Barnaul, Russian Federation",188,90,L,s/svechan01
+1850,Jordan Kyrou,1998-05-05,"Toronto, Ontario",183,79,R,k/kyroujo01
+1851,Mackenzie MacEachern,1994-03-09,"Bloomfield Hills, Michigan",188,86,L,m/maceama01
+1852,Robert Thomas,1999-07-02,"Aurora, Ontario",183,85,R,t/thomaro01
+1853,Mason Appleton,1996-01-15,"Green Bay, Wisconsin",188,87,R,a/applema01
+1854,Kristian Vesalainen,1999-06-01,"Helsinki, Finland",190,93,L,v/vesalkr01
+1855,Kole Sherwood,1997-01-22,"Columbus, Ohio",185,96,R,s/sherwko01
+1856,Kevin Stenlund,1996-09-20,"Huddinge, Sweden",193,97,R,s/stenlke01
+1857,Alexandre Texier,1999-09-13,"St. Martin D'heres, France",185,84,L,t/texieal01
+1858,Jesperi Kotkaniemi,2000-07-06,"Pori, Finland",188,91,L,k/kotkaje01
+1859,Ryan Poehling,1999-01-03,"Lakeville, Minnesota",188,89,L,p/poehlry01
+1860,Jimmy Schuldt,1995-05-11,"Minnetonka, Minnesota",185,92,L,s/schulja01
+1861,Jim Montgomery,1969-06-30,"Montreal, Quebec",178,81,R,/coaches/montgji01c.html
+1862,Gavin Bayreuther,1994-05-12,"Canaan, New Hampshire",185,88,L,b/bayrega01
+1863,Landon Bow,1995-08-24,"St. Albert, Alberta",196,95,None,b/bowla01
+1864,Ben Gleason,1998-03-25,"Ortonville, Michigan",185,83,L,g/gleasbe01
+1865,Miro Heiskanen,1999-07-18,"Espoo, Finland",185,86,L,h/heiskmi01
+1866,Roope Hintz,1996-11-17,"Tampere, Finland",190,95,L,h/hintzro01
+1867,Joel L'Esperance,1995-08-18,"Brighton, Michigan",188,95,R,l/lespejo01
+1868,Sheldon Dries,1994-04-23,"Macomb, Michigan",175,81,L,d/driessh01
+1869,Pavel Francouz,1990-06-03,"Plzen, Czechoslovakia",183,81,None,f/francpa01
+1870,Ryan Graves,1995-05-21,"Yarmouth, Nova Scotia",196,99,L,g/gravery01
+1871,Logan O'Connor,1996-08-14,"Missouri City, Texas",183,79,R,o/oconnlo01
+1872,Josh Brown,1994-01-21,"London, Ontario",196,100,R,b/brownjo01
+1873,Anthony Greco,1993-09-30,"Queens, New York",178,78,R,g/grecoan01
+1874,Jayce Hawryluk,1996-01-01,"Yorkton, Saskatchewan",180,88,R,h/hawryja01
+1875,Brady Keeper,1996-06-05,"Cross Lake, Manitoba",188,89,R,k/keepebr01
+1876,Bogdan Kiselevich,1990-02-14,"Cherepovets, USSR",183,91,L,k/kiselbo01
+1877,Juho Lammikko,1996-01-29,"Noormarkku, Finland",188,86,L,l/lammiju01
+1878,Jacob MacDonald,1993-02-26,"Portland, Oregon",183,92,L,m/macdoja02
+1879,Sam Montembeault,1996-10-30,"Becancour, Quebec",190,90,L,m/montesa01
+1880,Riley Stillman,1998-03-09,"Peterborough, Ontario",185,88,L,s/stillri01
+1881,Michael Bunting,1995-09-17,"Scarborough, Ontario",180,89,L,b/buntimi01
+1882,Conor Garland,1996-03-11,"Scituate, Massachusetts",178,74,R,g/garlaco01
+1883,Ilya Lyubushkin,1994-04-06,"Moscow, Russian Federation",188,91,R,l/lyubuil01
+1884,Hunter Miska,1995-07-07,"North Branch, Minnesota",185,79,None,m/miskahu01
+1885,Jeremy Colliton,1985-01-13,"Blackie, Alberta",188,88,R,/coaches/collije01c.html
+1886,Alexandre Fortin,1997-02-25,"Blainville, Quebec",185,84,L,f/fortial01
+1887,Dennis Gilbert,1996-10-30,"Buffalo, New York",188,97,L,g/gilbede01
+1888,Luke Johnson,1994-09-19,"Grand Forks, North Dakota",180,89,R,j/johnslu01
+1889,Henri Jokiharju,1999-06-17,"Oulu, Finland",183,90,R,j/jokihhe01
+1890,Dominik Kahun,1995-07-02,"Plana, Czech Republic",180,79,L,k/kahundo01
+1891,Jacob Nilsson,1993-10-12,"Morrum, Sweden",178,81,L,n/nilssja01
+1892,Nico Sturm,1995-05-03,"Augsburg, Germany",190,93,L,s/sturmni01
+1893,Scott Gordon,1963-02-06,"Brockton, United States",178,79,L,/coaches/gordosc01c.html
+1894,Nicolas Aube-Kubel,1996-05-10,"Slave Lake, Alberta",180,97,R,a/aubekni01
+1895,Mark Friedman,1995-12-25,"Toronto, Ontario",180,83,R,f/friedma01
+1896,Carter Hart,1998-08-13,"Sherwood Park, Alberta",188,85,L,h/hartca01
+1897,Philippe Myers,1997-01-25,"Moncton, New Brunswick",196,95,R,m/myersph01
+1898,Mikhail Vorobyev,1997-01-05,"Ufa, Russian Federation",188,87,L,v/vorobmi01
+1899,Guillaume Brisebois,1997-07-21,"Longueuil, Quebec",188,79,L,b/brisegu01
+1900,Michael Dipietro,1999-06-09,"Windsor, Ontario",183,91,L,d/dipiemi01
+1901,Quinn Hughes,1999-10-14,"Orlando, Florida",178,79,L,h/hughequ01
+1902,Zack MacEwen,1996-07-08,"Charlottetown, Prince Edward Island",190,92,R,m/macewza01
+1903,Elias Pettersson,1998-11-12,"Sundsvall, Sweden",188,79,L,p/petteel01
+1904,Brogan Rafferty,1995-05-28,"Dundee, Illinois",185,90,R,r/raffebr01
+1905,Josh Teves,1995-02-18,"Calgary, Alberta",183,77,L,t/tevesjo01
+1906,Bob Murray,1954-11-26,"Kingston, Ontario",178,83,R,/coaches/murrabo02c.html
+1907,Kevin Boyle,1992-05-30,"Manalapan, New Jersey",185,89,None,b/boyleke01
+1908,Max Comtois,1999-01-08,"Longueuil, Quebec",188,95,L,c/comtoma01
+1909,Max Jones,1998-02-17,"Rochester, Michigan",190,97,L,j/jonesma03
+1910,Isac Lundestrom,1999-11-06,"Gallivare, Sweden",183,87,L,l/lundeis01
+1911,Josh Mahura,1998-05-05,"St. Albert, Alberta",183,83,L,m/mahurjo01
+1912,Kiefer Sherwood,1995-03-31,"Columbus, Ohio",183,87,R,s/sherwki01
+1913,Sam Steel,1998-02-03,"Ardrossan, Alberta",180,83,L,s/steelsa01
+1914,Evan Bouchard,1999-10-20,"Oakville, Ontario",190,87,R,b/bouchev01
+1915,Josh Currie,1992-10-29,"Charlottetown, Prince Edward Island",180,86,R,c/currijo01
+1916,Joseph Gambardella,1993-12-01,"Staten Island, New York",178,88,L,g/gambajo01
+1917,Caleb Jones,1997-06-06,"Arlington, Texas",185,87,L,j/jonesca01
+1918,Mikko Koskinen,1988-07-18,"Vantaa, Finland",201,91,L,k/koskimi01
+1919,Cooper Marody,1996-12-20,"Brighton, Michigan",183,83,R,m/marodco01
+1920,Patrick Russell,1993-01-04,"Birkerod, Denmark",185,92,R,r/russepa01
+1921,David Quinn,1966-07-30,"Cranston, United States",185,92,L,/coaches/quinnda01c.html
+1922,Timothy Gettinger,1998-04-14,"Cleveland, Ohio",198,98,L,g/gettiti01
+1923,Libor Hajek,1998-02-04,"Smrcek, Czech Republic",188,92,L,h/hajekli01
+1924,Brett Howden,1998-03-29,"Calgary, Alberta",190,90,L,h/howdebr01
+1925,Ryan Lindgren,1998-02-11,"Burnsville, Minnesota",183,86,L,l/lindgry01
+1926,William Borgen,1996-12-19,"Moorhead, Minnesota",190,92,R,b/borgewi01
+1927,Rasmus Dahlin,2000-04-13,"Lidkoping, Sweden",190,93,L,d/dahlira01
+1928,Victor Olofsson,1995-07-18,"Ornskoldsvik, Sweden",180,82,L,o/olofsvi01
+1929,Lawrence Pilut,1995-12-30,"Tingsryd, Sweden",180,81,L,p/pilutla01
+1930,Jake Chelios,1991-03-08,"Bloomfield Hills, Michigan",188,83,L,c/chelija01
+1931,Dennis Cholowski,1998-02-15,"Langley, British Columbia",188,89,L,c/cholode01
+1932,Christoffer Ehn,1996-04-04,"Skara, Sweden",190,88,L,e/ehnch01
+1933,Kaden Fulcher,1998-09-23,"Brigden, Ontario",190,91,None,f/fulchka01
+1934,Taro Hirose,1996-06-30,"Calgary, Alberta",178,73,L,h/hirosta01
+1935,Filip Hronek,1997-11-02,"Hradec Kralove, Czech Republic",183,83,R,h/hronefi01
+1936,Ryan Kuffner,1996-06-12,"Ottawa, Ontario",185,88,L,k/kuffnry01
+1937,Michael Rasmussen,1999-04-17,"Surrey, British Columbia",198,103,L,r/rasmumi01
+1938,Libor Sulak,1994-03-04,"Pelhrimov, Czech Republic",188,93,L,s/sulakli01
+1939,Filip Zadina,1999-11-27,"Pardubice, Czech Republic",183,85,L,z/zadinfi01
+1940,Joey Anderson,1998-06-19,"Roseville, Minnesota",180,86,R,a/anderjo08
+1941,Nathan Bastian,1997-12-06,"Kitchener, Ontario",193,92,R,b/bastina01
+1942,Mackenzie Blackwood,1996-12-09,"Thunder Bay, Ontario",193,102,L,b/blackma01
+1943,Brandon Gignac,1997-11-07,"Repentigny, Quebec",180,77,L,g/gignabr01
+1944,Joshua Jacobs,1996-02-15,"Shelby Township, Michigan",188,95,R,j/jacobjo01
+1945,Michael McLeod,1998-02-03,"Mississauga, Ontario",188,86,R,m/mcleomi01
+1946,Brett Seney,1996-02-28,"London, Ontario",175,70,L,s/seneybr01
+1947,Colton White,1997-05-03,"London, Ontario",185,85,L,w/whiteco03
+1948,Egor Yakovlev,1991-09-17,"Magnitogorsk, USSR",183,86,L,y/yakoveg01
+1949,Jaret Anderson-Dolan,1999-09-12,"Calgary, Alberta",180,85,L,a/anderja01
+1950,Carl Grundstrom,1997-12-01,"Umea, Sweden",183,90,L,g/grundca01
+1951,Blake Lizotte,1997-12-13,"Lindstrom, Minnesota",173,83,L,l/lizotbl01
+1952,Matt Luff,1997-05-05,"Oakville, Ontario",188,88,R,l/luffma01
+1953,Calvin Petersen,1994-10-19,"Waterloo, Iowa",185,83,R,p/peterca01
+1954,Sheldon Rempal,1995-08-07,"Calgary, Alberta",178,74,R,r/rempash01
+1955,Matt Roy,1995-03-01,"Detroit, Michigan",185,90,R,r/royma04
+1956,Austin Wagner,1997-06-23,"Calgary, Alberta",185,86,L,w/wagneau01
+1957,Sean Walker,1994-11-13,"Keswick, Ontario",180,88,R,w/walkese01
+1958,Marc Crawford,1961-02-13,"Belleville, Ontario",180,83,L,/coaches/crawfma01c.html
+1959,Vitaly Abramov,1998-05-08,"Chelyabinsk, Russian Federation",175,77,L,a/abramvi01
+1960,Rudolfs Balcers,1997-04-08,"Latvia, Latvia",180,81,L,b/balceru01
+1961,Drake Batherson,1998-04-27,"Fort Wayne, Indiana",190,92,R,b/bathedr01
+1962,Erik Brannstrom,1999-09-02,"Eksjo, Sweden",175,82,L,b/branner01
+1963,Joey Daccord,1996-08-19,"Boston, Massachusetts",188,89,L,d/daccojo01
+1964,Marcus Hogberg,1994-11-25,"Orebro, Sweden",196,94,None,h/hogbema01
+1965,Maxime Lajoie,1997-11-05,"Quebec City, Quebec",185,88,L,l/lajoima01
+1966,Brady Tkachuk,1999-09-16,"Scottsdale, Arizona",193,95,L,t/tkachbr01
+1967,Max Veronneau,1995-12-12,"Ottawa, Ontario",183,86,R,v/veronma01
+1968,Cameron Hughes,1996-10-09,"Edmonton, Alberta",180,72,L,h/hugheca01
+1969,Jack Studnicka,1999-02-18,"Windsor, Ontario",185,77,R,s/studnja01
+1970,Klim Kostin,1999-05-05,"Penza, Russian Federation",190,96,L,k/kostikl01
+1971,Niko Mikkola,1996-04-27,"Kiiminki, Finland",193,83,L,m/mikkoni01
+1972,Austin Poganski,1996-02-16,"St. Cloud, Minnesota",188,91,R,p/poganau01
+1973,Jake Walman,1996-02-20,"Toronto, Ontario",185,77,L,w/walmaja01
+1974,Mitchell Stephens,1997-02-05,"Peterborough, Ontario",180,86,R,s/stephmi01
+1975,Carter Verhaeghe,1995-08-14,"Toronto, Ontario",188,81,L,v/verhaca01
+1976,Alexander Volkov,1997-08-02,"Moscow, Russian Federation",185,87,L,v/volkoal01
+1977,Martin Kaut,1999-10-02,"Brno, Czech Republic",188,81,R,k/kautma01
+1978,Cale Makar,1998-10-30,"Calgary, Alberta",180,84,R,m/makarca01
+1979,Conor Timmins,1998-09-18,"St. Catharines, Ontario",188,83,R,t/timmico01
+1980,Adam Werner,1997-05-02,"Mariestad, Sweden",196,92,L,w/wernead01
+1981,Martin Fehervary,1999-10-06,"Bratislava, Slovakia",188,91,L,f/feherma01
+1982,Beck Malenstyn,1998-02-04,"Delta, British Columbia",190,90,L,m/malenbe01
+1983,Ilya Samsonov,1997-02-22,"Magnitogorsk, Russian Federation",190,90,L,s/samsoil01
+1984,Connor Bunnaman,1998-04-16,"Guelph, Ontario",185,99,L,b/bunnaco01
+1985,Joel Farabee,2000-02-25,"Syracuse, New York",183,83,L,f/farabjo01
+1986,Morgan Frost,1999-05-14,"Aurora, Ontario",183,86,L,f/frostmo01
+1987,David Kase,1997-01-28,"Kadan, Czech Republic",180,77,L,k/kaseda01
+1988,German Rubtsov,1998-06-27,"Chekhov, Russian Federation",183,80,L,r/rubtsge01
+1989,Carsen Twarynski,1997-11-24,"Calgary, Alberta",188,89,L,t/twaryca01
+1990,Jake Bischoff,1994-07-25,"Cambridge, Minnesota",183,89,L,b/bischja01
+1991,Cody Glass,1999-04-01,"Winnipeg, Manitoba",190,93,R,g/glassco01
+1992,Nicolas Hague,1998-12-05,"Kitchener, Ontario",198,97,L,h/hagueni01
+1993,Keegan Kolesar,1997-04-08,"Brandon, Manitoba",188,102,R,k/koleske01
+1994,Gage Quinney,1995-07-29,"Las Vegas, Nevada",180,90,L,q/quinnga01
+1995,Anthony Angello,1996-03-06,"Manlius, New York",196,95,R,a/angelan01
+1996,Thomas Di Pauli,1994-04-29,"Woodbridge, Illinois",180,85,L,d/dipauth01
+1997,Sam Lafferty,1995-03-06,"Hollidaysburg, Pennsylvania",185,88,R,l/laffesa01
+1998,John Marino,1997-05-21,"North Easton, Massachusetts",185,82,R,m/marinjo01
+1999,Tyler Benson,1998-03-15,"Edmonton, Alberta",180,86,L,b/bensoty01
+2000,Gaetan Haas,1992-01-31,"Bonfol, Switzerland",183,82,R,h/haasga01
+2001,William Lagesson,1996-02-22,"Gothenburg, Sweden",190,92,L,l/lageswi01
+2002,Joakim Nygard,1993-01-08,"Stockholm, Sweden",183,81,L,n/nygarjo01
+2003,Joel Persson,1994-03-04,"Kristianstad, Sweden",180,84,R,p/perssjo02
+2004,Rick Bowness,1955-01-25,"Moncton, New Brunswick",185,83,R,/coaches/bowneri01c.html
+2005,Nicholas Caamano,1998-09-07,"Hamilton, Ontario",190,92,L,c/caamani01
+2006,Rhett Gardner,1996-02-28,"Moose Jaw, Saskatchewan",190,95,L,g/gardnrh01
+2007,Joel Kiviranta,1996-03-23,"Vantaa, Finland",180,81,L,k/kivirjo01
+2008,Jason Robertson,1999-07-22,"Arcadia, California",190,90,L,r/roberja01
+2009,David Ayres,1977-08-12,"Whitby, Ontario",183,91,L,a/ayresda01
+2010,Julien Gauthier,1997-10-15,"Pointe-aux-Trembles, Quebec",193,102,R,g/gauthju01
+2011,Morgan Geekie,1998-07-20,"Strathclair, Manitoba",190,87,R,g/geekimo01
+2012,Eetu Luostarinen,1998-09-02,"Siilinjarvi, Finland",190,86,L,l/luostee01
+2013,Emil Bemstrom,1999-06-01,"Nykoping, Sweden",183,87,R,b/bemstem01
+2014,Liam Foudy,2000-02-04,"Toronto, Ontario",188,87,L,f/foudyli01
+2015,Vladislav Gavrikov,1995-11-21,"Yaroslavl, Russian Federation",190,96,L,g/gavrivl01
+2016,Matiss Kivlenieks,1996-08-26,"Riga, Latvia",188,80,L,k/kivlema01
+2017,Jakob Lilja,1993-07-23,"Limhamn, Sweden",185,88,L,l/liljaja01
+2018,Ryan MacInnis,1996-02-14,"St. Louis, Missouri",193,91,L,m/macinry01
+2019,Elvis Merzlikins,1994-04-13,"Riga, Latvia",190,83,L,m/merzlel01
+2020,Andrew Peeke,1998-03-17,"Parkland, Florida",190,89,R,p/peekean01
+2021,Calvin Thurkauf,1997-06-27,"Zug, Switzerland",188,96,L,t/thurkca01
+2022,Sheldon Keefe,1980-09-17,"Brampton, Ontario",180,83,R,/coaches/keefesh01c.html
+2023,Adam Brooks,1996-05-06,"Winnipeg, Manitoba",180,81,L,b/brookad01
+2024,Pierre Engvall,1996-05-31,"Ljungby, Sweden",196,97,L,e/engvapi01
+2025,Kasimir Kaskisuo,1993-10-02,"Vantaa, Finland",188,92,L,k/kaskika01
+2026,Egor Korshkov,1996-07-10,"Novosibirsk, Russian Federation",190,81,L,k/korsheg01
+2027,Timothy Liljegren,1999-04-30,"Kristianstad, Sweden",183,89,R,l/liljeti01
+2028,Mason Marchment,1995-06-18,"Uxbridge, Ontario",193,94,L,m/marchma01
+2029,Ilya Mikheyev,1994-10-10,"Omsk, Russian Federation",190,88,L,m/mikheil01
+2030,Rasmus Sandin,2000-03-07,"Uppsala, Sweden",180,83,L,s/sandira01
+2031,Dmytro Timashov,1996-10-01,"Kirovograd, Ukraine",178,87,L,t/timasdm01
+2032,Cole Bardreau,1993-07-22,"Fairport, New York",183,86,R,b/bardrco01
+2033,Kieffer Bellows,1998-06-10,"Edina, Minnesota",185,88,L,b/belloki01
+2034,Noah Dobson,2000-01-07,"Summerside, Prince Edward Island",193,88,R,d/dobsono01
+2035,Otto Koivula,1998-09-01,"Nokia, Finland",196,102,L,k/koivuot01
+2036,Oliver Wahlstrom,2000-06-13,"Portland, Maine",188,92,R,w/wahlsol01
+2037,Andrei Chibisov,1993-02-26,"Prokopyevsk, Russian Federation",193,102,L,c/chibian01
+2038,David Gustafsson,2000-04-11,"Tingsryd, Sweden",188,88,L,g/gustada01
+2039,Jansen Harkins,1997-05-23,"Cleveland, Ohio",188,88,L,h/harkija01
+2040,Ville Heinola,2001-03-02,"Honkajoki, Finland",183,82,L,h/heinovi01
+2041,Joona Luoto,1997-09-26,"Tampere, Finland",190,87,L,l/luotojo01
+2042,C.J. Suess,1994-03-17,"St. Paul, Minnesota",180,86,L,f/frankcl01
+2043,Geoff Ward,1962-04-08,"Waterloo, Ontario",None,None,None,/coaches/wardge99c.html
+2044,Alexander Yelesin,1996-02-07,"Yarosalvl, Russian Federation",183,88,R,y/yelesal01
+2045,Adam Fox,1998-02-17,"Jericho, New York",None,None,R,f/foxad01
+2046,Kaapo Kakko,2001-02-13,"Turku, Finland",190,90,L,k/kakkoka01
+2047,Igor Shesterkin,1995-12-30,"Moscow, Russian Federation",188,82,L,s/shestig01
+2048,Mathieu Olivier,1997-02-11,"Biloxi, Mississippi",188,95,R,o/olivima01
+2049,Yakov Trenin,1997-01-13,Russian Federation,188,91,L,t/treniya01
+2050,Aleksi Saarela,1997-01-07,"Helsinki, Finland",178,90,L,s/saareal01
+2051,Dean Evason,1964-08-22,"Flin Flon, Manitoba",178,81,R,/coaches/evasode01c.html
+2052,Kaapo Kahkonen,1996-08-16,"Helsinki, Finland",188,97,L,k/kahkoka01
+2053,Gerald Mayhew,1992-12-31,"Wyandotte, Michigan",175,77,R,m/mayhege01
+2054,Brennan Menell,1997-05-24,"Woodbury, Minnesota",180,80,R,m/menelbr01
+2055,Jordan Gross,1995-05-09,"Maple Grove, Minnesota",178,86,R,g/grossjo01
+2056,Barrett Hayton,2000-06-09,"Peterborough, Ontario",185,87,L,h/haytoba01
+2057,Nicolas Beaudin,1999-10-09,"Chateauguay, Quebec",180,76,L,b/beaudni01
+2058,Adam Boqvist,2000-08-15,"Falun, Sweden",180,81,R,b/boqviad01
+2059,Lucas Carlsson,1997-07-05,"Gavle, Sweden",183,85,L,c/carlslu01
+2060,Kirby Dach,2001-01-21,"Fort Saskatchewan, Alberta",193,89,R,d/dachki01
+2061,Brandon Hagel,1998-08-27,"Saskatoon, Saskatchewan",180,78,L,h/hagelbr01
+2062,Dominik Kubalik,1995-08-21,"Plzen, Czech Republic",188,81,L,k/kubaldo01
+2063,Anton Wedin,1993-03-01,"Sundsvall, Sweden",None,None,L,w/wedinan01
+2064,Jake Evans,1996-06-02,"Toronto, Ontario",185,82,R,e/evansja02
+2065,Cale Fleury,1998-11-19,"Calgary, Alberta",185,96,R,f/fleurca01
+2066,Otto Leskinen,1997-02-06,"Pieksamaki, Finland",180,83,L,l/leskiot01
+2067,Cayden Primeau,1999-08-11,"Farmington Hills, Michigan",None,None,L,p/primeca01
+2068,Nick Suzuki,1999-08-10,"London, Ontario",180,91,R,s/suzukni01
+2069,Lukas Vejdemo,1996-01-25,"Stockholm, Sweden",188,88,L,v/vejdelu01
+2070,Rasmus Asplund,1997-12-03,"Filipstad, Sweden",180,85,L,a/asplura01
+2071,Jonas Johansson,1995-09-19,"Gavle, Sweden",196,99,L,j/johanjo03
+2072,Dalton Smith,1992-06-30,"Oshawa, Ontario",188,93,None,s/smithda03
+2073,Alain Nasreddine,1975-07-10,"Montreal, Quebec",185,92,L,/coaches/nasreal01c.html
+2074,Jesper Boqvist,1998-10-30,"Falun, Sweden",183,81,L,b/boqvije01
+2075,Nikita Gusev,1992-07-08,"Moscow, Russian Federation",175,73,R,g/gusevni01
+2076,Jack Hughes,2001-05-14,"Orlando, Florida",180,79,L,h/hugheja03
+2077,Gilles Senn,1996-03-01,"Visp, Switzerland",196,86,R,s/senngi01
+2078,Jani Hakanpaa,1992-03-31,Finland,201,100,None,h/hakanja01
+2079,Michael Anderson,1999-05-25,"Fridley, Minnesota",None,None,L,a/andermi02
+2080,Tobias Bjornfot,2001-04-06,"Upplands Vasby, Sweden",183,92,L,b/bjornto01
+2081,Kale Clague,1998-06-05,"Regina, Saskatchewan",183,81,L,c/claguka01
+2082,Nikolai Prokhorkin,1993-09-17,"Chelyabinsk, Russian Federation",None,None,None,p/prokhni01
+2083,Gabriel Vilardi,1999-08-16,"Kingston, Ontario",190,90,R,v/vilarga01
+2084,Lean Bergmann,1998-10-04,"Iserlohn, Germany",188,92,L,b/bergmle01
+2085,Joachim Blichfeld,1998-07-17,"Frederikshavn, Denmark",188,86,R,b/blichjo01
+2086,Mario Ferraro,1998-09-17,"Toronto, Ontario",180,83,L,f/ferrama01
+2087,Noah Gregor,1998-07-28,"Beaumont, Alberta",183,83,L,g/gregono01
+2088,Joel Kellman,1994-05-25,"Karlskrona, Sweden",180,79,L,k/kellmjo01
+2089,Nikolai Knyzhov,1998-03-20,"Moscow, Russian Federation",190,90,L,k/knyzhni01
+2090,Maxim Letunov,1996-02-20,"Moscow, Russian Federation",193,81,L,l/letunma01
+2091,Alexander True,1997-07-17,Denmark,196,90,None,t/trueal01
+2092,Danil Yurtaykin,1997-07-01,"Belovo, Russian Federation",180,77,L,y/yurtada01
+2093,D.J. Smith,1977-05-13,"Windsor, Ontario",185,92,L,/coaches/smithdj01c.html
+2094,J.C. Beaudin,1997-03-25,"Longueuil, Quebec",185,88,R,b/beaudje01
+2095,Jonathan Davidsson,1997-03-12,"Tyreso, Sweden",180,83,R,d/davidjo03
+2096,Joshua Norris,1999-05-05,"Oxford, Michigan",185,91,L,n/norrijo01
+2097,Scott Sabourin,1992-07-30,"Orleans, Ontario",190,92,R,s/sabousc01
+2098,Gustav Lindstrom,1998-10-20,"Ostervala, Sweden",188,86,R,l/lindsgu01
+2099,Givani Smith,1998-02-28,"Toronto, Ontario",188,95,L,s/smithgi01
+2100,Dylan Coghlan,1998-02-19,"Duncan, British Columbia",188,86,R,c/coghldy01
+2101,Peyton Krebs,2001-01-26,"Calgary, Alberta",180,82,L,k/krebspe01
+2102,Logan Thompson,1997-02-25,"Calgary, Alberta",193,91,L,t/thomplo01
+2103,Kyle Burroughs,1995-07-12,"Vancouver, British Columbia",183,87,R,b/burroky01
+2104,Bowen Byram,2001-06-13,"Cranbrook, British Columbia",185,86,L,b/byrambo01
+2105,Keaton Middleton,1998-02-10,"Edmonton, Alberta",196,106,L,m/middlke01
+2106,Alex Newhook,2001-01-28,"St. Johns, Newfoundland and Labrador",178,86,L,n/newhoal01
+2107,Joey Keane,1999-07-02,"Chicago, Illinois",183,84,R,k/keanejo01
+2108,Steven Lorentz,1996-04-13,"Kitchener, Ontario",193,93,L,l/lorenst01
+2109,Grigori Denisenko,2000-06-24,"Novosibirsk, Russian Federation",180,86,R,d/denisgr01
+2110,Aleksi Heponiemi,1999-01-09,"Tampere, Finland",178,70,L,h/heponal01
+2111,Matt Kiersted,1998-04-14,"Elk River, Minnesota",183,82,L,k/kiersma01
+2112,Spencer Knight,2001-04-19,"Stamford, Connecticut",190,87,L,k/knighsp01
+2113,Philippe Maillet,1992-11-07,"Lachenaie, Quebec",178,78,L,m/maillph01
+2114,Connor McMichael,2001-01-15,"Ajax, Ontario",183,83,L,m/mcmicco01
+2115,Garrett Pilon,1998-04-13,"Kindersley, Saskatchewan",183,86,R,p/pilonga01
+2116,Brian Pinho,1995-05-11,"Beverly, Massachusetts",185,86,None,p/pinhobr01
+2117,Vitek Vanecek,1996-01-09,"Havlickuv Brod, Czech Republic",188,84,None,v/vanecvi01
+2118,Alexander Barabanov,1994-06-17,"St. Petersburg, Russian Federation",178,87,L,b/barabal01
+2119,Mikko Lehtonen,1994-01-16,"Turku, Finland",183,88,L,l/lehtomi03
+2120,Nicholas Robertson,2001-09-11,"Pasadena, California",175,74,L,r/roberni01
+2121,Pierre-Olivier Joseph,1999-07-01,"Laval, Quebec",188,83,L,j/joseppi01
+2122,Drew O'Connor,1998-06-09,"Wayne, New Jersey",190,90,L,o/oconndr01
+2123,Radim Zohorna,1996-04-29,"Havlickuv Brod, Czech Republic",198,99,L,z/zohorra01
+2124,Alex Barre-Boulet,1997-05-21,"Montmagny, Quebec",178,81,L,b/barreal01
+2125,Ross Colton,1996-09-11,"Robbinsville, New Jersey",183,86,L,c/coltoro01
+2126,Callan Foote,1998-12-13,"Denver, Colorado",193,102,R,f/footeca01
+2127,Ben Thomas,1996-05-28,"Calgary, Alberta",185,84,R,t/thomabe01
+2128,Daniel Walcott,1994-02-19,"Ile Perrot, Quebec",185,79,L,w/walcoda01
+2129,Calen Addison,2000-04-11,"Brandon, Manitoba",180,81,R,a/addisca01
+2130,Kirill Kaprizov,1997-04-26,"Novokuznetsk, Russian Federation",178,91,L,k/kapriki01
+2131,Jack Ahcan,1997-05-18,"Savage, Minnesota",173,83,L,a/ahcanja01
+2132,Oskar Steen,1998-03-09,"Karlstad, Sweden",175,90,R,s/steenos01
+2133,Jeremy Swayman,1998-11-24,"Anchorage, Alaska",188,83,L,s/swaymje01
+2134,Daniel Vladar,1997-08-20,"Prague, Czech Republic",196,83,L,v/vladada01
+2135,Ryan McLeod,1999-09-21,"Mississauga, Ontario",188,90,L,m/mcleory01
+2136,Stuart Skinner,1998-11-01,"Edmonton, Alberta",193,93,L,s/skinnst01
+2137,Ilya Sorokin,1995-08-04,Russian Federation,190,88,L,s/sorokil01
+2138,Frederic Allard,1997-12-27,"St. Sauveur, Quebec",185,81,R,a/allarfr01
+2139,Jeremy Davies,1996-12-04,"Sainte-Anne-de-Bellevue, Quebec",180,81,None,d/davieje01
+2140,David Farrance,1999-06-23,"Rochester, New York",180,85,L,f/farrada01
+2141,Tanner Jeannot,1997-05-29,"Estevan, Saskatchewan",188,94,L,j/jeannta01
+2142,Cole Smith,1995-10-28,"Brainerd, Minnesota",190,88,L,s/smithco02
+2143,Ville Husso,1995-02-06,"Helsinki, Finland",190,92,R,h/hussovi01
+2144,Dakota Joshua,1996-05-15,"Dearburn, Michigan",188,90,L,j/joshuda01
+2145,Logan Stanley,1998-05-26,"Kitchener, Ontario",201,104,None,s/stanllo01
+2146,Ty Dellandrea,2000-07-21,"Toronto, Ontario",183,88,R,d/dellaty01
+2147,Jake Oettinger,1998-12-18,"Lakeville, Minnesota",196,99,L,o/oettija01
+2148,Morgan Barron,1998-12-02,"Halifax, Nova Scotia",193,99,L,b/barromo01
+2149,Zachary Jones,2000-10-18,"Richmond, Virginia",180,83,L,j/jonesza01
+2150,Vitali Kravtsov,1999-12-23,"Vladivostok, Russian Federation",190,85,L,k/kravtvi01
+2151,Alexis Lafreniere,2001-10-11,"St-Eustache, Quebec",188,87,L,l/lafreal01
+2152,K'Andre Miller,2000-01-21,"St. Paul, Minnesota",196,95,L,m/milleka01
+2153,Tarmo Reunanen,1998-03-01,"Aanekoski, Finland",183,83,L,r/reunata01
+2154,Justin Richards,1998-03-17,"Orlando, Florida",180,86,R,r/richaju01
+2155,Dominique Ducharme,1973-03-12,"Joliette,",180,86,None,/coaches/duchado99c.html
+2156,Alex Belzile,1991-08-31,"St-Eloi, Quebec",183,88,R,b/belzial01
+2157,Cole Caufield,2001-01-02,"Stevens Point, Wisconsin",175,73,R,c/caufico01
+2158,Alexander Romanov,2000-01-06,"Moscow, Russian Federation",180,83,L,r/romanal01
+2159,Jesse Ylonen,1999-10-03,"Scottsdale, Arizona",183,75,R,y/yloneje01
+2160,Wade Allison,1997-10-14,"Carman, Manitoba",188,92,R,a/alliswa01
+2161,Jackson Cates,1997-09-28,"Stillwater, Minnesota",183,92,L,c/catesja01
+2162,Tanner Laczynski,1997-06-01,"Minooka, Illinois",188,92,R,l/laczyta01
+2163,Maksim Sushko,1999-02-10,"Drogichin, Belarus",180,95,L,s/sushkma01
+2164,Cameron York,2001-01-05,"Anaheim, California",183,83,L,y/yorkca01
+2165,Yegor Zamula,2000-03-30,"Chelyabinsk, Russian Federation",196,83,L,z/zamulye01
+2166,Mackenzie Entwistle,1999-07-14,"Georgetown, Ontario",190,83,R,e/entwima01
+2167,Mike Hardman,1999-02-05,"Hanover, Massachusetts",188,92,L,h/hardmmi01
+2168,Reese Johnson,1998-07-10,"Regina, Saskatchewan",185,87,R,j/johnsre01
+2169,Wyatt Kalynuk,1997-04-14,"Brandon, Manitoba",185,78,L,k/kalynwy01
+2170,Philipp Kurashev,1999-10-12,"Munsingen, Switzerland",183,86,L,k/kurasph01
+2171,Kevin Lankinen,1995-04-28,Finland,188,83,L,l/lankike01
+2172,Ian Mitchell,1999-01-18,"St. Albert, Alberta",180,78,R,m/mitchia01
+2173,Alec Regula,2000-08-06,"West Bloomfield, Michigan",193,94,R,r/regulal01
+2174,Pius Suter,1996-05-24,"Zurich, Switzerland",175,79,L,s/suterpi01
+2175,Ryan Huska,1975-07-02,"Cranbrook, British Columbia",188,87,L,/coaches/huskary01c.html
+2176,Glenn Gawdin,1997-03-25,"Richmond, British Columbia",185,86,R,g/gawdigl01
+2177,Connor Mackey,1996-09-12,"Tower Lakes, Illinois",188,88,L,m/mackeco01
+2178,Matthew Phillips,1998-04-06,"Calgary, Alberta",170,63,None,p/phillma01
+2179,Adam Ruzicka,1999-05-11,"Bratislava, Slovakia",193,91,L,r/ruzicad01
+2180,Artyom Zagidulin,1995-08-08,"Magnitogorsk, Russian Federation",188,81,L,z/zagidar01
+2181,Jan Jenik,2000-09-15,"Nymburk, Czech Republic",185,74,L,j/jenikja01
+2182,Lane Pederson,1997-08-04,"Saskatoon, Saskatchewan",183,86,R,p/pederla01
+2183,Ivan Prosvetov,1999-03-05,"Moskva, Russian Federation",196,79,L,p/prosviv01
+2184,Victor Soderstrom,2001-02-26,"Gavle, Sweden",183,83,R,s/sodervi01
+2185,Olle Alsing,1996-05-01,"Uppsala, Sweden",180,77,L,a/alsinol01
+2186,Jacob Bernard-Docker,2000-06-30,"Banff, Alberta",183,86,R,b/bernaja01
+2187,Filip Gustavsson,1998-06-07,"Skelleftea, Sweden",188,83,L,g/gustafi01
+2188,Parker Kelly,1999-06-14,"Camrose, Alberta",180,76,L,k/kellypa01
+2189,Shane Pinto,2000-11-12,"Franklin Square, New York",188,87,R,p/pintosh01
+2190,Tim Stutzle,2002-01-15,"Viersen, Germany",185,84,L,s/stuetti02
+2191,Artem Zub,1995-10-03,"Khabarovsk, Russian Federation",188,92,R,z/zubar01
+2192,Jalen Chatfield,1996-05-16,"Ypsilanti, Michigan",185,85,R,c/chatfja01
+2193,Jonah Gadjovich,1998-10-12,"Whitby, Ontario",188,94,L,g/gadjojo01
+2194,Nils Hoglander,2000-12-20,"BocktraSk, Sweden",175,83,L,h/hoglani01
+2195,Olli Juolevi,1998-05-05,"Helsinki, Finland",188,82,L,j/juoleol01
+2196,Kole Lind,1998-10-16,"Swift Current, Saskatchewan",185,80,R,l/lindko01
+2197,William Lockwood,1998-06-20,"Royal Oak, Michigan",180,81,R,l/lockwwi01
+2198,Marc Michaelis,1995-07-31,"Mannheim, Germany",180,84,L,m/michama01
+2199,Jack Rathbone,1999-05-20,"Boston, Massachusetts",178,80,L,r/rathbja01
+2200,Quinton Byfield,2002-08-19,"Newmarket, Ontario",196,99,L,b/byfiequ01
+2201,Arthur Kaliyev,2001-06-26,"Tashkent, Uzbekistan",188,86,L,k/kaliyar01
+2202,Rasmus Kupari,2000-03-15,"Kotka, Finland",185,83,R,k/kuparra01
+2203,Drake Rymsha,1998-08-06,"Huntington Woods, Michigan",183,86,R,r/rymshdr01
+2204,Austin Strand,1997-02-17,"Calgary, Alberta",190,97,R,s/stranau01
+2205,Ivan Chekhovich,1999-01-04,"Yekaterinburg, Russian Federation",178,83,L,c/chekhiv01
+2206,Sasha Chmelevski,1999-06-09,"Newport Beach, California",183,85,R,c/chmelal01
+2207,Fredrik Handemark,1993-08-27,"Bjorbo, Sweden",193,94,L,h/handefr01
+2208,Josef Korenar,1998-01-31,Czech Republic,185,83,None,k/korenjo01
+2209,John Leonard,1998-08-07,"Westwood, New Jersey",180,88,L,l/leonajo01
+2210,Alexei Melnichuk,1998-06-29,"St. Petersburg, Russian Federation",185,92,L,m/melnial01
+2211,Nicolas Meloche,1997-07-18,"LaSalle, Quebec",190,92,R,m/melocni01
+2212,Brinson Pasichnuk,1997-11-24,"Bonnyville, Alberta",180,95,L,p/pasicbr01
+2213,Jeffrey Viel,1997-01-28,"L'ange-Gardien, Quebec",188,92,L,v/vielje01
+2214,Mathias Brome,1994-07-29,"Orby, Sweden",183,83,L,b/bromema01
+2215,Joe Veleno,2000-01-13,"Montreal, Quebec",185,89,L,v/velenjo01
+2216,Joshua Dunne,1998-12-08,"O'Fallon, Missouri",193,95,L,d/dunnejo01
+2217,Veini Vehvilainen,1997-02-13,Finland,None,None,R,v/vehvive01
+2218,Kevin Bahl,2000-06-27,"New Westminster, British Columbia",198,104,L,b/bahlke01
+2219,Nolan Foote,2000-11-29,"Denver, Colorado",190,88,L,f/footeno01
+2220,Mikhail Maltsev,1998-03-12,"St. Petersburg, Russian Federation",190,89,L,m/maltsmi01
+2221,Yegor Sharangovich,1998-06-06,"Minsk, Belarus",188,88,L,s/sharaye01
+2222,Ty Smith,2000-03-24,"Lloydminster, Alberta",180,81,L,s/smithty01
+2223,Marian Studenic,1998-10-28,"Skalica, Slovakia",185,82,L,s/studema01
+2224,Tyce Thompson,1999-07-12,"Calgary,",185,79,R,t/thompty01
+2225,Simon Benoit,1998-09-19,"Laval, Quebec",190,92,L,b/benoisi01
+2226,Jamie Drysdale,2002-04-08,"Toronto, Ontario",180,83,R,d/drysdja01
+2227,Trevor Zegras,2001-03-20,"Bedford, New York",183,83,L,z/zegratr01
+2228,Don Granato,1967-08-11,"Downers Grove, United States",183,77,None,/coaches/granado01c.html
+2229,Jacob Bryson,1997-11-18,"London, Ontario",None,None,L,b/brysoja01
+2230,Dylan Cozens,2001-02-09,"Whitehorse, Yukon",190,85,R,c/cozendy01
+2231,Michael Houser,1992-09-13,"Youngstown, Ohio",188,86,R,h/housemi01
+2232,Ukko-Pekka Luukkonen,1999-03-09,"Espoo, Finland",196,98,L,l/luukkuk01
+2233,Brett Murray,1998-07-20,"Bolton, Ontario",196,103,L,m/murrabr02
+2234,Arttu Ruotsalainen,1997-10-29,"Oulu, Finland",175,83,L,r/ruotsar01
+2235,Mattias Samuelsson,2000-03-14,"Philadelphia, Pennsylvania",193,102,L,s/samuema02
